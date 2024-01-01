@@ -1,0 +1,18 @@
+﻿body {margin:0;padding:0;word-wrap:break-word;}
+img {border:none;}
+input {border:1px solid black;border-radius:2px;padding:0;}
+input[type=image] { border: none; }
+textarea {border:1px solid black;padding:0;}
+* {box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;-ms-box-sizing:content-box;}
+a:link {color:#0000ff;text-decoration:underline;}
+a:visited {color:#24b900;text-decoration:underline;}
+a:hover {color:#401200;text-decoration:underline;}
+a:active {color:#000cd1;text-decoration:underline;}
+.DefaultParagraph { text-align:left;margin:0px;text-indent:0.0px;line-height:1px;font-family:"Times New Roman", serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
+.Body { text-align:left;margin:0px 0px 12px;text-indent:0.0px;line-height:1px;font-family:"Book Antiqua", serif;font-style:normal;font-weight:normal;color:#0000ff;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
+.H1 { text-align:left;margin:6px 0px;text-indent:0.0px;line-height:1px;font-family:"Times New Roman", serif;font-style:normal;font-weight:700;color:#000000;background-color:transparent;font-variant:normal;font-size:32.0px;vertical-align:0; }
+.H1:first-child { margin-top:0; }
+.Normal { text-align:left;margin:0px;text-indent:0.0px;line-height:1px;font-family:"Times New Roman", serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
+.Normal-2 { text-align:left;margin:6px 0px;text-indent:0.0px;line-height:1px;font-family:"Times New Roman", serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
+.Normal-2:first-child { margin-top:0; }
+.Normal3 { text-align:left;margin:0px;text-indent:0.0px;line-height:1px;font-family:"Times New Roman", serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
