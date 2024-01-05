@@ -398,9 +398,6 @@ select.ep-uiInput.ep-uiInput-select {
   height: auto;
 }
 
-.SelectLabelling {
-}
-
 .SelectVariation .SelectLabelling {
   padding: 0 5px 0 0;
 }
@@ -1631,7 +1628,6 @@ html body .Header em span {
   height: 27px;
   line-height: 27px;
   padding: 0 10px 0 0;
-  vertical-align: middle;
 
   background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_button_floatin.png")
     no-repeat right top;
@@ -1641,14 +1637,10 @@ html body .Header em span {
 .Header .Active > em > a,
 .Header .Active input {
   display: block;
-
   height: 27px;
   line-height: 27px;
   padding: 0 10px 0 2px;
-  vertical-align: middle;
-
   color: #ffffff;
-
   background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_button_floatin_active.png")
     no-repeat right top;
 }
@@ -1664,7 +1656,6 @@ html body .Header em span {
   padding: 0;
   margin: 0;
   display: block;
-  vertical-align: middle;
   white-space: normal;
 }
 
@@ -1899,7 +1890,6 @@ html body .NavBarTop em span {
   height: 25px;
   line-height: 27px;
   padding: 0 10px 0 0;
-  vertical-align: middle;
 
   background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_button_floatin.png")
     no-repeat right top;
@@ -1912,14 +1902,10 @@ html body .NavBarTop em span {
 .NavBarTop .Active input,
 .NavBarTop .NavigationElement.SSLSwitch.Active input {
   display: block;
-
   height: 27px;
   line-height: 27px;
   padding: 0 10px 0 2px;
-  vertical-align: middle;
-
   color: #666666;
-
   background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_button_floatin_active.png")
     no-repeat right top;
 }
@@ -1953,7 +1939,6 @@ html body .NavBarTop em span {
   padding: 0;
   margin: 6px 0 0 0;
   display: block;
-  vertical-align: middle;
   white-space: normal;
 }
 
@@ -2176,15 +2161,6 @@ html body .NavBarLeft em span {
   width: 100%;
   padding: 0;
   margin: 10px 0 0 0;
-}
-
-.NavBarLeft .ShopNameSlogan,
-.NavBarLeft .ContextBox {
-  background: ;
-}
-
-.NavBarLeft .ShopNameSlogan .BoxContainer,
-.NavBarLeft .ContextBox .BoxContainer {
 }
 
 .NavBarLeft .ShopNameHead,
@@ -2430,20 +2406,14 @@ html body .NavBarRight em span {
   margin-bottom: 1px;
   text-align: left;
 }
-
 .NavBarRight .ShopNameSlogan,
 .NavBarRight .ContextBox {
-  background: ;
+  background: blue;
 }
-
 .NavBarRight .ShopSlogan,
 .NavBarRight .NavigationElement,
 .NavBarRight .ContextBox {
   background-color: #eff1f2;
-}
-
-.NavBarRight .ShopNameSlogan .BoxContainer,
-.NavBarRight .ContextBox .BoxContainer {
 }
 
 .NavBarRight .NavigationText {
@@ -2633,11 +2603,9 @@ html body .NavBarBottom em span {
 .NavBarBottom p.BasketLink,
 .NavBarBottom .NavigationElement a {
   display: block;
-
   height: 27px;
   line-height: 27px;
   padding: 0 10px 0 0;
-  vertical-align: middle;
 
   background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_button_floatin.png")
     no-repeat right top;
@@ -2649,9 +2617,8 @@ html body .NavBarBottom em span {
   height: 27px;
   line-height: 27px;
   padding: 0 10px 0 2px;
-  vertical-align: middle;
-  color: #666666;
 
+  color: #666666;
   background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_button_floatin_active.png")
     no-repeat right top;
 }
@@ -2706,7 +2673,6 @@ html body .NavBarBottom em span {
   padding: 0 5px 0 0;
   margin: 6px 0 0 0;
   display: block;
-  vertical-align: middle;
   white-space: normal;
 }
 
@@ -3399,7 +3365,7 @@ td.InputLabellingSlim {
 }
 
 .BoxShippingOption *:hover {
-  #background-color: #eff1f2 !important;
+  background-color: #eff1f2 !important;
 }
 
 .ShippingOptionContainer {
@@ -3702,7 +3668,7 @@ div.BundledProductsImageArea {
   vertical-align: middle;
   background: transparent !important;
   position: relative;
-  *position: inherit;
+  position: inherit;
 }
 
 .PagerSizeContainer {
@@ -3720,7 +3686,6 @@ div.BundledProductsImageArea {
   text-align: center;
   cursor: pointer;
   zoom: 1;
-  float: left;
   margin: 0 2px;
   padding: 1px 0;
 }
@@ -5913,8 +5878,6 @@ html .FreeShipping {
   font-size: 0; /* word-spacing is rendered on floated elements within this box - read http://bit.ly/9OAn for details */
 }
 
-.Div .NavBarRoof .SizeContainer {
-}
 
 .Div .Header .SizeContainer {
   float: left;
@@ -6585,23 +6548,23 @@ button,
 
 .AddToBasketButton[type="submit"],
 .Customizable button {
-  padding: ;
-  border-color: ;
-  border-radius: ;
-  background: ;
-  background: -moz-linear-gradient(top, 10%, 90%);
+  padding: 0;
+  border-color: #000;
+  border-radius: 3px;
+  background: #f9f9f9;
+  background: -moz-linear-gradient(top, #f9f9f9 10%, #e2e2e2 90%);
   background: -webkit-gradient(
     linear,
     left top,
     left bottom,
-    color-stop(10%),
-    color-stop(90%)
+    color-stop(10%, #f9f9f9),
+    color-stop(90%, #e2e2e2)
   );
-  background: -webkit-linear-gradient(top, 10%, 90%);
-  background: -o-linear-gradient(top, 10%, 90%);
-  background: -ms-linear-gradient(top, 10%, 90%);
-  background: linear-gradient(to bottom, 10%, 90%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='', endColorstr='',GradientType=0 );
+  background: -webkit-linear-gradient(top, #f9f9f9 10%, #e2e2e2 90%);
+  background: -o-linear-gradient(top, #f9f9f9 10%, #e2e2e2 90%);
+  background: -ms-linear-gradient(top, #f9f9f9 10%, #e2e2e2 90%);
+  background: linear-gradient(to bottom, #f9f9f9 10%, #e2e2e2 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F9F9F9', endColorstr='#E2E2E2',GradientType=0 );
 }
 .Header .AddToBasketButton[type="submit"],
 .NavBarTop .AddToBasketButton[type="submit"],
@@ -6612,8 +6575,8 @@ button,
 .Footer .AddToBasketButton[type="submit"],
 .ContentArea .AddToBasketButton[type="submit"],
 .Customizable button.AddToBasketButton {
-  font-size: ;
-  color: ;
+  font-size: 12px;
+  color: #000;
 }
 .msie .AddToBasketButton[type="submit"] {
   border-radius: 0;
@@ -6698,8 +6661,6 @@ html body .Alternate ins * {
   margin: 0 2px;
 }
 
-.epCustomFormWrapper {
-}
 .epCustomFormWrapper dl {
   clear: both;
 }
@@ -6712,9 +6673,6 @@ html body .Alternate ins * {
   margin-left: 200px;
 }
 
-.epCustomFormWrapper dl.customFormCaption dt {
-  /* display: none; */
-}
 .epCustomFormWrapper dl.customFormCaption dd {
   margin-left: auto;
 }
@@ -6876,7 +6834,7 @@ html body .Alternate ins * {
 }
 #ProductInfoTabs .ui-tabs-nav li {
   background: #eff1f2;
-  color: #ContentListColor[color];
+  color: var(--ContentListColor);
 }
 
 #ProductInfoTabs .ui-tabs-nav .ui-tabs-active,

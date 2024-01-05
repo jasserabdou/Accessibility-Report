@@ -896,7 +896,6 @@
     itemtype="http://schema.org/CollectionPage"
     lang="en"
   >
-
     <div class="Layout1 GeneralLayout Div">
       <div class="Header HorizontalNavBar" role="banner">
         <div class="PropertyContainer">
@@ -920,7 +919,7 @@
                   <h1 class="ShopName" style="overflow: hidden">
                     <a
                       href="http://shop.roverp6cars.com/epages/es146747.sf/en_GB/?ObjectPath=Categories"
-                      title="Rover P6 Parts supplied by Mark &amp; Angie Gray"
+                      title="Rover P6 Parts supplied by Mark"
                       >Rover P6 Parts supplied by Mark &amp; Angie Gray</a
                     >
                   </h1>
@@ -1827,7 +1826,7 @@
         <div class="ContentArea">
           <div class="ContentAreaInner">
             <div class="ContentAreaWrapper">
-              <h3
+              <h2
                 class="BottomMargin BreadCrumbs"
                 itemscope=""
                 itemtype="http://schema.org/BreadcrumbList"
@@ -1863,7 +1862,7 @@
 
                   <meta itemprop="position" content="2" />
                 </span>
-              </h3>
+              </h2>
 
               <h1
                 itemprop="name"
@@ -1885,9 +1884,9 @@
                     Display per page
                   </div>
 
+                  <label for="ep-PageSize">Page Size</label>
                   <select
                     id="ep-PageSize"
-                    onchange="location.href=(('\u003FViewAction\u003DView\u0026ObjectPath\u003D\u002FShops\u002Fes146747\u002FCategories\u002FEngine_8_Cyl')+jq('#'+'ep-PageSize').val()).replace(/&amp;&amp;+/g,'&amp;')"
                     class="ep-js ep-uiInput ep-uiInput-select"
                     data-js=""
                   >
@@ -1906,6 +1905,11 @@
 
                     <option value="&amp;PageSize=50&amp;Page=1">50</option>
                   </select>
+                  <button
+                    onclick="location.href=(('\u003FViewAction\u003DView\u0026ObjectPath\u003D\u002FShops\u002Fes146747\u002FCategories\u002FEngine_8_Cyl')+jq('#'+'ep-PageSize').val()).replace(/&amp;&amp;+/g,'&amp;')"
+                  >
+                    Go
+                  </button>
 
                   <div class="FloatRight MarginBottom">
                     <div
@@ -1914,9 +1918,9 @@
                       Sort by
                     </div>
                     <div class="InputField FloatLeft">
+                      <label for="ep-SortOrder">Sort Order</label>
                       <select
                         id="ep-SortOrder"
-                        onchange="location.href=('?ViewAction=View&amp;ObjectID=24714256&amp;PageSize=10')+jq('#'+'ep-SortOrder').val();"
                         class="ep-js ep-uiInput ep-uiInput-select"
                         data-js=""
                       >
@@ -1938,6 +1942,11 @@
                           Price: descending
                         </option>
                       </select>
+                      <button
+                        onclick="location.href=('?ViewAction=View&amp;ObjectID=24714256&amp;PageSize=10')+jq('#'+'ep-SortOrder').val();"
+                      >
+                        Go
+                      </button>
                     </div>
                   </div>
 
@@ -2057,7 +2066,7 @@
                                 <tr>
                                   <td class="AlignTop">
                                     <div class="ListItemProductTopFloatArea">
-                                      <h3 class="Headline">
+                                      <h2 class="Headline">
                                         <a
                                           itemprop="url"
                                           href="http://shop.roverp6cars.com/epages/es146747.sf/en_GB/?ObjectPath=/Shops/es146747/Products/ERC2690"
@@ -2074,9 +2083,11 @@
                                             >ENGINE DIP STICK TUBE 3500</span
                                           ></a
                                         >
-                                      </h3>
+                                      </h2>
                                     </div>
-                                    <span class="ProductNo"
+                                    <span
+                                      class="ProductNo"
+                                      style="font-size: 16px"
                                       >Product no.: ERC2690</span
                                     >
 
@@ -2112,7 +2123,7 @@
                                       <div
                                         class="Weight TaxAndShippingInfo AlignRight"
                                         style="
-                                          font-size: 9px;
+                                          font-size: 16px;
                                           line-height: 16px;
                                         "
                                       >
@@ -2137,6 +2148,15 @@
                                 <tr>
                                   <td class="Links AlignRight" colspan="2">
                                     <div class="ClearBoth"></div>
+
+                                    <input
+                                      id="ListProductLinksCompareProductInput0"
+                                      type="checkbox"
+                                      class="ep-js InPrintViewNotVisible"
+                                      data-js=""
+                                      name="selector"
+                                      value="checkbox"
+                                    />
 
                                     <input
                                       id="ListProductLinksCompareProductInput0"
@@ -2224,7 +2244,9 @@
                                         >
                                       </h3>
                                     </div>
-                                    <span class="ProductNo"
+                                    <span
+                                      class="ProductNo"
+                                      style="font-size: 16px"
                                       >Product no.: 603554</span
                                     >
 
@@ -2257,7 +2279,7 @@
                                       <div
                                         class="Weight TaxAndShippingInfo AlignRight"
                                         style="
-                                          font-size: 9px;
+                                          font-size: 16px;
                                           line-height: 16px;
                                         "
                                       >
@@ -2457,7 +2479,9 @@
                                         >
                                       </h3>
                                     </div>
-                                    <span class="ProductNo"
+                                    <span
+                                      class="ProductNo"
+                                      style="font-size: 16px"
                                       >Product no.: 602195 &amp; 602411</span
                                     >
 
@@ -2492,7 +2516,7 @@
                                       <div
                                         class="Weight TaxAndShippingInfo AlignRight"
                                         style="
-                                          font-size: 9px;
+                                          font-size: 16px;
                                           line-height: 16px;
                                         "
                                       >
@@ -2604,7 +2628,9 @@
                                         >
                                       </h3>
                                     </div>
-                                    <span class="ProductNo"
+                                    <span
+                                      class="ProductNo"
+                                      style="font-size: 16px"
                                       >Product no.: 90602371</span
                                     >
 
@@ -2642,7 +2668,7 @@
                                       <div
                                         class="Weight TaxAndShippingInfo AlignRight"
                                         style="
-                                          font-size: 9px;
+                                          font-size: 16px;
                                           line-height: 16px;
                                         "
                                       >
@@ -2842,7 +2868,9 @@
                                         >
                                       </h3>
                                     </div>
-                                    <span class="ProductNo"
+                                    <span
+                                      class="ProductNo"
+                                      style="font-size: 16px"
                                       >Product no.: 612898</span
                                     >
 
@@ -2876,7 +2904,7 @@
                                       <div
                                         class="Weight TaxAndShippingInfo AlignRight"
                                         style="
-                                          font-size: 9px;
+                                          font-size: 16px;
                                           line-height: 16px;
                                         "
                                       >
@@ -3075,7 +3103,9 @@
                                         >
                                       </h3>
                                     </div>
-                                    <span class="ProductNo"
+                                    <span
+                                      class="ProductNo"
+                                      style="font-size: 16px"
                                       >Product no.: 602146</span
                                     >
 
@@ -3108,7 +3138,7 @@
                                       <div
                                         class="Weight TaxAndShippingInfo AlignRight"
                                         style="
-                                          font-size: 9px;
+                                          font-size: 16px;
                                           line-height: 16px;
                                         "
                                       >
@@ -3308,7 +3338,9 @@
                                         >
                                       </h3>
                                     </div>
-                                    <span class="ProductNo"
+                                    <span
+                                      class="ProductNo"
+                                      style="font-size: 16px"
                                       >Product no.: 603143</span
                                     >
 
@@ -3347,7 +3379,7 @@
                                       <div
                                         class="Weight TaxAndShippingInfo AlignRight"
                                         style="
-                                          font-size: 9px;
+                                          font-size: 16px;
                                           line-height: 16px;
                                         "
                                       >
@@ -3547,7 +3579,9 @@
                                         >
                                       </h3>
                                     </div>
-                                    <span class="ProductNo"
+                                    <span
+                                      class="ProductNo"
+                                      style="font-size: 16px"
                                       >Product no.: 610030</span
                                     >
 
@@ -3587,7 +3621,7 @@
                                       <div
                                         class="Weight TaxAndShippingInfo AlignRight"
                                         style="
-                                          font-size: 9px;
+                                          font-size: 16px;
                                           line-height: 16px;
                                         "
                                       >
@@ -3787,7 +3821,9 @@
                                         >
                                       </h3>
                                     </div>
-                                    <span class="ProductNo"
+                                    <span
+                                      class="ProductNo"
+                                      style="font-size: 16px"
                                       >Product no.: 602017 602018</span
                                     >
 
@@ -3829,7 +3865,7 @@
                                       <div
                                         class="Weight TaxAndShippingInfo AlignRight"
                                         style="
-                                          font-size: 9px;
+                                          font-size: 16px;
                                           line-height: 16px;
                                         "
                                       >
@@ -4029,7 +4065,9 @@
                                         >
                                       </h3>
                                     </div>
-                                    <span class="ProductNo"
+                                    <span
+                                      class="ProductNo"
+                                      style="font-size: 16px"
                                       >Product no.: GEG286</span
                                     >
 
@@ -4067,7 +4105,7 @@
                                       <div
                                         class="Weight TaxAndShippingInfo AlignRight"
                                         style="
-                                          font-size: 9px;
+                                          font-size: 16px;
                                           line-height: 16px;
                                         "
                                       >
@@ -4226,7 +4264,7 @@
                   >
                     *
                     <p>
-                      <span style="font-size: 9px; line-height: 16px"
+                      <span style="font-size: 16px; line-height: 16px"
                         >Prices, plus
                         <a
                           href="http://shop.roverp6cars.com/epages/es146747.sf/en_GB/?ObjectPath=Categories/CustomerInformation&amp;ViewAction=ViewPopup"
@@ -4340,7 +4378,7 @@
         <div class="NavBarBottom HorizontalNavBar">
           <div class="PropertyContainer">
             <div class="SizeContainer">
-              <div class="NavigationText">
+              <div class="NavigationText" style="font-size: 16px">
                 Engine 8 Cyl. - Rover P6 Parts supplied by Mark &amp; Angie Gray
               </div>
             </div>
