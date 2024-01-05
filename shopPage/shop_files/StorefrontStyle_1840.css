@@ -4,92 +4,99 @@
 
     ------------------------------------------------------------------------------------------------ */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* use the headline font for basket button and tabs */
 .ContentArea button.AddToBasketButton {
   font-family: Verdana, Arial, Helvetica;
 }
 /* use the content family for the breadcrumb */
-.BreadcrumbItem, .BreadcrumbLastItem {
+.BreadcrumbItem,
+.BreadcrumbLastItem {
   font-family: Verdana, Arial, Helvetica;
 }
 
-
-
 html,
 body {
-  width:100%;
-  position:relative;
+  width: 100%;
+  position: relative;
 }
 
 body,
 a img,
 form {
-  margin:0;
-  padding:0;
-  border:0;
-  line-height:140%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 140%;
 }
 
 body {
-  margin-top:-1px;
-  padding-top:1px; 
+  margin-top: -1px;
+  padding-top: 1px;
 }
 
 img {
-  vertical-align:middle;
+  vertical-align: middle;
 }
 
-html.IsEditor, body {
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_layout.png") repeat #bbbec0;
-  
+html.IsEditor,
+body {
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_layout.png")
+    repeat #bbbec0;
 }
-
 
 body.HideVisualAid,
 body.ShowVisualAid {
-
   min-width: 960px;
-
 }
 
-p, table, tr, td, th, span, ul, li, samp, input, select, option, textarea, samp {
+p,
+table,
+tr,
+td,
+th,
+span,
+ul,
+li,
+samp,
+input,
+select,
+option,
+textarea,
+samp {
   line-height: 140%;
-  resize:none;
+  resize: none;
 }
 
 fieldset {
-  border:0;
-  cursor:default;
+  border: 0;
+  cursor: default;
 }
 
-font span{
+font span {
   font-size: 100%;
 }
 
 .MoneyGap,
-html body .GeneralLayout strong, html body .GeneralLayout strong *, html body .GeneralLayout b, html body .GeneralLayout b * {
-  font-weight:bold;
+html body .GeneralLayout strong,
+html body .GeneralLayout strong *,
+html body .GeneralLayout b,
+html body .GeneralLayout b * {
+  font-weight: bold;
 }
 
-html body .GeneralLayout em, html body .GeneralLayout em *, html body .GeneralLayout i, html body .GeneralLayout i *  {
-  font-style:italic;
+html body .GeneralLayout em,
+html body .GeneralLayout em *,
+html body .GeneralLayout i,
+html body .GeneralLayout i * {
+  font-style: italic;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Verdana, Arial, Helvetica;
   line-height: 120%;
   margin: 0px;
@@ -100,56 +107,64 @@ p {
   margin: 0 0 6px 0;
 }
 
-a, a:active, a:focus {
-  outline:none;
-  cursor:pointer;
+a,
+a:active,
+a:focus {
+  outline: none;
+  cursor: pointer;
 }
 
-a.Action, .Link.Action {
-  padding:0 0 0  12px ;
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png") no-repeat top left;
-}
-
-a.Delete{
-  padding: 0 0 0 15px;
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_xs_remove.png") no-repeat 0 2px;
-}
-
-a.Edit{
+a.Action,
+.Link.Action {
   padding: 0 0 0 12px;
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_continue.png") no-repeat 0 3px;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png")
+    no-repeat top left;
+}
+
+a.Delete {
+  padding: 0 0 0 15px;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_xs_remove.png")
+    no-repeat 0 2px;
+}
+
+a.Edit {
+  padding: 0 0 0 12px;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_continue.png")
+    no-repeat 0 3px;
 }
 
 a.ContextBoxHead,
 a.ContextBoxHead ins /* selector deprecated */ {
-  display:block;
-  text-decoration:none !important;
-  cursor:pointer !important;
+  display: block;
+  text-decoration: none !important;
+  cursor: pointer !important;
 }
 
 .ContextBoxHead span {
-  display:block;
-  text-decoration:none !important;
-  white-space:nowrap;
+  display: block;
+  text-decoration: none !important;
+  white-space: nowrap;
 }
 
 a.ContextBoxHead span {
-  cursor:pointer !important;
+  cursor: pointer !important;
 }
 
 a.ExtenderClosed {
   padding: 0 0 0 18px;
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_extender_closed.png") no-repeat top left;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_extender_closed.png")
+    no-repeat top left;
 }
 
 a.ExtenderOpened {
   padding: 0 0 0 18px;
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_extender_opened.png") no-repeat top left;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_extender_opened.png")
+    no-repeat top left;
 }
 
 input {
   line-height: 120%;
-  padding:0;
+  padding: 0;
 }
 
 textarea {
@@ -158,133 +173,152 @@ textarea {
 }
 
 samp {
-  font-size:9px;
+  font-size: 9px;
 }
 
 ins {
-  display:inline-block;
-  vertical-align:middle;
-  position:relative;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
 }
 
 ins img {
-  vertical-align:middle;
-  margin-bottom:4px;
+  vertical-align: middle;
+  margin-bottom: 4px;
 }
 
-input, button, textarea, select {
-  line-height:120%;
+input,
+button,
+textarea,
+select {
+  line-height: 120%;
   font-family: Verdana, Arial, Helvetica;
   font-weight: normal;
   font-style: normal;
-  font-size:11px;
-  color:black;
+  font-size: 11px;
+  color: black;
 }
 
-table, tr, td, fieldset {
-  border:0;
-  border-spacing:0;
-  border-collapse:collapse;
-  color:inherit;
+table,
+tr,
+td,
+fieldset {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  color: inherit;
   white-space: normal;
 }
 
 table.TinyMCETable,
 table.TinyMCETable tr,
 table.TinyMCETable td {
-  border:0;
-   border-spacing:0;
-   border-collapse:collapse;
-   color:inherit;
-   white-space: normal;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  color: inherit;
+  white-space: normal;
 }
 
-.cke-table tr, .cke-table thead, .cke-table tfoot, .cke-table td, .cke-table tbody,
-.TinyMCETable tr, .TinyMCETable thead, .TinyMCETable tfoot, .TinyMCETable td, .TinyMCETable tbody {
-  border-style:solid;
-  border-color:inherit;
-  border-width:inherit;
+.cke-table tr,
+.cke-table thead,
+.cke-table tfoot,
+.cke-table td,
+.cke-table tbody,
+.TinyMCETable tr,
+.TinyMCETable thead,
+.TinyMCETable tfoot,
+.TinyMCETable td,
+.TinyMCETable tbody {
+  border-style: solid;
+  border-color: inherit;
+  border-width: inherit;
 }
 
 .TooltipShadow {
-  display:none !important;
+  display: none !important;
 }
 
 hr.ClearBoth {
-  border:0;
-  color:transparent;
-  background:transparent;
-  height:0;
-  margin:0;
+  border: 0;
+  color: transparent;
+  background: transparent;
+  height: 0;
+  margin: 0;
 }
-
-
 
 .SmallText {
   font-size: 10px;
 }
 
-.TextCenter, .CenterText {
-  text-align:center !important;
+.TextCenter,
+.CenterText {
+  text-align: center !important;
 }
 
 .SelectedItem {
-  font-weight:bold !important;
+  font-weight: bold !important;
 }
 
 .LineThrough {
   text-decoration: line-through;
 }
 
-
-
-.LeftPadding, .PaddingLeft {
+.LeftPadding,
+.PaddingLeft {
   padding-left: 12px !important;
 }
 
-.RightPadding, .PaddingRight {
+.RightPadding,
+.PaddingRight {
   padding-right: 12px !important;
 }
 
-.TopPadding, .PaddingTop {
-   padding-top: 12px !important;
+.TopPadding,
+.PaddingTop {
+  padding-top: 12px !important;
 }
 
-.BottomPadding, .PaddingBottom {
+.BottomPadding,
+.PaddingBottom {
   padding-bottom: 12px !important;
 }
 
-.LeftMargin, .MarginLeft {
+.LeftMargin,
+.MarginLeft {
   margin-left: 12px !important;
 }
 
-.RightMargin, .MarginRight {
+.RightMargin,
+.MarginRight {
   margin-right: 12px !important;
 }
 
-.TopMargin, .MarginTop {
-   margin-top: 12px !important;
+.TopMargin,
+.MarginTop {
+  margin-top: 12px !important;
 }
 
-.BottomMargin, .MarginBottom {
+.BottomMargin,
+.MarginBottom {
   margin-bottom: 12px !important;
 }
 
-.NoMarginTop, .MarginTopNo, .TopNoMargin {
+.NoMarginTop,
+.MarginTopNo,
+.TopNoMargin {
   margin-top: 0 !important;
 }
-
-
 
 .HalfSize {
   width: 50%;
 }
 
-.QuarterSize{
+.QuarterSize {
   width: 25%;
 }
 
-.FifthSize{
+.FifthSize {
   width: 20%;
 }
 
@@ -293,20 +327,19 @@ hr.ClearBoth {
 }
 
 .MinimizeHeight {
-  font-size:0 !important;
+  font-size: 0 !important;
   line-height: 0 !important;
-  height:0 !important;
-  padding:0 !important;
-  margin:0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
-
-
 
 .LinkImage {
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.HideElement, .HideNode {
+.HideElement,
+.HideNode {
   display: none !important;
   height: 0;
 }
@@ -323,14 +356,13 @@ hr.ClearBoth {
   display: auto !important;
 }
 
-.DisplayTable{
+.DisplayTable {
   display: table !important;
 }
 
-.DisplayRow{
+.DisplayRow {
   display: table-row !important;
 }
-
 
 .Icon {
   width: 16px;
@@ -349,14 +381,15 @@ span.FowardIcon {
   vertical-align: baseline;
 }
 
-.InlineTable, .InlineTable td {
-  border:0;
-  padding:0;
-  margin:0;
+.InlineTable,
+.InlineTable td {
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .InputLabelling {
-  overflow:hidden;
+  overflow: hidden;
 }
 
 select.ep-uiInput.ep-uiInput-select {
@@ -366,16 +399,14 @@ select.ep-uiInput.ep-uiInput-select {
 }
 
 .SelectLabelling {
-  
 }
 
 .SelectVariation .SelectLabelling {
   padding: 0 5px 0 0;
 }
 
-
 .OnlyInPrintViewVisible {
-  display:none;
+  display: none;
 }
 
 .PrintNow img {
@@ -386,25 +417,24 @@ select.ep-uiInput.ep-uiInput-select {
   color: #000;
 }
 
-
-
-
 .LinkBasket {
   padding: 1px 0 3px 20px;
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_basket.png) no-repeat !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_basket.png)
+    no-repeat !important;
   font-weight: bold;
-  vertical-align:middle;
+  vertical-align: middle;
 }
 
 input.LinkBasket {
   cursor: pointer;
   border: 0;
   padding-left: 20px !important;
-  color: #4E728E;
+  color: #4e728e;
   font-size: 11px;
   line-height: 120%;
-  min-height:16px;
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_basket.png") no-repeat!important; 
+  min-height: 16px;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_basket.png")
+    no-repeat !important;
 }
 
 .ContentArea a:hover.LinkBasket,
@@ -414,46 +444,53 @@ input.LinkBasket {
 
 .LinkBasketNormal {
   padding: 1px 0 3px 20px;
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_basket.png) no-repeat !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_basket.png)
+    no-repeat !important;
   margin-bottom: 6px;
 }
 
-
-
 .ContentArea a.LinkPrintView {
   padding: 1px 20px 3px 0px;
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_printer.png) no-repeat top right !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_printer.png)
+    no-repeat top right !important;
 }
 
 .ContentArea a.LinkDownload {
   padding: 1px 20px 3px 0px;
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_download.png) no-repeat top right !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_download.png)
+    no-repeat top right !important;
 }
 
 .ContentArea a.LinkProductRecommendation {
   padding: 1px 0 3px 20px;
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productrecommendation.png) no-repeat !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productrecommendation.png)
+    no-repeat !important;
 }
 
 .ContentArea a.LinkProductInquiry {
   padding: 1px 0 3px 20px;
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productinquiry.png) no-repeat !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productinquiry.png)
+    no-repeat !important;
 }
 
 html body .ContentArea input.LinkProductComparison {
   padding: 1px 0 0 20px;
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productcomparison.png) no-repeat !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productcomparison.png)
+    no-repeat !important;
 }
 
 .ContentArea input.LinkCompareProduct,
 .ContentArea a.LinkCompareProduct {
   padding: 1px 0 0 20px !important;
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_compareproduct.png) no-repeat !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_compareproduct.png)
+    no-repeat !important;
 }
 
-.ContentArea a.LinkAddShoppingList, .ContentArea input.LinkAddShoppingList {
+.ContentArea a.LinkAddShoppingList,
+.ContentArea input.LinkAddShoppingList {
   padding: 1px 0 3px 20px;
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_shoppinglist.png) no-repeat !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_shoppinglist.png)
+    no-repeat !important;
 }
 
 html body .ContentArea .LinkAddShoppingList {
@@ -462,14 +499,16 @@ html body .ContentArea .LinkAddShoppingList {
 
 .LinkHotIcon,
 a.LinkSpecialPrices {
-  display:inline-block;
+  display: inline-block;
   margin: 5px 0;
   padding: 1px 0 3px 20px;
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_specialprices.png) no-repeat !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_specialprices.png)
+    no-repeat !important;
 }
 
 .LinkHotIcon {
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_hot.png) no-repeat !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_hot.png)
+    no-repeat !important;
 }
 
 .SpanHotIcon {
@@ -481,27 +520,28 @@ a.LinkSpecialPrices {
 }
 
 input.Link {
-  margin:0;
+  margin: 0;
 }
 
 input.Link:hover {
   text-decoration: underline;
 }
 
-
-
 .ContentArea a.LinkAppointment {
   margin-bottom: 6px;
   padding: 1px 0 3px 20px;
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_appointment.png) no-repeat !important;
-  line-height:200% !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_appointment.png)
+    no-repeat !important;
+  line-height: 200% !important;
 }
 
-
-
-
 html body .ContentArea .ContentAreaWrapper .ProductDetails.ImageLeft .LinkIcon,
-html body .ContentArea .ContentAreaWrapper .ProductDetails.ImageBroad .LinkIcon {
+html
+  body
+  .ContentArea
+  .ContentAreaWrapper
+  .ProductDetails.ImageBroad
+  .LinkIcon {
   padding-left: 0;
   padding-right: 20px;
   background-position: top right !important;
@@ -513,11 +553,9 @@ html body .ContentArea .ContentAreaWrapper .ImageRight a.LinkPrintView {
   background-position: top left !important;
 }
 
-
-
 .HelpIcon {
   background: url(/WebRoot/StoreTypes/7.51.0/Store/BO/icons/ico_s_bubblehelp.png) !important;
-  cursor:help !important;
+  cursor: help !important;
 }
 
 .BasketIcon {
@@ -740,33 +778,34 @@ html body .ContentArea .ContentAreaWrapper .ImageRight a.LinkPrintView {
   background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_l_shippingoptions.png) !important;
 }
 
-.Icon, .CustomButton * .Icon {
-  position:relative;
-  display:-moz-inline-box;
-  display:inline-block;
-  height:16px;
-  width:16px;
-  font-size:0 !important;
-  line-height:0 !important;
-  border:none;
-  background-color:transparent !important;
-  background-repeat:no-repeat !important;
-  vertical-align:middle !important;
-  overflow:visible;
+.Icon,
+.CustomButton * .Icon {
+  position: relative;
+  display: -moz-inline-box;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  border: none;
+  background-color: transparent !important;
+  background-repeat: no-repeat !important;
+  vertical-align: middle !important;
+  overflow: visible;
 }
 
 .SmallIcon {
-  height:10px;
-  width:10px;
+  height: 10px;
+  width: 10px;
 }
 
 .CustomButton * .Icon {
-  margin-right:3px !important;
+  margin-right: 3px !important;
 }
 
 .ContinueIconTiny {
-  height:8px !important;
-  width:8px !important;
+  height: 8px !important;
+  width: 8px !important;
 }
 
 .BasketIconSmall,
@@ -779,8 +818,8 @@ html body .ContentArea .ContentAreaWrapper .ImageRight a.LinkPrintView {
 .AssignIconSmall,
 .ProductStarEnabledIconSmall,
 .ProductStarDisabledIconSmall {
-  height:10px !important;
-  width:10px !important;
+  height: 10px !important;
+  width: 10px !important;
 }
 
 .PrinterIconMedium,
@@ -793,8 +832,8 @@ html body .ContentArea .ContentAreaWrapper .ImageRight a.LinkPrintView {
 .AppointmentIconMedium,
 .NewsletterIconMedium,
 .ShoppingListIconMedium {
-  height:24px !important;
-  width:24px !important;
+  height: 24px !important;
+  width: 24px !important;
 }
 
 .PaymentIconLarge,
@@ -803,62 +842,52 @@ html body .ContentArea .ContentAreaWrapper .ImageRight a.LinkPrintView {
 .ConfirmOrderIconLarge,
 .HirePurchaseIconLarge,
 .FaxIconLarge {
-  height:32px !important;
-  width:32px !important;
+  height: 32px !important;
+  width: 32px !important;
 }
 
 .ShippingOptionsIconVast {
-  height:32px !important;
-  width:32px !important;
+  height: 32px !important;
+  width: 32px !important;
 }
 
-
-
 tr.SeparateRow td {
-  
-    border-top: 1px solid #D9DCDF;
-  
+  border-top: 1px solid #d9dcdf;
 }
 
 tr.SeparateRow th {
-  border-top: 1px solid #EFF1F2;
+  border-top: 1px solid #eff1f2;
 }
 
 html .ContentArea table.Basket tr td.SeparateColumn,
 td.SeparateColumn {
-  
-    border-right: 1px solid #D9DCDF;
-  
+  border-right: 1px solid #d9dcdf;
 }
 
 html .ContentArea table.Basket tr th.SeparateColumn,
 th.SeparateColumn {
-  
-    border-right: 1px solid #EFF1F2;
-  
+  border-right: 1px solid #eff1f2;
 }
 
 table.Basket tr.AlternateRow td,
 table.ContentTable tr.Alternate td,
 .Alternate td,
 .Alternate {
-  background-color: #E5E7E8;
+  background-color: #e5e7e8;
 }
 
 .AlternateRow td,
 .AlternateRow,
 div.AlternateRow,
 .Alternate div {
-  
-    background-color: #E5E7E8;
-  
+  background-color: #e5e7e8;
 }
 
-td.InputLabelling{
+td.InputLabelling {
   width: 120px;
 }
 
-.SearchMask td.InputField{
+.SearchMask td.InputField {
   vertical-align: middle;
 }
 .SearchMask .ep-uiInput-wrapText {
@@ -869,37 +898,34 @@ td.InputField {
   padding: 2px 6px 2px 6px;
 }
 
-.SearchMask td.InputField{
+.SearchMask td.InputField {
   vertical-align: middle;
 }
 .SearchMask .ep-uiInput-wrapText {
   margin-bottom: -6px;
 }
 
-
-
-
 .TaxRate,
 .Percentage,
 .Quantity,
 .Money {
   white-space: nowrap;
-  text-align:right;
+  text-align: right;
 }
 
 td.Total {
   white-space: nowrap;
-  text-align:right;
-  font-weight:bold;
+  text-align: right;
+  font-weight: bold;
 }
 
 tr.Total td {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .GrandTotal {
   white-space: nowrap;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .NavBarBottom .CoinLabel,
@@ -915,8 +941,6 @@ tr.Total td {
   top: 5px;
 }
 
-
-
 input.Text {
   width: 106px;
   line-height: 120%;
@@ -931,7 +955,6 @@ input.MediumText {
   width: 170px;
   line-height: 120%;
 }
-
 
 select.Text {
   width: 110px;
@@ -994,27 +1017,25 @@ input.ZipCode {
 }
 
 input.Login {
-  width:113px;
+  width: 113px;
   line-height: 120%;
 }
 
 button.Search ins {
-  margin-right:2px;
+  margin-right: 2px;
 }
 
 input.SearchIcon {
-  cursor:pointer;
+  cursor: pointer;
 }
-
-
 
 html .DialogError .InputLabelling div,
 html .DialogError .InputField div,
 .ContentArea tr.DialogError td,
 .DialogError,
-.DialogError .InputLabelling ,
+.DialogError .InputLabelling,
 .DialogError label {
-  color: #E61818;
+  color: #e61818;
   font-weight: bold;
 }
 
@@ -1024,55 +1045,52 @@ html textarea.DialogError,
 .DialogError input,
 .DialogError select,
 .DialogError textarea {
-  border: 2px solid #E61818;
+  border: 2px solid #e61818;
   background: #ffdddd;
   font-weight: normal;
 }
 
-html select.DialogError, .DialogError select {
-  filter:progid:DXImageTransform.Microsoft.Glow(Color=red,Strength=3);
-  zoom:1;
+html select.DialogError,
+.DialogError select {
+  filter: progid:DXImageTransform.Microsoft.Glow(Color=red,Strength=3);
+  zoom: 1;
 }
 
 option.DialogError,
-.DialogError option{
+.DialogError option {
   background: #ffdddd;
 }
 
-
-
 .ErrorMessage {
-   min-height: 24px;
-   overflow: visible;
+  min-height: 24px;
+  overflow: visible;
 
-   padding: 0 0 0 32px;
-   background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_warning.png") no-repeat !important;
-   font-size: 11px;
-   color: #000000;
+  padding: 0 0 0 32px;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_warning.png")
+    no-repeat !important;
+  font-size: 11px;
+  color: #000000;
 }
 
 .ErrorMessage h3,
 .ErrorMessage p,
-.ContentArea .DialogMessage h3{
-   font-size: 11px;
-   color: #000000;
-   font-family: Verdana, Arial, Helvetica;
+.ContentArea .DialogMessage h3 {
+  font-size: 11px;
+  color: #000000;
+  font-family: Verdana, Arial, Helvetica;
 }
-
 
 .DialogMessage,
 .ErrorMessage {
-  padding:10px;
+  padding: 10px;
   margin-bottom: 20px;
 }
 
 .ErrorMessage p,
 .DialogMessage p {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
-
-
 
 html body .MessageError,
 html body .MessageWarning,
@@ -1082,10 +1100,10 @@ html body .MessageInfo,
 html body .MessageConfirmAction {
   min-height: 30px;
   padding-left: 40px !important;
-  background-color: #FFF8DD;
+  background-color: #fff8dd;
   background-repeat: no-repeat;
   background-position: 6px 6px;
-  border: 1px solid #E9B600;
+  border: 1px solid #e9b600;
   color: #111;
 }
 
@@ -1096,12 +1114,12 @@ html body .MessagePositiveResult a,
 html body .MessageInfo a,
 html body .MessageConfirmAction a,
 html body .DialogMessage a {
-  color: #0569D5;
+  color: #0569d5;
 }
 
 html body .MessageError {
-  background-color: #FFDDDD;
-  border-color: #E61818;
+  background-color: #ffdddd;
+  border-color: #e61818;
   background-image: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_error.png) !important;
 }
 
@@ -1114,7 +1132,7 @@ html body .MessageError {
 }
 
 html body .MessageInfo {
-  background-color: #F0F7FF;
+  background-color: #f0f7ff;
   border-color: #4989b9;
   background-image: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_info.png) !important;
 }
@@ -1131,65 +1149,53 @@ html body div.MessageWarningSmall {
 
 html body div.NoSymbol {
   padding-left: 3px !important;
-  background-image:none !important;
+  background-image: none !important;
 }
-
-
 
 .GeneralLayout {
   width: 960px;
-  
-  max-width:1380px;
+
+  max-width: 1380px;
   height: 100%;
-  
+
   margin: 0px auto 0 auto;
-  
 }
 
 table.Middle {
-  
   max-width: 960px;
-  
 }
 
-
-
 div.PropertyContainer table.CellLimiter {
-  width:100%;
-  border:0;
-  border-collapse:collapse;
-  background:none;
-  padding:0;
-  margin:0;
-  table-layout:fixed; /* causes display problems in IE (table cell width) */
+  width: 100%;
+  border: 0;
+  border-collapse: collapse;
+  background: none;
+  padding: 0;
+  margin: 0;
+  table-layout: fixed; /* causes display problems in IE (table cell width) */
 }
 
 div.PropertyContainer table.CellLimiter td.CellLimiterCell {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
 }
 
 table tr td.ResetCell {
-  width:auto !important;
-  padding:0 !important;
-  border:0 !important;
+  width: auto !important;
+  padding: 0 !important;
+  border: 0 !important;
 }
 
 .ResetBox {
-  border:0 !important;
-  padding:0 !important;
-  margin:0 !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .DummyContent {
-  visibility:hidden;
-  margin-right:-5px;
+  visibility: hidden;
+  margin-right: -5px;
 }
-
-
-
-
-
 
 .Header {
   margin: 8px 0px 8px 0px;
@@ -1197,10 +1203,11 @@ table tr td.ResetCell {
   /*
   overflow: hidden;
   */
-  border:0;
-  
-    background: url("/WebRoot/Store2/Shops/es146747/Styles/MileStones/bgr_header.gif?CachePrevention=1600147971") no-repeat top left transparent;
-  
+  border: 0;
+
+  background: url("/WebRoot/Store2/Shops/es146747/Styles/MileStones/bgr_header.gif?CachePrevention=1600147971")
+    no-repeat top left transparent;
+
   padding: 0;
 }
 
@@ -1209,28 +1216,25 @@ table tr td.ResetCell {
   height: 60px;
   border: 0;
   text-align: left;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 12px;
   /*
   overflow: hidden;
   */
-  
 }
 
-
-
 .NavBarTop {
-  position:relative;
+  position: relative;
   margin: 0px 0px 0px 0px;
   height: auto;
   padding: 0;
   white-space: nowrap;
   text-align: right;
   vertical-align: top;
-  font-size:1px;
-  
-    background: url("/WebRoot/Store2/Shops/es146747/Styles/MileStones/bgr_top.gif?CachePrevention=1600147971") no-repeat top left transparent;
-  
+  font-size: 1px;
+
+  background: url("/WebRoot/Store2/Shops/es146747/Styles/MileStones/bgr_top.gif?CachePrevention=1600147971")
+    no-repeat top left transparent;
 }
 
 .NavBarTop .PropertyContainer {
@@ -1239,63 +1243,46 @@ table tr td.ResetCell {
   padding-right: 10px;
   padding-bottom: 0px;
   padding-left: 10px;
-  margin:0;
+  margin: 0;
   text-align: right;
   color: #666666;
-  font-size:1px;
-  
+  font-size: 1px;
 }
 
 .NavBarTop .SizeContainer {
   height: 27px;
 }
 
-
 .Header.HorizontalNavBar .ep-gadget.contentslider {
-  
-    
-
-    
-    
-
-    width: 180px;
-    max-width: 960px;
-    max-height: 60px;
-  
+  width: 180px;
+  max-width: 960px;
+  max-height: 60px;
 }
 .NavBarTop.HorizontalNavBar .ep-gadget.contentslider {
-  
-    
-
-    
-    
-
-    width: 81px;
-    max-width: 960px;
-    max-height: 27px;
-  
-}
-  .Header.HorizontalNavBar .ContextBox,
-  .NavBarTop.HorizontalNavBar .ContextBox  {
-    margin-top: 0;
-  }
-
-
-
-.Middle {                                                             /* general layout table */
-  
+  width: 81px;
   max-width: 960px;
-  
+  max-height: 27px;
+}
+.Header.HorizontalNavBar .ContextBox,
+.NavBarTop.HorizontalNavBar .ContextBox {
+  margin-top: 0;
+}
+
+.Middle {
+  /* general layout table */
+
+  max-width: 960px;
+
   width: 100%;
   margin: 0;
   padding: 0;
   border-collapse: collapse;
-  border-spacing:0;
-  overflow:hidden;
+  border-spacing: 0;
+  overflow: hidden;
 }
 
 .InnerArea {
-  padding:0;
+  padding: 0;
   margin: 0;
   border: 0;
   clear: both;
@@ -1304,43 +1291,42 @@ table tr td.ResetCell {
 }
 
 .InnerTop {
-  width:100%;
-  padding:0;
+  width: 100%;
+  padding: 0;
 }
 
 .InnerBottom {
-  width:100%;
+  width: 100%;
 }
 
-table.HorizontalDisplay{
+table.HorizontalDisplay {
   border-collapse: collapse;
   border-spacing: 0;
   border-width: 0;
 }
 
-td.ContentCell, table.ContentCell {
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_content.png")  no-repeat left top  #FFFFFF;
-  
+td.ContentCell,
+table.ContentCell {
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_content.png")
+    no-repeat left top #ffffff;
 }
-
 
 .NavBarLeft {
   border: 0;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   width: 190px;
   vertical-align: top;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_left.png") no-repeat left top #D9DCDF;
-  
-    clear:both;
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_left.png")
+    no-repeat left top #d9dcdf;
+
+  clear: both;
 }
 
 .NavBarLeft .PropertyContainer {
-  
   width: 170px;
-  
+
   padding-top: 8px;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -1352,12 +1338,11 @@ td.ContentCell, table.ContentCell {
 
 .NavBarLeft .SizeContainer {
   width: 100%;
-  float:left;
+  float: left;
 }
 
-
 .ContentArea {
-  width:100%;
+  width: 100%;
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -1366,89 +1351,79 @@ td.ContentCell, table.ContentCell {
   border: 0;
   clear: both;
   vertical-align: top;
-  width:9999px;
-  background: #FFFFFF;
+  width: 9999px;
+  background: #ffffff;
 }
-.ContentArea table{
+.ContentArea table {
   border-style: solid;
-  border:0;
+  border: 0;
 }
 
 td.ContentArea {
   width: 9999px;
 }
-.ContentAreaInner, .ContentAreaWrapper {
-  clear:both;
-  float:left;
-  width:100%;
-  min-width:100%;
-  max-width:100%;
-  overflow:hidden;
+.ContentAreaInner,
+.ContentAreaWrapper {
+  clear: both;
+  float: left;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 .ContentAreaWrapper {
-  position:relative;
-  overflow:auto;
-  overflow-y:hidden;
-  width:1px;
+  position: relative;
+  overflow: auto;
+  overflow-y: hidden;
+  width: 1px;
 }
 
 @media print {
-  html .ContentAreaInner, html .ContentAreaWrapper {
-    overflow:visible !important;
-    float:none !important;
-    height:auto !important;
+  html .ContentAreaInner,
+  html .ContentAreaWrapper {
+    overflow: visible !important;
+    float: none !important;
+    height: auto !important;
   }
 }
 
 .MandatoryStar {
-  position:absolute;
-  width:0;
-  height:0;
-  font-family:"Lucida Grande",Tahoma,Arial,sans-serif !important;
-  margin-left:3px;
-  text-align:right;
-  color:red;
+  position: absolute;
+  width: 0;
+  height: 0;
+  font-family: "Lucida Grande", Tahoma, Arial, sans-serif !important;
+  margin-left: 3px;
+  text-align: right;
+  color: red;
 }
 
 .Layout1 .ContentArea {
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_content.png") no-repeat left top #FFFFFF;
-  
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_content.png")
+    no-repeat left top #ffffff;
 }
 
-   
-  
-  
-  
-  
-  
-  
-  
 .Layout1 td.ContentArea,
 .Layout3 td.ContentCell {
   width: 580px;
   max-width: 580px;
 }
-  
-
-
 
 .NavBarRight {
-  border:0;
-  margin:0;
-  padding:0;
+  border: 0;
+  margin: 0;
+  padding: 0;
   width: 190px;
   vertical-align: top;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_right.png") no-repeat right top #D9DCDF;
-  
-    clear:both;
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_right.png")
+    no-repeat right top #d9dcdf;
+
+  clear: both;
 }
 
 .NavBarRight .PropertyContainer {
-  
   width: 170px;
-  
+
   padding: 8px 10px 10px 10px;
   text-align: left;
   color: #000000;
@@ -1457,52 +1432,41 @@ td.ContentArea {
 
 .NavBarRight .SizeContainer {
   width: 100%;
-  float:left;
+  float: left;
 }
-
-
 
 .NavBarBottom {
   margin: 0px 0px 0px 0px;
-  position:relative;
+  position: relative;
   height: auto;
   padding: 0;
   white-space: nowrap;
   text-align: right;
   vertical-align: top;
   overflow: hidden;
-  font-size:1px;
-  
-    background: url("/WebRoot/Store2/Shops/es146747/Styles/MileStones/bgr_bottom.gif?CachePrevention=1600147971") no-repeat left top transparent;
-  
+  font-size: 1px;
+
+  background: url("/WebRoot/Store2/Shops/es146747/Styles/MileStones/bgr_bottom.gif?CachePrevention=1600147971")
+    no-repeat left top transparent;
 }
 
 .NavBarBottom .PropertyContainer {
   min-height: 27px;
   padding: 0px 10px 0px 10px;
-  margin:0;
+  margin: 0;
   text-align: center;
   color: #000000;
-  font-size:1px;
-  
+  font-size: 1px;
 }
 
 .NavBarBottom .SizeContainer {
   min-height: 27px;
 }
 
-
-
-
-
-
-
 img.BubbleHelp {
-padding: 0 0 3px 0;
-vertical-align: middle;
+  padding: 0 0 3px 0;
+  vertical-align: middle;
 }
-
-
 
 .Button {
   padding: 0 6px 0 6px;
@@ -1513,7 +1477,8 @@ vertical-align: middle;
   margin: -2px 0 0 0;
 }
 
-.RestrictedWidth{  /* button minimizer */
+.RestrictedWidth {
+  /* button minimizer */
   overflow: visible;
 }
 
@@ -1524,7 +1489,7 @@ button.Button img {
 }
 
 button.Button ins {
-  margin-right:2px;
+  margin-right: 2px;
 }
 
 button.Refresh {
@@ -1534,42 +1499,31 @@ button.Refresh {
 .Coins a,
 .Coins a:hover {
   position: relative;
-  color: #6E5C2F;
+  color: #6e5c2f;
   white-space: nowrap;
   display: inline-block;
 }
-
 
 html .ContextBoxBody p {
   padding: 0px;
 }
 
-
-
-
-
-
-
-
-.Header table.SizeContainer{
-  
-  
+.Header table.SizeContainer {
   margin: 0 auto 0 0;
-  
+
   border-collapse: collapse;
   border-width: 0;
 }
 
-.Header table.SizeContainer:last-child{
+.Header table.SizeContainer:last-child {
   float: right;
   margin: 0 0 0 auto;
   text-align: right;
-  
+
   display: none;
-  
 }
 
-.Header table.SizeContainer tr td{
+.Header table.SizeContainer tr td {
   white-space: nowrap;
   vertical-align: middle;
   overflow: hidden;
@@ -1577,7 +1531,7 @@ html .ContextBoxBody p {
 }
 
 .Header {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .Header div,
@@ -1615,10 +1569,10 @@ html .ContextBoxBody p {
 .Header h6,
 .Header .ShopName a,
 .Header .ShopName a:hover {
-  margin:0;
+  margin: 0;
   font-family: Verdana, Arial, Helvetica;
   font-size: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
   font-style: normal;
   text-decoration: none;
@@ -1631,30 +1585,31 @@ html .ContextBoxBody p {
 
 .Header p,
 .Header td {
-  margin:0;
+  margin: 0;
   padding: 0 4px 0 4px;
 }
 
-html body .Header em, html body .Header em a, html body .Header em span {
+html body .Header em,
+html body .Header em a,
+html body .Header em span {
   font-style: normal;
 }
 
 .Header .NavigationElement,
 .Header .NavigationElement.SSLSwitch input {
-  
-    height: 27px;
-    padding: 0 0 0 10px;
-    margin: 0;
-    line-height: 27px;
-  
+  height: 27px;
+  padding: 0 0 0 10px;
+  margin: 0;
+  line-height: 27px;
+
   font-size: 12px;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_button.png") no-repeat left top;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_button.png")
+    no-repeat left top;
 }
 
 .Header .Active {
-  display:block;
+  display: block;
   width: auto;
   height: 27px;
   padding: 0 0 0 8px;
@@ -1662,11 +1617,9 @@ html body .Header em, html body .Header em a, html body .Header em span {
   float: left;
   font-size: 12px;
   line-height: 27px;
-  
-    
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_button_active.png") no-repeat left top;
-    
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_button_active.png")
+    no-repeat left top;
 }
 
 .Header p.BasketLink,
@@ -1674,31 +1627,30 @@ html body .Header em, html body .Header em a, html body .Header em span {
 .Header .NavigationElement > em > a,
 .Header .NavigationElement.SSLSwitch input {
   display: block;
-  
-    height: 27px;
-    line-height: 27px;
-    padding: 0 10px 0 0 ;
-    vertical-align: middle;
-  
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_button_floatin.png") no-repeat right top;
-  
+
+  height: 27px;
+  line-height: 27px;
+  padding: 0 10px 0 0;
+  vertical-align: middle;
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_button_floatin.png")
+    no-repeat right top;
 }
 
 .Header .Active > a,
 .Header .Active > em > a,
-.Header .Active  input{
+.Header .Active input {
   display: block;
-  
-    height: 27px;
-    line-height: 27px;
-    padding: 0 10px 0 2px;
-    vertical-align: middle;
-  
-  color: #FFFFFF;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_button_floatin_active.png") no-repeat right top;
-  
+
+  height: 27px;
+  line-height: 27px;
+  padding: 0 10px 0 2px;
+  vertical-align: middle;
+
+  color: #ffffff;
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_button_floatin_active.png")
+    no-repeat right top;
 }
 
 .Header .ShopNameSlogan {
@@ -1708,22 +1660,22 @@ html body .Header em, html body .Header em a, html body .Header em span {
 .Header .NavigationText {
   float: left;
   font-size: 12px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 0;
   margin: 0;
   display: block;
   vertical-align: middle;
-  white-space:normal;
+  white-space: normal;
 }
 
 .Header .BasketLink {
-  white-space:nowrap;
+  white-space: nowrap;
 }
 
 .Header a,
 .Header .NavigationElement.SSLSwitch input {
   font-size: 12px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
@@ -1732,36 +1684,34 @@ html body .Header em, html body .Header em a, html body .Header em span {
 .Header .ActiveNode,
 .Header a:hover,
 .Header .NavigationElement.SSLSwitch input:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: underline;
   font-weight: normal;
   font-style: normal;
   text-decoration: underline;
 }
 
-
-
 .Header .Coins {
   display: inline;
-  text-align:center;
+  text-align: center;
   margin: 0 4px 0 4px;
-  padding:0;
+  padding: 0;
   height: 24px;
 }
 
 .Header .Coins a,
 .Header .Coins a:hover {
   margin: 0 2px 0 2px;
- }
+}
 
 .Header .CoinLabel {
-    position: absolute;
-    left:0;
-    margin-top:0;
-    font-size: 9px;
-    width: 24px;
-    color: #AAA;
- }
+  position: absolute;
+  left: 0;
+  margin-top: 0;
+  font-size: 9px;
+  width: 24px;
+  color: #aaa;
+}
 
 .Header .ContextBox {
   clear: both !important;
@@ -1772,21 +1722,21 @@ html body .Header em, html body .Header em a, html body .Header em span {
 .Header .ContextBoxHead {
   padding: 0 0 0 10px;
   margin: 0;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_boxhead.png") no-repeat left top transparent;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_boxhead.png")
+    no-repeat left top transparent;
 }
 
 .Header .ContextBox .ContextBoxHead span,
-.Header .ContextBox .ContextBoxHead h1 /* selector deprecated */{
+.Header .ContextBox .ContextBoxHead h1 /* selector deprecated */ {
   height: 20px;
-  overflow:hidden;
+  overflow: hidden;
   margin: 0;
   padding: 3px 0 1px 0;
   text-align: left;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_boxhead_floatin.png") no-repeat right top ;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_boxhead_floatin.png")
+    no-repeat right top;
 }
 
 .Header .ContextBoxBody {
@@ -1796,26 +1746,20 @@ html body .Header em, html body .Header em a, html body .Header em span {
   margin-bottom: 1px;
 
   text-align: left;
-
-  
 }
 
 .Header .ContextBox {
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_boxbody_floatin.png") no-repeat right bottom;
-  
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_boxbody_floatin.png")
+    no-repeat right bottom;
 }
 
 .Header .ContextBox .BoxContainer {
-  
-    position: relative;                   /* IE BackgroundImage fix */
-    padding: 0 0 1px 0;                   /* IE BackgroundImage fix */
-    margin: 0px;
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_boxbody.png") no-repeat left bottom ;
-  
+  position: relative; /* IE BackgroundImage fix */
+  padding: 0 0 1px 0; /* IE BackgroundImage fix */
+  margin: 0px;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_header_boxbody.png")
+    no-repeat left bottom;
 }
-
-
 
 .Header div.Entry {
   min-height: 24px;
@@ -1827,36 +1771,30 @@ html body .Header em, html body .Header em a, html body .Header em span {
   border: 0px;
   padding: 0 0 0 14px;
   text-align: left;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 12px;
   line-height: 140%;
-  background: transparent url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png") no-repeat 0px 2px;
+  background: transparent
+    url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png")
+    no-repeat 0px 2px;
 }
 
-
-
-
-
-
-.NavBarTop table.SizeContainer{
-  
-  
+.NavBarTop table.SizeContainer {
   margin: 0 0 0 auto;
-  
+
   border-collapse: collapse;
   border-width: 0;
 }
 
-.NavBarTop table.SizeContainer:last-child{
+.NavBarTop table.SizeContainer:last-child {
   float: right;
   margin: 0 0 0 auto;
   text-align: right;
-  
+
   display: none;
-  
 }
 
-.NavBarTop table.SizeContainer tr td{
+.NavBarTop table.SizeContainer tr td {
   white-space: nowrap;
   vertical-align: middle;
   overflow: hidden;
@@ -1875,8 +1813,7 @@ html body .Header em, html body .Header em a, html body .Header em span {
 .NavBarTop ul li,
 .NavBarTop ol li,
 .NavBarTop blockquote,
-.NavBarTop input
-.NavBarTop button,
+.NavBarTop input .NavBarTop button,
 .NavBarTop .ep-uiInput-button,
 .NavBarTop .search-button,
 .NavBarTop .ep-uiInput,
@@ -1901,12 +1838,11 @@ html body .Header em, html body .Header em a, html body .Header em span {
 .NavBarTop h5,
 .NavBarTop h6,
 .NavBarTop .ShopName a,
-.NavBarTop .ShopName a:hover
- {
-  margin:0;
+.NavBarTop .ShopName a:hover {
+  margin: 0;
   font-family: Verdana, Arial, Helvetica;
   font-size: 10px;
-  color: #134B83;
+  color: #134b83;
   font-weight: bold;
   font-style: normal;
   text-decoration: none;
@@ -1914,25 +1850,26 @@ html body .Header em, html body .Header em a, html body .Header em span {
 
 .NavBarTop p,
 .NavBarTop td {
-  margin:0;
+  margin: 0;
   padding: 0 4px 0 4px;
 }
 
-html body .NavBarTop em, html body .NavBarTop em a, html body .NavBarTop em span {
+html body .NavBarTop em,
+html body .NavBarTop em a,
+html body .NavBarTop em span {
   font-style: normal;
 }
 
 .NavBarTop .NavigationElement {
-  
-    height: 27px;
-    padding: 0 0 0 10px;
-    margin: 0;
-    line-height: 27px;
-  
+  height: 27px;
+  padding: 0 0 0 10px;
+  margin: 0;
+  line-height: 27px;
+
   font-size: 10px;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_button.png") no-repeat left top;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_button.png")
+    no-repeat left top;
 }
 
 .NavBarTop .Active {
@@ -1942,17 +1879,15 @@ html body .NavBarTop em, html body .NavBarTop em a, html body .NavBarTop em span
   margin: 0;
   font-size: 10px;
   line-height: 27px;
-  
-    
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_button_active.png") no-repeat left top;
-    
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_button_active.png")
+    no-repeat left top;
 }
 
 .NavigationElement.SSLSwitch input {
-  border:0px;
-  background:none;
-  padding:0px;
+  border: 0px;
+  background: none;
+  padding: 0px;
 }
 
 .NavBarTop p.BasketLink,
@@ -1960,16 +1895,16 @@ html body .NavBarTop em, html body .NavBarTop em a, html body .NavBarTop em span
 .NavBarTop .NavigationElement > em > a,
 .NavBarTop .NavigationElement.SSLSwitch input {
   display: block;
-  
-    height: 25px;
-    line-height: 27px;
-    padding: 0 10px 0 0 ;
-    vertical-align: middle;
-  
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_button_floatin.png") no-repeat right top;
-  
-  width:auto;
+
+  height: 25px;
+  line-height: 27px;
+  padding: 0 10px 0 0;
+  vertical-align: middle;
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_button_floatin.png")
+    no-repeat right top;
+
+  width: auto;
 }
 
 .NavBarTop .Active > a,
@@ -1977,16 +1912,16 @@ html body .NavBarTop em, html body .NavBarTop em a, html body .NavBarTop em span
 .NavBarTop .Active input,
 .NavBarTop .NavigationElement.SSLSwitch.Active input {
   display: block;
-  
-    height: 27px;
-    line-height: 27px;
-    padding: 0 10px 0 2px;
-    vertical-align: middle;
-  
+
+  height: 27px;
+  line-height: 27px;
+  padding: 0 10px 0 2px;
+  vertical-align: middle;
+
   color: #666666;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_button_floatin_active.png") no-repeat right top;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_button_floatin_active.png")
+    no-repeat right top;
 }
 
 .NavBarTop .ShopNameSlogan {
@@ -1995,17 +1930,17 @@ html body .NavBarTop em, html body .NavBarTop em a, html body .NavBarTop em span
 }
 
 .NavBarTop .ShopNameHead {
-  float:left;
+  float: left;
 }
 
 .NavBarTop .ShopNameHead h1 {
   font-weight: normal !important;
   line-height: 140% !important;
   margin: 0 4px 0 0;
- }
+}
 
 .NavBarTop .ShopSlogan {
-  float:left;
+  float: left;
   font-size: 10px;
   color: #666666;
   line-height: 140% !important;
@@ -2019,20 +1954,18 @@ html body .NavBarTop em, html body .NavBarTop em a, html body .NavBarTop em span
   margin: 6px 0 0 0;
   display: block;
   vertical-align: middle;
-  white-space:normal;
+  white-space: normal;
 }
 
 .NavBarTop a,
 .NavBarTop input,
-.NavBarTop .NavigationElement.SSLSwitch input{
+.NavBarTop .NavigationElement.SSLSwitch input {
   font-size: 10px;
   color: #666666;
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
 }
-
-
 
 .NavBarTop .ActiveNode,
 .NavBarTop a:hover,
@@ -2043,53 +1976,53 @@ html body .NavBarTop em, html body .NavBarTop em a, html body .NavBarTop em span
   text-decoration: underline;
 }
 
-
-.NavBarTop a:hover .Text, .NavBarTop .NavigationElement.SSLSwitch input:hover {
+.NavBarTop a:hover .Text,
+.NavBarTop .NavigationElement.SSLSwitch input:hover {
   text-decoration: underline;
 }
 
 .NavBarTop .LocaleFlags {
   display: block;
-  float:left;
+  float: left;
   margin: 0 4px 0 4px;
 }
 
 .NavBarTop .NavelementIcon i,
-.NavBarTop .LocaleFlags img{
+.NavBarTop .LocaleFlags img {
   margin: 5px 2px 0 2px !important;
 }
 
 .NavBarTop .CreditCards {
   display: block;
-  float:left;
+  float: left;
   margin: 0 4px 0 4px;
 }
 
-.NavBarTop .CreditCards img{
+.NavBarTop .CreditCards img {
   margin: 0 2px 0 2px !important;
 }
 
 .NavBarTop .Coins {
   display: inline;
-  text-align:center;
+  text-align: center;
   margin: 0 4px 0 4px;
-  padding:0;
+  padding: 0;
   height: 24px;
 }
 
 .NavBarTop .Coins a,
 .NavBarTop .Coins a:hover {
   margin: 0 2px 0 2px;
- }
+}
 
 .NavBarTop .CoinLabel {
-    position: absolute;
-    left:0;
-    margin-top:0;
-    font-size: 9px;
-    width: 24px;
-    color: #AAA;
- }
+  position: absolute;
+  left: 0;
+  margin-top: 0;
+  font-size: 9px;
+  width: 24px;
+  color: #aaa;
+}
 
 .NavBarTop .ContextBox {
   clear: both !important;
@@ -2100,21 +2033,21 @@ html body .NavBarTop em, html body .NavBarTop em a, html body .NavBarTop em span
 .NavBarTop .ContextBoxHead {
   padding: 0 0 0 10px;
   margin: 0;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_boxhead.png") no-repeat left top transparent;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_boxhead.png")
+    no-repeat left top transparent;
 }
 
 .NavBarTop .ContextBox .ContextBoxHead span,
 .NavBarTop .ContextBox .ContextBoxHead h1 /* selector deprecated */ {
   height: 20px;
-  overflow:hidden;
+  overflow: hidden;
   margin: 0;
   padding: 3px 0 1px 0;
   text-align: left;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_boxhead_floatin.png") no-repeat right top ;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_boxhead_floatin.png")
+    no-repeat right top;
 }
 
 .NavBarTop .ContextBoxBody {
@@ -2124,27 +2057,20 @@ html body .NavBarTop em, html body .NavBarTop em a, html body .NavBarTop em span
   margin-bottom: 1px;
 
   text-align: left;
-
-  
-
 }
 
 .NavBarTop .ContextBox {
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_boxbody_floatin.png") no-repeat right bottom;
-  
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_boxbody_floatin.png")
+    no-repeat right bottom;
 }
 
 .NavBarTop .ContextBox .BoxContainer {
-  
-    position: relative;                   /* IE BackgroundImage fix */
-    padding: 0 0 1px 0;                   /* IE BackgroundImage fix */
-    margin: 0px;
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_boxbody.png") no-repeat left bottom ;
-  
+  position: relative; /* IE BackgroundImage fix */
+  padding: 0 0 1px 0; /* IE BackgroundImage fix */
+  margin: 0px;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_top_boxbody.png")
+    no-repeat left bottom;
 }
-
-
 
 .NavBarTop div.Entry {
   min-height: 24px;
@@ -2159,12 +2085,10 @@ html body .NavBarTop em, html body .NavBarTop em a, html body .NavBarTop em span
   color: #666666;
   font-size: 10px;
   line-height: 140%;
-  background: transparent url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png") no-repeat 0px 2px;
+  background: transparent
+    url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png")
+    no-repeat 0px 2px;
 }
-
-
-
-
 
 .NavBarLeft {
   color: #000000;
@@ -2184,7 +2108,7 @@ html body .NavBarTop em, html body .NavBarTop em a, html body .NavBarTop em span
 .NavBarLeft .ep-uiInput-button,
 .NavBarLeft .search-button,
 .NavBarLeft .ep-uiInput,
-.Left.de_epages-remotesearchUiSuggest-box li  {
+.Left.de_epages-remotesearchUiSuggest-box li {
   font-family: Verdana, Arial, Helvetica;
   font-size: 11px;
   font-weight: normal;
@@ -2208,7 +2132,7 @@ html body .NavBarTop em, html body .NavBarTop em a, html body .NavBarTop em span
 .NavBarLeft .FacetName {
   font-family: Verdana, Arial, Helvetica;
   font-size: 12px;
-  color: #4E728E;
+  color: #4e728e;
   font-weight: bold;
   font-style: normal;
   text-decoration: none;
@@ -2221,25 +2145,26 @@ html body .NavBarTop em, html body .NavBarTop em a, html body .NavBarTop em span
 
 .NavBarLeft a {
   font-size: 11px;
-  color: #4E728E;
+  color: #4e728e;
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
 }
 
-html body .NavBarLeft em, html body .NavBarLeft em a, html body .NavBarLeft em span {
+html body .NavBarLeft em,
+html body .NavBarLeft em a,
+html body .NavBarLeft em span {
   font-style: normal;
 }
 
 .NavBarLeft .ActiveNode,
 .NavBarLeft a:hover,
 .NavBarLeft input.Link.Action:hover {
-  color: #4E728E;
+  color: #4e728e;
   font-weight: normal;
   font-style: normal;
   text-decoration: underline;
 }
-
 
 .NavBarLeft a:hover .Text {
   text-decoration: underline;
@@ -2255,23 +2180,20 @@ html body .NavBarLeft em, html body .NavBarLeft em a, html body .NavBarLeft em s
 
 .NavBarLeft .ShopNameSlogan,
 .NavBarLeft .ContextBox {
-  
-    background: ;
-  
+  background: ;
 }
 
 .NavBarLeft .ShopNameSlogan .BoxContainer,
 .NavBarLeft .ContextBox .BoxContainer {
-  
 }
 
 .NavBarLeft .ShopNameHead,
 .NavBarLeft .ContextBoxHead {
   padding: 0 0 0 10px;
   margin: 0;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_left_boxhead.png") no-repeat  left top transparent;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_left_boxhead.png")
+    no-repeat left top transparent;
 }
 
 .NavBarLeft .ContextBox .ContextBoxHead span,
@@ -2282,9 +2204,9 @@ html body .NavBarLeft em, html body .NavBarLeft em a, html body .NavBarLeft em s
   margin: 0;
   padding: 3px 0 1px 0;
   text-align: left;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_left_boxhead_floatin.png") no-repeat right top ;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_left_boxhead_floatin.png")
+    no-repeat right top;
 }
 
 .NavBarLeft .ShopSlogan,
@@ -2300,9 +2222,7 @@ html body .NavBarLeft em, html body .NavBarLeft em a, html body .NavBarLeft em s
 .NavBarLeft .ShopSlogan,
 .NavBarLeft .NavigationElement,
 .NavBarLeft .ContextBox {
-  
-  background-color: #EFF1F2;
-  
+  background-color: #eff1f2;
 }
 
 .NavBarLeft .NavigationText {
@@ -2323,8 +2243,6 @@ html body .NavBarLeft em, html body .NavBarLeft em a, html body .NavBarLeft em s
   text-decoration: underline !important;
 }
 
-
-
 .NavBarLeft div.Entry {
   min-height: 24px;
 }
@@ -2336,62 +2254,57 @@ html body .NavBarLeft em, html body .NavBarLeft em a, html body .NavBarLeft em s
   border: 0px;
   padding: 1px 0 0 10px;
   text-align: left;
-  color: #4E728E;
+  color: #4e728e;
   font-size: 11px;
   line-height: 140%;
-  background: transparent url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png") no-repeat 0px 2px;
+  background: transparent
+    url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png")
+    no-repeat 0px 2px;
   width: 150px;
 }
 
 .NavBarLeft .LocaleFlags {
-  display:block;
+  display: block;
   text-align: center;
   margin: 10px 0 0 0;
 }
 
-.NavBarLeft .LocaleFlags img{
+.NavBarLeft .LocaleFlags img {
   margin: 0 4px 0 0 !important;
 }
 
 .NavBarLeft .CreditCards {
-  display:block;
+  display: block;
   text-align: center;
   margin: 10px 0 0 0;
 }
 
-.NavBarLeft .CreditCards img{
+.NavBarLeft .CreditCards img {
   margin: 0 4px 0 0 !important;
 }
 
-.NavBarLeft .LocaleBoxLink img{
+.NavBarLeft .LocaleBoxLink img {
   margin: 0 8px 0 0 !important;
-  vertical-align:middle;
+  vertical-align: middle;
 }
 
-
-  .NavBarLeft .Coins {
-  text-align:center;
+.NavBarLeft .Coins {
+  text-align: center;
   margin: 10px 0 0 0;
-  }
+}
 
-
-  .NavBarLeft .CoinLabel {
-    position: absolute;
-    left:0;
-    margin-top:0;
-    font-size: 9px;
-    width: 24px;
-    color: #AAA;
-  }
+.NavBarLeft .CoinLabel {
+  position: absolute;
+  left: 0;
+  margin-top: 0;
+  font-size: 9px;
+  width: 24px;
+  color: #aaa;
+}
 
 html .NavBarLeft .NavBarElement0 {
   margin-top: 0px;
 }
-
-
-
-
-
 
 .NavBarRight {
   color: #000000;
@@ -2411,7 +2324,7 @@ html .NavBarLeft .NavBarElement0 {
 .NavBarRight .ep-uiInput-button,
 .NavBarRight .search-button,
 .NavBarRight .ep-uiInput,
-.Right.de_epages-remotesearchUiSuggest-box li{
+.Right.de_epages-remotesearchUiSuggest-box li {
   font-family: Verdana, Arial, Helvetica;
   font-size: 11px;
   font-weight: normal;
@@ -2432,10 +2345,10 @@ html .NavBarLeft .NavBarElement0 {
 .NavBarRight h6,
 .NavBarRight .ShopName a,
 .NavBarRight .ShopName a:hover,
-.NavBarRight .FacetName  {
+.NavBarRight .FacetName {
   font-family: Verdana, Arial, Helvetica;
   font-size: 12px;
-  color: #4E728E;
+  color: #4e728e;
   font-weight: bold;
   font-style: normal;
   text-decoration: none;
@@ -2448,35 +2361,35 @@ html .NavBarLeft .NavBarElement0 {
 
 .NavBarRight a {
   font-size: 11px;
-  color: #4E728E;
+  color: #4e728e;
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
 }
 
 .NavBarRight em a {
-  display:inline-block;
-  padding-right:20px;
+  display: inline-block;
+  padding-right: 20px;
 }
 
-html body .NavBarRight em, html body .NavBarRight em a, html body .NavBarRight em span {
+html body .NavBarRight em,
+html body .NavBarRight em a,
+html body .NavBarRight em span {
   font-style: normal;
 }
 
 .NavBarRight .ActiveNode,
 .NavBarRight a:hover,
 .NavBarRight input.Link.Action:hover {
-  color: #4E728E;
+  color: #4e728e;
   font-weight: normal;
   font-style: normal;
   text-decoration: underline;
 }
 
-
 .NavBarRight a:hover .Text {
   text-decoration: underline;
 }
-
 
 .NavBarRight .ShopNameSlogan,
 .NavBarRight .ContextBox {
@@ -2490,9 +2403,9 @@ html body .NavBarRight em, html body .NavBarRight em a, html body .NavBarRight e
 .NavBarRight .ContextBoxHead {
   padding: 0 0 0 10px;
   margin: 0;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_right_boxhead.png")  no-repeat left top transparent;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_right_boxhead.png")
+    no-repeat left top transparent;
 }
 
 .NavBarRight .ContextBox .ContextBoxHead span,
@@ -2503,9 +2416,9 @@ html body .NavBarRight em, html body .NavBarRight em a, html body .NavBarRight e
   margin: 0;
   padding: 3px 0 1px 0;
   text-align: left;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_right_boxhead_floatin.png") no-repeat right top ;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_right_boxhead_floatin.png")
+    no-repeat right top;
 }
 
 .NavBarRight .ShopSlogan,
@@ -2520,22 +2433,17 @@ html body .NavBarRight em, html body .NavBarRight em a, html body .NavBarRight e
 
 .NavBarRight .ShopNameSlogan,
 .NavBarRight .ContextBox {
-  
-    background: ;
-  
+  background: ;
 }
 
 .NavBarRight .ShopSlogan,
 .NavBarRight .NavigationElement,
 .NavBarRight .ContextBox {
-  
-  background-color: #EFF1F2;
-  
+  background-color: #eff1f2;
 }
 
 .NavBarRight .ShopNameSlogan .BoxContainer,
 .NavBarRight .ContextBox .BoxContainer {
-  
 }
 
 .NavBarRight .NavigationText {
@@ -2552,11 +2460,9 @@ html body .NavBarRight em, html body .NavBarRight em a, html body .NavBarRight e
 }
 
 .NavBarRight a.ContextBoxHead:hover span,
-.NavBarRight a.ContextBoxHead:hover h1 /* selector deprecated */{
+.NavBarRight a.ContextBoxHead:hover h1 /* selector deprecated */ {
   text-decoration: underline !important;
 }
-
-
 
 .NavBarRight div.Entry {
   min-height: 24px;
@@ -2564,82 +2470,75 @@ html body .NavBarRight em, html body .NavBarRight em a, html body .NavBarRight e
 
 .NavBarRight .LoginBox input.Action,
 .NavBarRight .ContextBox input.Action,
-.NavigationElement input.Action  {
+.NavigationElement input.Action {
   width: auto;
   cursor: pointer;
   border: 0px;
   padding: 1px 0 0 10px;
   text-align: left;
-  color: #4E728E;
+  color: #4e728e;
   font-size: 11px;
   line-height: 140%;
-  background: transparent url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png") no-repeat 0px 2px;
+  background: transparent
+    url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png")
+    no-repeat 0px 2px;
   width: 150px;
 }
 
 .NavBarRight .LocaleFlags {
-  display:block;
+  display: block;
   text-align: center;
   margin: 10px 0 0 0;
 }
 
-.NavBarRight .LocaleFlags img{
+.NavBarRight .LocaleFlags img {
   margin: 0 4px 0 0 !important;
 }
 
 .NavBarRight .CreditCards {
-  display:block;
+  display: block;
   text-align: center;
   margin: 10px 0 0 0;
 }
 
-.NavBarRight .CreditCards img{
+.NavBarRight .CreditCards img {
   margin: 0 4px 0 0 !important;
 }
 
 .NavBarRight .Coins {
-  text-align:center;
+  text-align: center;
   margin: 10px 0 0 0;
-  }
+}
 
-  .NavBarRight .CoinLabel {
-    position: absolute;
-    left:0;
-    margin-top:0;
-    font-size: 9px;
-    width: 24px;
-    color: #AAA;
-  }
+.NavBarRight .CoinLabel {
+  position: absolute;
+  left: 0;
+  margin-top: 0;
+  font-size: 9px;
+  width: 24px;
+  color: #aaa;
+}
 
 html .NavBarRight .NavBarElement0 {
   margin-top: 0px;
 }
 
-
-
-
-
-
-.NavBarBottom table.SizeContainer{
-  
-  
+.NavBarBottom table.SizeContainer {
   margin: 0 auto 0 auto;
-  
+
   border-collapse: collapse;
   border-width: 0;
 }
 
-.NavBarBottom table.SizeContainer:last-child{
+.NavBarBottom table.SizeContainer:last-child {
   float: right;
   margin: 0 0 0 auto;
   text-align: right;
-  
+
   display: none;
-  
 }
 
-
-.NavBarBottom table.SizeContainer tr td{
+.NavBarBottom table.SizeContainer tr td {
   white-space: nowrap;
   vertical-align: middle;
   overflow: hidden;
@@ -2685,7 +2584,7 @@ html .NavBarRight .NavBarElement0 {
 .NavBarBottom h6,
 .NavBarBottom .ShopName a,
 .NavBarBottom .ShopName a:hover {
-  margin:0;
+  margin: 0;
   font-family: Verdana, Arial, Helvetica;
   font-size: 10px;
   color: #000000;
@@ -2696,25 +2595,26 @@ html .NavBarRight .NavBarElement0 {
 
 .NavBarBottom p,
 .NavBarBottom td {
-  margin:0;
+  margin: 0;
   padding: 0 4px 0 4px;
 }
 
-html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBottom em span {
+html body .NavBarBottom em,
+html body .NavBarBottom em a,
+html body .NavBarBottom em span {
   font-style: normal;
 }
 
 .NavBarBottom .NavigationElement {
-  
-    height: 27px;
-    padding: 0 0 0 10px;
-    margin: 0;
-    line-height: 27px;
-  
+  height: 27px;
+  padding: 0 0 0 10px;
+  margin: 0;
+  line-height: 27px;
+
   font-size: 10px;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_button.png") no-repeat left top;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_button.png")
+    no-repeat left top;
 }
 
 .NavBarBottom .Active {
@@ -2725,25 +2625,22 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
   float: left;
   font-size: 10px;
   line-height: 27px;
-  
-    
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_button_active.png") no-repeat left top;
-    
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_button_active.png")
+    no-repeat left top;
 }
 
 .NavBarBottom p.BasketLink,
 .NavBarBottom .NavigationElement a {
   display: block;
-  
-    height: 27px;
-    line-height: 27px;
-    padding: 0 10px 0 0 ;
-    vertical-align: middle;
-  
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_button_floatin.png") no-repeat right top;
-  
+
+  height: 27px;
+  line-height: 27px;
+  padding: 0 10px 0 0;
+  vertical-align: middle;
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_button_floatin.png")
+    no-repeat right top;
 }
 
 .NavBarBottom .Active a,
@@ -2754,29 +2651,29 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
   padding: 0 10px 0 2px;
   vertical-align: middle;
   color: #666666;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_button_floatin_active.png") no-repeat right top;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_button_floatin_active.png")
+    no-repeat right top;
 }
 
 .NavBarBottom .LocaleFlags {
   display: block;
-  float:left;
+  float: left;
   margin: 0 4px 0 4px;
 }
 
 .NavBarBottom .NavelementIcon i,
-.NavBarBottom .LocaleFlags img{
+.NavBarBottom .LocaleFlags img {
   margin: 5px 2px 0 2px !important;
 }
 
 .NavBarBottom .CreditCards {
   display: block;
-  float:left;
+  float: left;
   margin: 0 4px 0 4px;
 }
 
-.NavBarBottom .CreditCards img{
+.NavBarBottom .CreditCards img {
   margin: 5px 2px 0 2px !important;
 }
 
@@ -2786,17 +2683,17 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
 }
 
 .NavBarBottom .ShopNameHead {
-  float:left;
+  float: left;
 }
 
 .NavBarBottom .ShopNameHead h1 {
   font-weight: normal !important;
   line-height: 140% !important;
   margin: 0 4px 0 0;
- }
+}
 
 .NavBarBottom .ShopSlogan {
-  float:left;
+  float: left;
   font-size: 10px;
   color: #000000;
   line-height: 140% !important;
@@ -2810,7 +2707,7 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
   margin: 6px 0 0 0;
   display: block;
   vertical-align: middle;
-  white-space:normal;
+  white-space: normal;
 }
 
 .NavBarBottom a {
@@ -2829,17 +2726,15 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
   text-decoration: underline;
 }
 
-
 .NavBarBottom a:hover .Text {
   text-decoration: underline;
 }
 
-
 .NavBarBottom .Coins {
   display: inline;
-  text-align:center;
+  text-align: center;
   margin: 0 4px 0 4px;
-  padding:0;
+  padding: 0;
   height: 24px;
 }
 
@@ -2849,12 +2744,12 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
 }
 
 .NavBarBottom .CoinLabel {
-    position: absolute;
-    left:0;
-    margin-top:0;
-    font-size: 9px;
-    width: 24px;
-    color: #AAA;
+  position: absolute;
+  left: 0;
+  margin-top: 0;
+  font-size: 9px;
+  width: 24px;
+  color: #aaa;
 }
 
 .NavBarBottom .ContextBox {
@@ -2866,21 +2761,21 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
 .NavBarBottom .ContextBoxHead {
   padding: 0 0 0 10px;
   margin: 0;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_boxhead.png") no-repeat left top transparent;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_boxhead.png")
+    no-repeat left top transparent;
 }
 
 .NavBarBottom .ContextBox .ContextBoxHead span,
-.NavBarBottom .ContextBox .ContextBoxHead h1 /* selector deprecated */{
+.NavBarBottom .ContextBox .ContextBoxHead h1 /* selector deprecated */ {
   height: 20px;
-  overflow:hidden;
+  overflow: hidden;
   margin: 0;
   padding: 3px 0 1px 0;
   text-align: left;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_boxhead_floatin.png") no-repeat right top ;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_boxhead_floatin.png")
+    no-repeat right top;
 }
 
 .NavBarBottom .ContextBoxBody {
@@ -2890,31 +2785,24 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
   margin-bottom: 1px;
 
   text-align: left;
-
-   
-
 }
 
 .NavBarBottom .ContextBox {
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_boxbody_floatin.png") no-repeat right bottom;
-  
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_boxbody_floatin.png")
+    no-repeat right bottom;
 }
 
 .NavBarBottom .ContextBox .BoxContainer {
-  
-    position: relative;                   /* IE BackgroundImage fix */
-    padding: 0 0 1px 0;                   /* IE BackgroundImage fix */
-    margin: 0px;
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_boxbody.png") no-repeat left bottom ;
-  
+  position: relative; /* IE BackgroundImage fix */
+  padding: 0 0 1px 0; /* IE BackgroundImage fix */
+  margin: 0px;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_bottom_boxbody.png")
+    no-repeat left bottom;
 }
-
-
 
 .NavBarBottom div.Entry {
   min-height: 24px;
-  _height:24px;
+  _height: 24px;
 }
 
 .NavBarBottom .LoginBox input.Action {
@@ -2926,13 +2814,10 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
   color: #000000;
   font-size: 10px;
   line-height: 140%;
-  background: transparent url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png") no-repeat 0px 2px;
+  background: transparent
+    url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png")
+    no-repeat 0px 2px;
 }
-
-
-
-
-
 
 .TrustedShopLogo {
   margin: 10px 0 0 0;
@@ -2943,11 +2828,9 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
   vertical-align: top;
 }
 
-
 .LoginBox .Entry {
   margin-bottom: 3px;
 }
-
 
 .SearchElement {
   width: 100%;
@@ -2970,43 +2853,54 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
   width: 150px;
 }
 
-
-.jstree * { zoom:1; }
-.jstree-no-icons li, .jstree-no-icons ins { background:0; }
+.jstree * {
+  zoom: 1;
+}
+.jstree-no-icons li,
+.jstree-no-icons ins {
+  background: 0;
+}
 
 .jstree li {
-  margin-left:0;
-  position:relative;
-  padding-left:  13px ;
-  white-space:normal;
+  margin-left: 0;
+  position: relative;
+  padding-left: 13px;
+  white-space: normal;
 }
 .jstree li a {
-  padding-left:0;
-  height:auto;
-  white-space:normal;
-  display:inline;
-  word-wrap:break-word;
+  padding-left: 0;
+  height: auto;
+  white-space: normal;
+  display: inline;
+  word-wrap: break-word;
 }
 .jstree ins {
-  width:  10px ;
-  height:  10px ;
-  cursor:pointer;
-  position:absolute;
-  top:  4px ;
-  padding: 1px ;
-  left:0;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 4px;
+  padding: 1px;
+  left: 0;
 }
-.GeneralLayout .jstree-open .jstree-open .jstree-icon, .GeneralLayout .jstree-closed .jstree-open .jstree-icon, .GeneralLayout .jstree-open .jstree-icon {
-  background: url('/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_tree_minus.png') no-repeat 0 0 !important;
+.GeneralLayout .jstree-open .jstree-open .jstree-icon,
+.GeneralLayout .jstree-closed .jstree-open .jstree-icon,
+.GeneralLayout .jstree-open .jstree-icon {
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_tree_minus.png")
+    no-repeat 0 0 !important;
 }
-.GeneralLayout .jstree-open .jstree-closed .jstree-icon, .GeneralLayout .jstree-closed .jstree-closed .jstree-icon, .GeneralLayout .jstree-closed .jstree-icon {
-  background: url('/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_tree_plus.png') no-repeat 0 0 !important;
+.GeneralLayout .jstree-open .jstree-closed .jstree-icon,
+.GeneralLayout .jstree-closed .jstree-closed .jstree-icon,
+.GeneralLayout .jstree-closed .jstree-icon {
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_tree_plus.png")
+    no-repeat 0 0 !important;
 }
-.GeneralLayout .jstree-open .jstree-leaf .jstree-icon, .GeneralLayout .jstree-closed .jstree-leaf .jstree-icon, .GeneralLayout .jstree-leaf .jstree-icon {
-  background: url('/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_tree_empty.png') no-repeat 0 0 !important;
+.GeneralLayout .jstree-open .jstree-leaf .jstree-icon,
+.GeneralLayout .jstree-closed .jstree-leaf .jstree-icon,
+.GeneralLayout .jstree-leaf .jstree-icon {
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_tree_empty.png")
+    no-repeat 0 0 !important;
 }
-
-
 
 .CategoryListWithImage {
   border-collapse: collapse;
@@ -3020,24 +2914,20 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
 .NavBarTop .ImageArea,
 .NavBarLeft .ImageArea,
 .NavBarBottom .ImageArea,
-.Footer .ImageArea   {
+.Footer .ImageArea {
   width: 50px;
   padding-top: 3px;
 }
 
-
-
 .FoldingCategoryList .SubCategory {
-  background: url('/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_subcategory.png') 0px 3px no-repeat !important;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_subcategory.png")
+    0px 3px no-repeat !important;
   padding-left: 16px;
 }
 
-
-.NavelementIcon img{
+.NavelementIcon img {
   margin: 5px 2px 0 2px !important;
 }
-
-
 
 .ContentArea,
 .ContentArea div,
@@ -3053,10 +2943,9 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
 .ExtractedContentAreaElement,
 .ContentArea .FacetName {
   font-family: Verdana, Arial, Helvetica;
-  
-  
+
   font-size: 11px;
-  line-height:140%;
+  line-height: 140%;
 }
 
 .ContentArea,
@@ -3069,17 +2958,15 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
 .ContentArea h1 {
   font-family: Verdana, Arial, Helvetica;
   font-size: 18px;
-  color: #6B9CC1;
+  color: #6b9cc1;
   font-weight: bold;
-  
 }
 
 .ContentArea h2 {
   font-family: Verdana, Arial, Helvetica;
   font-size: 13px;
-  color: #6B9CC1;
+  color: #6b9cc1;
   font-weight: bold;
-  
 }
 
 .ContentArea h3 {
@@ -3087,10 +2974,10 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
   font-size: 12px;
   color: #000000;
   font-weight: bold;
-  
+
   line-height: normal !important;
-  margin:0 0 .75em;
-  padding:0;
+  margin: 0 0 0.75em;
+  padding: 0;
 }
 
 .ContentArea h4,
@@ -3106,38 +2993,39 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
 .ExtractedContentAreaElement a,
 .ExtractedContentAreaElement .Link {
   font-size: 11px;
-  color: #4E728E;
+  color: #4e728e;
   text-decoration: none;
   line-height: normal !important;
   font-style: normal;
   font-weight: normal;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.ContentArea input.Link,.ContentArea button.Link {
-  border:0;
-  padding:0;
-  overflow:visible;
-  background:none;
+.ContentArea input.Link,
+.ContentArea button.Link {
+  border: 0;
+  padding: 0;
+  overflow: visible;
+  background: none;
 }
 
 .ContentArea a:hover,
 .ContentArea .Link:hover,
 .ExtractedContentAreaElement a:hover,
 .ExtractedContentAreaElement .Link {
-  color: #6B9CC1;
+  color: #6b9cc1;
   text-decoration: underline;
   font-style: normal;
   font-weight: normal;
 }
 
 .ContentArea h1 a,
-.ContentArea h1 a:hover{
+.ContentArea h1 a:hover {
   font-weight: bold;
 }
 
 .ContentArea h2 a,
-.ContentArea h2 a:hover{
+.ContentArea h2 a:hover {
   font-weight: bold;
 }
 
@@ -3149,20 +3037,19 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
 .ContentArea .BreadcrumbLastItem {
   font-size: 12px;
   color: #000000;
-  font-weight:  bold;
+  font-weight: bold;
 }
 
 .ContentArea .BreadcrumbItem:hover,
 .ContentArea .BreadcrumbItem {
   font-size: 12px;
-  color: #4E728E;
-  font-weight:  bold;
+  color: #4e728e;
+  font-weight: bold;
   padding: 0 12px 0 0;
   margin: 0 3px 0 0;
-  background:url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_breadcrumb_arrow.png") no-repeat right 50% !important;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_breadcrumb_arrow.png")
+    no-repeat right 50% !important;
 }
-
-
 
 .ContentArea .ContextBoxHead,
 .TableHead {
@@ -3172,12 +3059,10 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
   padding: 0;
   line-height: 20px;
   /* overflow: hidden; */
-  
-    
-    /* height: 20px; */
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_boxhead.png")  no-repeat left top  !important;
-    
-  
+
+  /* height: 20px; */
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_boxhead.png")
+    no-repeat left top !important;
 }
 
 .ContentArea .ContextBoxHead h1,
@@ -3186,18 +3071,16 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
   padding: 0;
   margin: 0 0 0 15px;
   /* overflow: hidden; */
-  
-    
-    /* height: 20px; */
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_boxhead_floatin.png") no-repeat right top ;
-    
-  
+
+  /* height: 20px; */
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_boxhead_floatin.png")
+    no-repeat right top;
+
   font-weight: bold;
   color: #000000;
   font-weight: bold;
   font-style: normal;
 }
-
 
 .ContentArea .ContextBoxBody,
 .Dialog {
@@ -3206,19 +3089,18 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
   margin: 0 0 10px;
   padding: 3px 6px 6px 6px;
   border-top: 0px;
-  
-    border-left: 1px solid #D9DCDF;
-    border-right: 1px solid #D9DCDF;
-    border-bottom: 1px solid #D9DCDF;
-  
+
+  border-left: 1px solid #d9dcdf;
+  border-right: 1px solid #d9dcdf;
+  border-bottom: 1px solid #d9dcdf;
 }
 
 .DialogSnippet {
   padding: 3px 6px 6px 6px;
-  background: #EFF1F2;
+  background: #eff1f2;
   border-top: 0px;
-  border-left: 1px solid #D9DCDF;
-  border-right: 1px solid #D9DCDF;
+  border-left: 1px solid #d9dcdf;
+  border-right: 1px solid #d9dcdf;
   border-bottom: 0px;
 }
 
@@ -3239,33 +3121,33 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
 .Dialog div.LeftHalf,
 .Dialog td.LeftHalf {
   min-width: 49%;
-  margin:0 !important;
-  padding:0 !important;
-  border:0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
   float: left;
 }
 
 .Dialog div.RightHalf,
 .Dialog td.RightHalf {
   min-width: 49%;
-  margin:0 !important;
-  padding:0 !important;
-  border:0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
   float: left;
 }
 
 .Dialog div.InputBlock,
 .Dialog tr.InputBlock {
   clear: both;
-  display:block;
+  display: block;
 }
 
 .Dialog div.InputBlockSpacer {
-  height:20px;
-  clear:both;
+  height: 20px;
+  clear: both;
 }
 
-.Dialog div.TextBlock{
+.Dialog div.TextBlock {
   clear: both;
   padding: 2px 6px 2px 6px;
 }
@@ -3298,13 +3180,13 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
 
 .Dialog div.IllustratedLink {
   margin: 16px 0 16px 0;
-  height:24px;
+  height: 24px;
 }
 
 .Dialog div.IllustratedLink a i {
-  float:left;
-  margin-top:-5px;
-  margin-right:3px;
+  float: left;
+  margin-top: -5px;
+  margin-right: 3px;
 }
 
 .Dialog .PaddingContainer {
@@ -3315,21 +3197,19 @@ html body .NavBarBottom em, html body .NavBarBottom em a, html body .NavBarBotto
   clear: both;
 }
 
-.Mandatory{
+.Mandatory {
   padding: 6px;
-  border: 1px solid #D9DCDF;
+  border: 1px solid #d9dcdf;
 }
 
 .MandatoryField .InputField {
-  margin-bottom:1em;
+  margin-bottom: 1em;
 }
 
 html body table.SearchMaskSmall {
-  margin-top:1px !important;
-  border: 1px solid #D9DCDF !important;
+  margin-top: 1px !important;
+  border: 1px solid #d9dcdf !important;
 }
-
-
 
 table.InnerListTable {
   width: 100%;
@@ -3348,7 +3228,7 @@ table.InnerListTable td {
   vertical-align: top;
 }
 
- #BasketForm table.InnerListTable .InputLabellingWide {
+#BasketForm table.InnerListTable .InputLabellingWide {
   padding-right: 30px;
 }
 
@@ -3356,47 +3236,47 @@ td.InputLabellingSlim {
   width: 100px;
 }
 
-.Dialog div.InputLabellingWide, .Dialog td.InputLabellingWide {
-  padding:2px 6px;
-  vertical-align:top;
-  width:220px;
+.Dialog div.InputLabellingWide,
+.Dialog td.InputLabellingWide {
+  padding: 2px 6px;
+  vertical-align: top;
+  width: 220px;
 }
 .Basket table.InnerListTable {
-    width: inherit;
+  width: inherit;
 }
-
-
 
 .AddressDialog {
   position: relative;
   margin: 0 0 10px 0;
   padding: 3px 12px 6px 12px;
   border-top: 0px;
-  border-left: 1px solid #D9DCDF;
-  border-right: 1px solid #D9DCDF;
-  border-bottom: 1px solid #D9DCDF;
+  border-left: 1px solid #d9dcdf;
+  border-right: 1px solid #d9dcdf;
+  border-bottom: 1px solid #d9dcdf;
 }
 
 .AddressDialog .InputBlock {
-  display:inline-block;
+  display: inline-block;
 }
 
 #BasketAddressSelectForm .AddressDialog .Address .InputBlock {
-  display:block;
-  padding-top:24px;
+  display: block;
+  padding-top: 24px;
 }
 
-#BasketAddressFormContainer .Reset, .Reset {
-  border:0;
-  margin:0;
-  padding:0;
-  background:transparent;
+#BasketAddressFormContainer .Reset,
+.Reset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
 }
 
 .Dialog div.SizeContainer,
 .AddressDialog div.SizeContainer {
-  position:relative;
-  width:100%;
+  position: relative;
+  width: 100%;
   background: transparent !important;
 }
 
@@ -3413,7 +3293,7 @@ td.InputLabellingSlim {
   overflow: visible;
   width: 60%;
   border: 0;
-  padding:0;
+  padding: 0;
   margin: 0;
   white-space: nowrap;
 }
@@ -3423,20 +3303,20 @@ td.InputLabellingSlim {
   width: 50%;
   float: left;
   border: 0;
-  padding:0;
+  padding: 0;
   margin: 0;
 }
 
-.Address ul{
+.Address ul {
   border: 0;
-  padding:0;
+  padding: 0;
   margin: 0;
 }
 
 .Address ul li {
   list-style-type: none;
   padding: 0;
-  margin:0;
+  margin: 0;
 }
 
 .AddressOptions {
@@ -3445,31 +3325,32 @@ td.InputLabellingSlim {
   left: 60%;
   width: 40%;
   margin: 0;
-  padding:0;
+  padding: 0;
   border: 0;
 }
 
-.AddressFields {        /* for Address Input Fields which are side by side (like a table) */
+.AddressFields {
+  /* for Address Input Fields which are side by side (like a table) */
   clear: both;
-  min-height: 35px;   /* Mozilla Patch to define the height of an floated element */
-  background: #EFF1F2;
+  min-height: 35px; /* Mozilla Patch to define the height of an floated element */
+  background: #eff1f2;
 }
 
 .AddressColumnLeft {
   float: left;
   margin: 0;
-  padding:0;
-  background: #EFF1F2;
+  padding: 0;
+  background: #eff1f2;
 }
 .AddressColumnLeft input {
   margin: 0 4px 0 0;
 }
 
-.AddressColumnRight{
+.AddressColumnRight {
   float: left;
   margin: 0;
-  padding:0;
-  background: #EFF1F2;
+  padding: 0;
+  background: #eff1f2;
 }
 
 .AddressColumnRight input.Text {
@@ -3488,7 +3369,7 @@ td.InputLabellingSlim {
 }
 
 .AddressDialog input.Text,
-.AddressDialog select.Text{
+.AddressDialog select.Text {
   width: 201px;
 }
 
@@ -3496,58 +3377,50 @@ td.InputLabellingSlim {
   width: auto;
 }
 
-
-
-
-
 .BoxSmallPadding,
 .Box {
   margin: 0 0 10px 0 !important;
   padding: 3px 6px 6px 6px;
-  border: 1px solid #D9DCDF;
-  overflow:hidden;
+  border: 1px solid #d9dcdf;
+  overflow: hidden;
 }
 
 .BoxSmallPadding.Alternate,
 .Box.Alternate {
-  background: #E5E7E8 !important;
+  background: #e5e7e8 !important;
 }
 
 .BoxShippingOption {
-  overflow:hidden;
-  margin:0;
-  padding:0;
-  
-    border: 1px solid #D9DCDF;
-  
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+  border: 1px solid #d9dcdf;
 }
 
 .BoxShippingOption *:hover {
-  #background-color:#EFF1F2 !important;
+  #background-color: #eff1f2 !important;
 }
 
 .ShippingOptionContainer {
-  width:100%;
-  height:100%;
-  padding:10px 0 20px 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0 20px 0;
 }
 
-
 .HotDeal {
-  
   width: 162px;
   min-height: 220px;
   margin: 6px 2px 0 0;
-  
-  padding: 0;
-  float:left;
-  line-height:100%;
-  overflow: hidden;
-  
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_hotdealboxhead.png") no-repeat left top !important;
-  
-}
 
+  padding: 0;
+  float: left;
+  line-height: 100%;
+  overflow: hidden;
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_hotdealboxhead.png")
+    no-repeat left top !important;
+}
 
 .HotDealTop {
   height: 164px;
@@ -3558,14 +3431,13 @@ td.InputLabellingSlim {
   padding: 10px 0 4px;
 }
 
-
 .HotDeal .ImageArea {
   width: 152px;
   height: 152px;
   line-height: 152px;
   text-align: center;
-  padding:0;
-  margin-bottom:0;
+  padding: 0;
+  margin-bottom: 0;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -3577,15 +3449,12 @@ td.InputLabellingSlim {
 }
 
 .HotDealFoot {
-  
   margin: 0 !important;
   padding: 0 0 0 4px;
-  
-  
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_hotdealboxfoot.png") no-repeat left bottom !important;
-  
-}
 
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_hotdealboxfoot.png")
+    no-repeat left bottom !important;
+}
 
 .HotDealFootFloatin {
   margin: 0 !important;
@@ -3594,11 +3463,9 @@ td.InputLabellingSlim {
   overflow: hidden;
 }
 
-
 .HotDealFoot .InfoArea {
-  
   width: 138px;
-  
+
   white-space: nowrap;
   overflow: hidden;
   text-align: left;
@@ -3611,37 +3478,35 @@ td.InputLabellingSlim {
   text-overflow: ellipsis;
 }
 
-
 .ProductHotDealImage,
 .ImageMedium {
   margin-left: -2px;
 }
 
-
 /*Fix for Productimages in the Big-Boxes-View, if there are no HotDealPictures */
 .CategoryList .HotDealList .HotDeal .ImageArea .ImageMedium,
 .HotDeal .HotDealTop .ImageArea .ImageMedium {
-  max-height:100%;
-  max-width:100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .SlimHotDealFoot span.Price,
 .HotDealFoot span.Price {
   margin: 2px 2px 2px 2px;
   font-size: 15px;
-  color: #DE0000;
+  color: #de0000;
   font-weight: bold;
   font-style: normal;
 }
 
 .SlimHotDealFoot span.Price {
-  padding-top:4px;
-  display:inline-block;
+  padding-top: 4px;
+  display: inline-block;
 }
 
 .SlimHotDealFoot .hotdeal-old-price,
 .HotDealFoot .hotdeal-old-price {
-  font-size:12.75px;
+  font-size: 12.75px;
 }
 
 .price-value {
@@ -3652,18 +3517,17 @@ td.InputLabellingSlim {
   clear: both;
 }
 
-
-.SlimHotDeal{
+.SlimHotDeal {
   float: left;
-  
+
   width: 112px;
   height: 190px;
   margin: 2px 2px 0 0;
-  
+
   overflow: hidden;
-  
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_hotdealboxslim.png") no-repeat left top !important;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_hotdealboxslim.png")
+    no-repeat left top !important;
 }
 
 .SlimHotDeal .AdditionalInfo,
@@ -3671,30 +3535,26 @@ td.InputLabellingSlim {
   font-size: 80%;
 }
 
-
 .SlimHotDealTop {
   padding: 6px;
 }
 
-
 .SlimHotDealFoot {
-  
   height: 64px;
   width: 100px;
   padding: 6px;
-  
+
   overflow: hidden;
 
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_hotdealboxslimfoot.png") no-repeat left bottom !important;
-
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_hotdealboxslimfoot.png")
+    no-repeat left bottom !important;
 }
-
 
 .SlimHotDealFootFloatin {
   margin: 0 !important;
   padding: 4px 4px 6px;
   overflow: hidden;
-  line-height:1.7em;
+  line-height: 1.7em;
 }
 
 .SlimHotDealFoot .InfoArea {
@@ -3702,20 +3562,18 @@ td.InputLabellingSlim {
   white-space: nowrap;
   overflow: hidden;
   text-align: left;
-  margin-bottom:-4px;
+  margin-bottom: -4px;
 }
 
 .SlimHotDeal .ImageArea {
-  
   width: 100px;
   height: 100px;
-  
+
   text-align: center;
-  padding:0px;
+  padding: 0px;
   margin: 0px !important;
   overflow: hidden;
 }
-
 
 .ProductsRight,
 .ProductsLeft {
@@ -3742,7 +3600,7 @@ td.InputLabellingSlim {
   display: block;
   width: 250px;
   height: 1px;
-  line-height: 1px
+  line-height: 1px;
 }
 
 .HotDealList {
@@ -3768,11 +3626,9 @@ td.InputLabellingSlim {
   display: none;
 }
 
-
-
 .ProductListImageBox,
 .CrossellingCount,
-.BundledProductsTable{
+.BundledProductsTable {
   width: 100%;
   clear: both;
   border-collapse: collapse;
@@ -3791,8 +3647,8 @@ td.InputLabellingSlim {
   padding-top: 10px;
   text-align: center;
   vertical-align: top;
-  background:  #EFF1F2 ;
-  border: 1px solid  #FFFFFF ;
+  background: #eff1f2;
+  border: 1px solid #ffffff;
 }
 
 .ProductListImageBox tr td {
@@ -3807,7 +3663,7 @@ td.InputLabellingSlim {
 
 .CrossellingCount .CrossellingInfoArea,
 .BundledProductsTable BundledProductsInfoArea {
-  background:  #EFF1F2 ;
+  background: #eff1f2;
   text-align: left;
   padding: 4px 0 4px 0;
 }
@@ -3815,9 +3671,8 @@ td.InputLabellingSlim {
 .CrossellingCount .Price,
 .CrossellingCount .FloatRight,
 .BundledProductsTable .Price,
-.BundledProductsTable .FloatRight{
-  background:  #EFF1F2 ;
-
+.BundledProductsTable .FloatRight {
+  background: #eff1f2;
 }
 
 .CrossellingCount .Price,
@@ -3835,48 +3690,45 @@ div.BundledProductsImageArea {
 }
 
 .ProductListImageBox div.InfoArea {
-  position:relative;
+  position: relative;
   height: 100%;
-  padding:0 5px 20px;
+  padding: 0 5px 20px;
   overflow: hidden;
 }
-
-
-
 
 .Pager {
   margin: 0;
   padding: 4px 0 4px 0;
-  vertical-align:middle;
+  vertical-align: middle;
   background: transparent !important;
   position: relative;
-  *position:inherit;
+  *position: inherit;
 }
 
 .PagerSizeContainer {
-  text-align:center;
-  background:transparent;
-  list-style-type:none;
-  margin:0 -4px;
-  padding:0;
-  line-height:2.5;
-  font-family:Arial, Tahoma, MS Trebuchet, sans-serif;
+  text-align: center;
+  background: transparent;
+  list-style-type: none;
+  margin: 0 -4px;
+  padding: 0;
+  line-height: 2.5;
+  font-family: Arial, Tahoma, MS Trebuchet, sans-serif;
 }
 
 .PagerSizeContainer li {
-  display:inline-block;
-  text-align:center;
-  cursor:pointer;
-  zoom:1;
-  float:left;
-  margin:0 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  zoom: 1;
+  float: left;
+  margin: 0 2px;
   padding: 1px 0;
 }
 
 .PagerSizeContainer .Current,
 .PagerSizeContainer li:hover {
-  background-color: #4E728E;
-  color:  #FFFFFF ;
+  background-color: #4e728e;
+  color: #ffffff;
   height: 20px;
 }
 
@@ -3886,11 +3738,11 @@ div.BundledProductsImageArea {
   color: #000000;
   font-weight: bold;
   font-style: normal;
-  float:right;
+  float: right;
 }
 
 .Pager .PagerInfoLeft {
-  float:left;
+  float: left;
 }
 
 .InnerFoot .Pager .PagerInfoLeft,
@@ -3899,75 +3751,76 @@ div.BundledProductsImageArea {
 }
 
 .PagerSizeContainer a {
-  text-decoration:none;
-  padding:6px;
+  text-decoration: none;
+  padding: 6px;
   font-weight: bold;
 }
 
 .PagerSizeContainer a:hover {
-  color: #FFFFFF ;
-  font-weight:bold;
-  text-decoration:none;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .PagerSizeContainer .Disabled,
-.PagerSizeContainer .Disabled:hover  {
-  background-color:#eaeaea;
-  border-color:#ccc;
-  color:#555;
-  cursor:default;
+.PagerSizeContainer .Disabled:hover {
+  background-color: #eaeaea;
+  border-color: #ccc;
+  color: #555;
+  cursor: default;
 }
 
 .PagerSizeContainer .Disabled span {
-  opacity:.7;
+  opacity: 0.7;
 }
 
 .PagerSizeContainer .Current {
-  padding:1px 6px;
+  padding: 1px 6px;
 }
 
-.PagerInfoLeft, .PagerInfo,
+.PagerInfoLeft,
+.PagerInfo,
 .PagerSizeContainer .Current {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .PagerInfoLeft {
-  float:left;
+  float: left;
 }
 
 .PagerInfo {
-  float:right;
+  float: right;
 }
 
 .PagerSizeContainer span {
-  margin-bottom:-5px;
+  margin-bottom: -5px;
 }
 
-.PagerSizeContainer .Disabled, .PagerSizeContainer .Disabled:hover {
-  background:none;
-  border:0;
-  display:none;
+.PagerSizeContainer .Disabled,
+.PagerSizeContainer .Disabled:hover {
+  background: none;
+  border: 0;
+  display: none;
 }
 
 .PagerTable {
-  width:100%;
-  overflow:hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
 .PagerTable div {
   text-align: center;
-  margin:0 auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 .PagerTable table {
-  margin:0 0 0 auto;
+  margin: 0 0 0 auto;
 }
 
-.PagerSizeContainer li:first-child a span, .PagerSizeContainer li:last-child a span {
-  background-position:0 -1px !important;
+.PagerSizeContainer li:first-child a span,
+.PagerSizeContainer li:last-child a span {
+  background-position: 0 -1px !important;
 }
-
-
 
 .ContentArea .Separator {
   display: block;
@@ -3979,10 +3832,9 @@ div.BundledProductsImageArea {
   font-size: 0px;
   line-height: 0px;
   background-position: middle;
-  border:0;
-  
+  border: 0;
+
   background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/img_content_separatorline.png");
-  
 }
 
 .MozSpacer {
@@ -3992,45 +3844,36 @@ div.BundledProductsImageArea {
   min-height: 5px;
 }
 
-
-
 .Links {
   text-align: right;
 }
 
 .Links.AlignLeft {
-  float:left;
+  float: left;
 }
-
 
 .RSSFeed {
-  width:100%;
+  width: 100%;
 }
 
-
-
-
-
-
 .BasketDetails {
-  border:0;
-  border-spacing:0;
-  border-collapse:collapse;
-  vertical-align:top;
-  width:100%;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  vertical-align: top;
+  width: 100%;
 }
 
 .BasketDetails td {
-  vertical-align:top;
+  vertical-align: top;
 }
 
-
 .AcceptTAC * {
-  display:inline;
+  display: inline;
 }
 
 ul.OrderProcess {
-  list-style-type:  none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   border: 0;
@@ -4038,33 +3881,32 @@ ul.OrderProcess {
 }
 
 ul.OrderProcess li {
-  
   letter-spacing: -0.05em;
-  
+
   font-size: 11px;
   line-height: 113%;
-  float:left;
+  float: left;
   width: 100px;
   height: 95px;
   margin: 0;
   padding: 5px 0px 0px 0px;
   border: 0;
   text-align: center;
-  
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_orderprocess_item.png") no-repeat left top;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_orderprocess_item.png")
+    no-repeat left top;
 }
 
-body[lang=ca] ul.OrderProcess li span.ExplainItem,
-body[lang=it] ul.OrderProcess li span.ExplainItem,
-body[lang=ru] ul.OrderProcess li span.ExplainItem {
+body[lang="ca"] ul.OrderProcess li span.ExplainItem,
+body[lang="it"] ul.OrderProcess li span.ExplainItem,
+body[lang="ru"] ul.OrderProcess li span.ExplainItem {
   font-size: 10px !important;
   padding: 1px;
 }
 
 ul.OrderProcess li * {
   font-size: 11px !important;
-  font-family: Arial,Verdana,Helvetica, sans-serif !important;
+  font-family: Arial, Verdana, Helvetica, sans-serif !important;
 }
 
 ul.OrderProcess li .ItemImage {
@@ -4075,10 +3917,10 @@ ul.OrderProcess li .ItemImage {
 
 ul.OrderProcess li.ActiveItem {
   color: #000000;
-  
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_orderprocess_activeitem.png") no-repeat left top;
-  
- }
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_orderprocess_activeitem.png")
+    no-repeat left top;
+}
 
 ul.OrderProcess li a.ItemLink,
 ul.OrderProcess li a.ItemLink:hover {
@@ -4095,53 +3937,50 @@ ul.OrderProcess li .ItemLabel {
 ul.OrderProcess li span.ExplainItem {
   line-height: 113%;
   font-size: 11px !important;
-  padding:4px;
+  padding: 4px;
 }
 
-  html body .ActiveItem a:active,
-  html body .PassedItem a:active,
-  html body .ActiveItem a:hover,
-  html body .PassedItem a:hover,
-  html body .ActiveItem a,
-  html body .PassedItem a {
-    display:block;
-    height:100px;
-    width:100px;
-    text-decoration: none;
-  }
+html body .ActiveItem a:active,
+html body .PassedItem a:active,
+html body .ActiveItem a:hover,
+html body .PassedItem a:hover,
+html body .ActiveItem a,
+html body .PassedItem a {
+  display: block;
+  height: 100px;
+  width: 100px;
+  text-decoration: none;
+}
 
-  .ActiveItem a:hover .ItemLabel,
-  .PassedItem a:hover .ItemLabel{
-    text-decoration: underline;
-  }
+.ActiveItem a:hover .ItemLabel,
+.PassedItem a:hover .ItemLabel {
+  text-decoration: underline;
+}
 
-  html body span.ExplainItem {
-    color: #000000;
-  }
+html body span.ExplainItem {
+  color: #000000;
+}
 .PayPalXOr {
-  float:left;
-  margin-top:6px;
+  float: left;
+  margin-top: 6px;
 }
-
-
 
 .OrderProcessNavigation {
   min-height: 20px;
 }
 
-button.DoOrder, .CustomButton.DoOrder {
-  font-weight:bold !important;
+button.DoOrder,
+.CustomButton.DoOrder {
+  font-weight: bold !important;
 }
-
-
 
 table.BlankTable,
 table.BlankTable td,
 table.BlankTable tr {
-  border:0;
-  margin:0;
-  padding:0;
-  background:none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: none;
 }
 
 table.MiniBasket,
@@ -4150,11 +3989,11 @@ table.MiniStatusBasket {
   border-spacing: 1px;
   border-collapse: collapse;
   border: 0;
-  border-top: 1px solid #D9DCDF;
-  border-bottom: 1px solid #D9DCDF;
+  border-top: 1px solid #d9dcdf;
+  border-bottom: 1px solid #d9dcdf;
   padding: 0;
   margin: 0;
-  background: #EFF1F2;
+  background: #eff1f2;
   text-align: left;
 }
 
@@ -4162,24 +4001,24 @@ table.Basket {
   width: 100%;
   border-spacing: 1px;
   border-collapse: collapse;
-  
-    border-right: 1px solid #D9DCDF;
-    border-left: 1px solid #D9DCDF;
-    border-bottom: 1px solid #D9DCDF;
-  
+
+  border-right: 1px solid #d9dcdf;
+  border-left: 1px solid #d9dcdf;
+  border-bottom: 1px solid #d9dcdf;
+
   padding: 0;
   margin: 0;
-  background: #EFF1F2;
-  border-width:1px; 
+  background: #eff1f2;
+  border-width: 1px;
 }
 
 table.Basket th {
   padding: 2px 4px 2px 4px;
-  background: #D9DCDF;
-  
-    color: #000000;
-    border-bottom: 1px solid #D9DCDF;
-  
+  background: #d9dcdf;
+
+  color: #000000;
+  border-bottom: 1px solid #d9dcdf;
+
   font-weight: bold;
   font-style: normal;
 }
@@ -4189,7 +4028,7 @@ table.MiniBasket td,
 table.MiniStatusBasket td {
   vertical-align: top;
   padding: 1px 4px 2px 4px;
-  background: #EFF1F2;
+  background: #eff1f2;
 }
 
 table.Basket,
@@ -4202,12 +4041,16 @@ table.Basket p {
   background: transparent;
 }
 
-table.Basket a, table.MiniBasket a, .CheckoutButtonsDiv a {
-  color:#4E728E;
+table.Basket a,
+table.MiniBasket a,
+.CheckoutButtonsDiv a {
+  color: #4e728e;
 }
 
-table.Basket a:hover, table.MiniBasket a:hover, .CheckoutButtonsDiv a:hover {
-  color: #6B9CC1;
+table.Basket a:hover,
+table.MiniBasket a:hover,
+.CheckoutButtonsDiv a:hover {
+  color: #6b9cc1;
 }
 
 table.MiniStatusBasket,
@@ -4215,101 +4058,143 @@ table.MiniStatusBasket td {
   background: none;
 }
 
-.NavBarRight table.Basket a, .NavBarRight table.MiniBasket a, .NavBarRight .CheckoutButtonsDiv a {
-  color:#4E728E ;
+.NavBarRight table.Basket a,
+.NavBarRight table.MiniBasket a,
+.NavBarRight .CheckoutButtonsDiv a {
+  color: #4e728e;
 }
 
-.NavBarRight table.Basket a:hover, .NavBarRight table.MiniBasket a:hover, .NavBarRight .CheckoutButtonsDiv a:hover {
-  color: #4E728E;
+.NavBarRight table.Basket a:hover,
+.NavBarRight table.MiniBasket a:hover,
+.NavBarRight .CheckoutButtonsDiv a:hover {
+  color: #4e728e;
 }
 
-.NavBarLeft table.Basket a, .NavBarLeft table.MiniBasket a, .NavBarLeft .CheckoutButtonsDiv a {
-  color:#4E728E ;
+.NavBarLeft table.Basket a,
+.NavBarLeft table.MiniBasket a,
+.NavBarLeft .CheckoutButtonsDiv a {
+  color: #4e728e;
 }
 
-.NavBarLeft table.Basket a:hover, .NavBarLeft table.MiniBasket a:hover, .NavBarLeft .CheckoutButtonsDiv a:hover {
-  color: #4E728E;
+.NavBarLeft table.Basket a:hover,
+.NavBarLeft table.MiniBasket a:hover,
+.NavBarLeft .CheckoutButtonsDiv a:hover {
+  color: #4e728e;
 }
 
-.Header table.Basket a, .Header table.MiniBasket a, .Header .CheckoutButtonsDiv a {
-  color:#FFFFFF ;
+.Header table.Basket a,
+.Header table.MiniBasket a,
+.Header .CheckoutButtonsDiv a {
+  color: #ffffff;
 }
 
-.Header table.Basket a:hover, .Header table.MiniBasket a:hover, .Header .CheckoutButtonsDiv a:hover {
-  color: #FFFFFF;
+.Header table.Basket a:hover,
+.Header table.MiniBasket a:hover,
+.Header .CheckoutButtonsDiv a:hover {
+  color: #ffffff;
 }
 
-.Footer table.Basket a, .Footer table.MiniBasket a, .Footer .CheckoutButtonsDiv a {
-  color:#000000 ;
+.Footer table.Basket a,
+.Footer table.MiniBasket a,
+.Footer .CheckoutButtonsDiv a {
+  color: #000000;
 }
 
-.Footer table.Basket a:hover, .Footer table.MiniBasket a:hover, .Footer .CheckoutButtonsDiv a:hover {
+.Footer table.Basket a:hover,
+.Footer table.MiniBasket a:hover,
+.Footer .CheckoutButtonsDiv a:hover {
   color: #666666;
 }
 
-.NavBarBottom table.Basket a, .NavBarBottom table.MiniBasket a, .NavBarBottom .CheckoutButtonsDiv a {
-  color:#000000 ;
+.NavBarBottom table.Basket a,
+.NavBarBottom table.MiniBasket a,
+.NavBarBottom .CheckoutButtonsDiv a {
+  color: #000000;
 }
 
-.NavBarBottom table.Basket a:hover, .NavBarBottom table.MiniBasket a:hover, .NavBarBottom .CheckoutButtonsDiv a:hover {
+.NavBarBottom table.Basket a:hover,
+.NavBarBottom table.MiniBasket a:hover,
+.NavBarBottom .CheckoutButtonsDiv a:hover {
   color: #666666;
 }
 
-.NavBarTop table.Basket a, .NavBarTop table.MiniBasket a, .NavBarTop .CheckoutButtonsDiv a {
-  color:#666666 ;
-}
-
-.NavBarTop table.Basket a:hover, .NavBarTop table.MiniBasket a:hover, .NavBarTop .CheckoutButtonsDiv a:hover {
+.NavBarTop table.Basket a,
+.NavBarTop table.MiniBasket a,
+.NavBarTop .CheckoutButtonsDiv a {
   color: #666666;
 }
 
-.NavBarLeft table.Basket a, .NavBarLeft table.MiniBasket a, .NavBarLeft .CheckoutButtonsDiv a {
-  color:#4E728E ;
-}
-
-.NavBarLeft table.Basket a:hover, .NavBarLeft table.MiniBasket a:hover, .NavBarLeft .CheckoutButtonsDiv a:hover {
-  color: #4E728E;
-}
-
-.Header table.Basket a, .Header table.MiniBasket a, .Header .CheckoutButtonsDiv a {
-  color:#4E728E ;
-}
-
-.Header table.Basket a:hover, .Header table.MiniBasket a:hover, .Header .CheckoutButtonsDiv a:hover {
-  color: #FFFFFF;
-}
-
-.Footer table.Basket a, .Footer table.MiniBasket a, .Footer .CheckoutButtonsDiv a {
-  color:#4E728E ;
-}
-
-.Footer table.Basket a:hover, .Footer table.MiniBasket a:hover, .Footer .CheckoutButtonsDiv a:hover {
+.NavBarTop table.Basket a:hover,
+.NavBarTop table.MiniBasket a:hover,
+.NavBarTop .CheckoutButtonsDiv a:hover {
   color: #666666;
 }
 
-.NavBarBottom table.Basket a, .NavBarBottom table.MiniBasket a, .NavBarBottom .CheckoutButtonsDiv a {
-  color:#4E728E ;
+.NavBarLeft table.Basket a,
+.NavBarLeft table.MiniBasket a,
+.NavBarLeft .CheckoutButtonsDiv a {
+  color: #4e728e;
 }
 
-.NavBarBottom table.Basket a:hover, .NavBarBottom table.MiniBasket a:hover, .NavBarBottom .CheckoutButtonsDiv a:hover {
+.NavBarLeft table.Basket a:hover,
+.NavBarLeft table.MiniBasket a:hover,
+.NavBarLeft .CheckoutButtonsDiv a:hover {
+  color: #4e728e;
+}
+
+.Header table.Basket a,
+.Header table.MiniBasket a,
+.Header .CheckoutButtonsDiv a {
+  color: #4e728e;
+}
+
+.Header table.Basket a:hover,
+.Header table.MiniBasket a:hover,
+.Header .CheckoutButtonsDiv a:hover {
+  color: #ffffff;
+}
+
+.Footer table.Basket a,
+.Footer table.MiniBasket a,
+.Footer .CheckoutButtonsDiv a {
+  color: #4e728e;
+}
+
+.Footer table.Basket a:hover,
+.Footer table.MiniBasket a:hover,
+.Footer .CheckoutButtonsDiv a:hover {
   color: #666666;
 }
 
-.NavBarTop table.Basket a, .NavBarTop table.MiniBasket a, .NavBarTop .CheckoutButtonsDiv a {
-  color:#4E728E ;
+.NavBarBottom table.Basket a,
+.NavBarBottom table.MiniBasket a,
+.NavBarBottom .CheckoutButtonsDiv a {
+  color: #4e728e;
 }
 
-.NavBarTop table.Basket a:hover, .NavBarTop table.MiniBasket a:hover, .NavBarTop .CheckoutButtonsDiv a:hover {
+.NavBarBottom table.Basket a:hover,
+.NavBarBottom table.MiniBasket a:hover,
+.NavBarBottom .CheckoutButtonsDiv a:hover {
+  color: #666666;
+}
+
+.NavBarTop table.Basket a,
+.NavBarTop table.MiniBasket a,
+.NavBarTop .CheckoutButtonsDiv a {
+  color: #4e728e;
+}
+
+.NavBarTop table.Basket a:hover,
+.NavBarTop table.MiniBasket a:hover,
+.NavBarTop .CheckoutButtonsDiv a:hover {
   color: #666666;
 }
 
 .CheckoutButtonsDiv {
-  background: #E5E7E8;
+  background: #e5e7e8;
   padding: 2px 2px 0px 6px;
   margin: 2px 0px 4px -6px;
 }
-
-
 
 div.BasketComment {
   padding: 6px 5px 5px 0;
@@ -4317,22 +4202,21 @@ div.BasketComment {
 }
 
 textarea.BasketComment {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   width: 99%;
   height: 100%;
-  height:31px;
+  height: 31px;
 }
 
 .PreLineBasketComment {
   padding: 4px;
 }
 
-
 .BasketInfo {
   font-weight: bold;
   border: 1px solid #000000;
-  background: #FFFFE1;
+  background: #ffffe1;
   padding: 6px;
   margin-top: 6px;
   margin-bottom: 6px;
@@ -4341,8 +4225,6 @@ textarea.BasketComment {
 .BasketBox .FontSmaller {
   font-size: smaller;
 }
-
-
 
 .PayPalXCheckOut {
   margin-top: 2px;
@@ -4369,45 +4251,40 @@ textarea.BasketComment {
   margin: 0 0 0 -6px;
 }
 
-.eKomiRatingContainer, .eKomiRatingContainer:hover {
-  display:block;
-  position:relative;
-  cursor:pointer;
-  text-decoration:none !important;
+.eKomiRatingContainer,
+.eKomiRatingContainer:hover {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none !important;
 }
 .eKomiRatingMessage {
-  position:absolute;
-  overflow:hidden;
+  position: absolute;
+  overflow: hidden;
 }
 .eKomiRatingMessage span {
-  font-family:Verdana !important;
-  font-size:10px;
-  line-height:1.4em;
-  color:#000 !important;
+  font-family: Verdana !important;
+  font-size: 10px;
+  line-height: 1.4em;
+  color: #000 !important;
 
-  padding:0;
-  width:100%;
-  height:100%;
-  display:block;
-  background:#fff;
-  margin:0 0 6px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #fff;
+  margin: 0 0 6px;
 }
-
-
-
-
-
-
 
 .CategoryBaseTable {
   width: 100%;
-  border-collapse:collapse;
-  overflow:hidden;
+  border-collapse: collapse;
+  overflow: hidden;
 }
 
 .CategoryBaseTable .TextComplete {
   padding: 0px 0px 5px 0px;
-  clear:both;
+  clear: both;
 }
 
 .CategoryBaseTable .TextRight,
@@ -4415,12 +4292,12 @@ textarea.BasketComment {
 .CategoryBaseTable .ImgLeft,
 .CategoryBaseTable .ImgRight {
   vertical-align: top;
-  display:inline;
-  float:left;
-  clear:none;
-  width:49%;
-  overflow:hidden;
-  zoom:1;
+  display: inline;
+  float: left;
+  clear: none;
+  width: 49%;
+  overflow: hidden;
+  zoom: 1;
 }
 
 .CategoryBaseTable .TextLeft {
@@ -4429,14 +4306,14 @@ textarea.BasketComment {
 
 .CategoryBaseTable .TextRight {
   padding: 0px 0px 5px 5px;
-  float:right;
+  float: right;
 }
 
 .CategoryBaseTable .ImgComplete {
   padding: 0px 0px 5px 0px;
   text-align: center;
   vertical-align: middle;
-  clear:both;
+  clear: both;
 }
 
 .CategoryBaseTable .ImgLeft {
@@ -4449,10 +4326,8 @@ textarea.BasketComment {
   padding: 0px 0px 5px 5px;
   text-align: center;
   vertical-align: middle;
-  float:right;
+  float: right;
 }
-
-
 
 div.CategoryImage {
   float: left;
@@ -4465,23 +4340,21 @@ div.CategoryImage {
   padding: 4px;
 }
 
-
-
-.ListItemCategoryTable{
+.ListItemCategoryTable {
   width: 100%;
   border-spacing: 1px;
   border-collapse: separate;
 }
 
 .ListItemCategoryTable tr td {
-  background: #EFF1F2;
+  background: #eff1f2;
 }
 
 .ListItemCategory {
   min-height: 50px;
   margin: 6px 0 0 0;
   padding: 6px;
-  background: #EFF1F2;
+  background: #eff1f2;
 }
 
 .Half {
@@ -4494,12 +4367,12 @@ div.CategoryImage {
 .ListItemCategory .InfoArea h3,
 .ListItemCategory .InfoArea p,
 .ListItemCategory .Links,
-.ListItemCategory .Links h3   {
+.ListItemCategory .Links h3 {
   background: transparent !important;
 }
 
 .ListItemCategory .InfoArea h3 {
-  min-width:120px;
+  min-width: 120px;
 }
 
 .ListItemCategory .ImageArea {
@@ -4517,13 +4390,13 @@ div.CategoryImage {
 
 .ListItemCategory .Links {
   text-align: right;
-  white-space:nowrap;
+  white-space: nowrap;
   clear: both;
 }
 
 .CategoryList .CategoryText {
   padding: 0 4px 0 4px;
-  margin:0;
+  margin: 0;
 }
 
 .start-page .CategoryList .CategoryText {
@@ -4532,7 +4405,7 @@ div.CategoryImage {
 
 .CategoryList div.CategoryImage {
   padding: 0 6px 0 0;
-  margin:0;
+  margin: 0;
 }
 
 .CategoryList .SearchString {
@@ -4540,8 +4413,6 @@ div.CategoryImage {
   line-height: 130% !important;
   height: 16px;
 }
-
-
 
 .ListItemFreeContent,
 .ListItemImprint,
@@ -4563,38 +4434,27 @@ div.CategoryImage {
   padding: 0;
 }
 
-
-
 div.ProductListHead {
-  
-    
-      background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_listhead.png") no-repeat left bottom ;
-    
-  
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_listhead.png")
+    no-repeat left bottom;
 }
 
 div.ProductListHead div.InnerHead {
-  
-    
-      background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_listhead_floatin.png") no-repeat right bottom ;
-    
-  
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_listhead_floatin.png")
+    no-repeat right bottom;
 }
 
 div.ProductListFoot {
-  
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_listfoot.png") no-repeat left top ;
-  
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_listfoot.png")
+    no-repeat left top;
 }
 
-
-
-div.ProductListFoot div.InnerFoot  {
-  margin-left:24px;
+div.ProductListFoot div.InnerFoot {
+  margin-left: 24px;
   padding: 0 6px 0 6px;
-  
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_listfoot_floatin.png") no-repeat right top ;
-  
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_listfoot_floatin.png")
+    no-repeat right top;
 }
 
 div.ProductListHead div.InnerHead .InfoLeft,
@@ -4613,22 +4473,19 @@ div.ProductListFoot a,
 div.ProductListFoot a:active,
 div.ProductListFoot a:visited,
 div.ProductListFoot a:hover {
-  
-    color: #000000;
-  
+  color: #000000;
+
   font-weight: bold;
   font-style: normal;
 }
 
 div.ProductListFoot .RealLink {
-  color: #4E728E !important;
+  color: #4e728e !important;
 }
 
 div.ProductListFoot .RealLink:hover {
-  color: #6B9CC1 !important;
+  color: #6b9cc1 !important;
 }
-
-
 
 .OrderSelector {
   margin: 4px 0 0 0;
@@ -4636,12 +4493,12 @@ div.ProductListFoot .RealLink:hover {
 }
 
 .OrderSelector a,
-.OrderSelector a:hover{
-  color: #4E728E;
+.OrderSelector a:hover {
+  color: #4e728e;
 }
 
-.OrderSelector .OrderByName{
-  color: #4E728E;
+.OrderSelector .OrderByName {
+  color: #4e728e;
 }
 
 .OrderSelector img {
@@ -4664,10 +4521,9 @@ div.ProductListFoot .RealLink:hover {
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0px;
-  
-    background: #EFF1F2;
-    margin-top: 1px;
-  
+
+  background: #eff1f2;
+  margin-top: 1px;
 }
 
 .ListItemProduct {
@@ -4676,67 +4532,55 @@ div.ProductListFoot .RealLink:hover {
 }
 
 .AlternateRow .ListItemProduct {
-  
-    background: #E5E7E8;
-  
+  background: #e5e7e8;
 }
 
 .ListItemProduct .ImageArea {
-  min-width:100px;
+  min-width: 100px;
   min-height: 100px;
-  vertical-align:top;
+  vertical-align: top;
   text-align: center;
   padding: 0 6px 6px 0;
-  
-    background: #EFF1F2 !important;
-  
+
+  background: #eff1f2 !important;
 }
 
 .AlternateRow .ListItemProduct .ImageArea {
-  
-    background: #E5E7E8 !important;
-    padding: 0 6px 6px 0;
-  
+  background: #e5e7e8 !important;
+  padding: 0 6px 6px 0;
 }
 
-.WithEmbeddedStorefront .ListItemProduct .InfoArea  {
-  
-    background-color: #EFF1F2;
-    padding: 6px;
-    padding-bottom:0;
-  
+.WithEmbeddedStorefront .ListItemProduct .InfoArea {
+  background-color: #eff1f2;
+  padding: 6px;
+  padding-bottom: 0;
 }
 
-.ListItemProduct .InfoArea  {
-  
-    background-color: #EFF1F2;
-    padding: 6px;
-    padding-bottom:0;
-  
+.ListItemProduct .InfoArea {
+  background-color: #eff1f2;
+  padding: 6px;
+  padding-bottom: 0;
 }
 
-
-.ListItemProduct .InfoArea.ProductDetail  {
-  background-color: #EFF1F2;
+.ListItemProduct .InfoArea.ProductDetail {
+  background-color: #eff1f2;
 }
 
-#ProductRatingForm  .ListItemProduct .InfoArea {
-  background-color: #EFF1F2 !important;
+#ProductRatingForm .ListItemProduct .InfoArea {
+  background-color: #eff1f2 !important;
 }
 
-.AlternateRow .ListItemProduct .InfoArea{
-  
-    background-color: #E5E7E8;
-  
+.AlternateRow .ListItemProduct .InfoArea {
+  background-color: #e5e7e8;
 }
 
 .ListItemProduct .InfoArea .FloatMinimizer {
-  width:18em;
-  position:relative;
+  width: 18em;
+  position: relative;
 }
 
 .ListItemProduct .ListItemProductInfoContainer {
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .ListItemProduct .PriceArea {
@@ -4744,9 +4588,7 @@ div.ProductListFoot .RealLink:hover {
 }
 
 .AlternateRow .ListItemProduct .PriceArea {
-  
-    background: #E5E7E8 !important;
-  
+  background: #e5e7e8 !important;
 }
 
 .InfoArea .Price {
@@ -4773,12 +4615,11 @@ div.ProductListFoot .RealLink:hover {
 
 .ListItemProduct .Description {
   background: transparent !important;
-  
 }
 
 .ListItemProduct .Links {
   text-align: right;
-  white-space:nowrap;
+  white-space: nowrap;
   background: transparent !important;
 }
 
@@ -4787,67 +4628,51 @@ div.ProductListFoot .RealLink:hover {
 }
 
 .ListItemProduct h3.Headline {
-  width:auto;
-  
+  width: auto;
 }
 
+.ProductListImageBox div.ImageArea,
+.two-colums-product-list .ImageArea img,
+.three-colums-product-list .ImageArea img,
+.four-colums-product-list .ImageArea img {
+  text-align: center;
+}
 
+.ProductListImageBox.two-colums-product-list div.ImageArea {
+  line-height: 257px;
+}
+.two-colums-product-list .ImageArea img {
+  max-height: 257px;
+  max-width: 257px;
+}
 
+.ProductListImageBox.three-colums-product-list div.ImageArea {
+  line-height: 162px;
+}
+.three-colums-product-list .ImageArea img {
+  max-height: 162px;
+  max-width: 162px;
+}
 
-  
-   
-   
-  
-
-  .ProductListImageBox div.ImageArea,
-  .two-colums-product-list .ImageArea img,
-  .three-colums-product-list .ImageArea img,
-  .four-colums-product-list .ImageArea img {
-    text-align: center;
-  }
-
-
-
-
-
-
-  .ProductListImageBox.two-colums-product-list div.ImageArea {
-    line-height: 257px;
-  }
-  .two-colums-product-list .ImageArea img {
-    max-height: 257px;
-    max-width: 257px;
-  }
-
-
-
-  .ProductListImageBox.three-colums-product-list div.ImageArea {
-    line-height: 162px;
-  }
-  .three-colums-product-list .ImageArea img {
-    max-height: 162px;
-    max-width: 162px;
-  }
-
-
-
-  .ProductListImageBox.four-colums-product-list div.ImageArea {
-    line-height: 115px;
-  }
-  .four-colums-product-list .ImageArea img {
-    max-height: 115px;
-    max-width: 115px;
-  }
-
+.ProductListImageBox.four-colums-product-list div.ImageArea {
+  line-height: 115px;
+}
+.four-colums-product-list .ImageArea img {
+  max-height: 115px;
+  max-width: 115px;
+}
 
 /* RemoteSearchResults for styles without left or right navbar */
 
-
-
-
-.two-colums-product-list td { width: 50%; }
-.three-colums-product-list td { width: 33.3%; }
-.four-colums-product-list td { width: 25%; }
+.two-colums-product-list td {
+  width: 50%;
+}
+.three-colums-product-list td {
+  width: 33.3%;
+}
+.four-colums-product-list td {
+  width: 25%;
+}
 
 .four-colums-product-list .epWidth75.epWidth-4 {
   width: 25px;
@@ -4859,29 +4684,30 @@ div.ProductListFoot .RealLink:hover {
 .HotDealTopFloatin .NewProduct {
   font-size: 11px;
   position: static;
-  float:left;
+  float: left;
   min-width: 28px;
   width: auto;
   min-height: 28px;
   height: auto;
-  vertical-align:middle;
-  line-height:26px !important;
+  vertical-align: middle;
+  line-height: 26px !important;
   margin: 0 4px 0 0;
-  color: #DE0000;
-  font-weight:bold;
+  color: #de0000;
+  font-weight: bold;
   text-align: center;
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_newproduct.png") center top no-repeat;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_newproduct.png")
+    center top no-repeat;
 }
-  .SlimHotDeal .SlimHotDealTop,
-  .HotDeal .HotDealTop .HotDealTopFloatin {
-    position:relative;
-  }
-    .SlimHotDealTop .NewProduct,
-    .HotDealTopFloatin .NewProduct {
-      position:absolute;
-      top:5px;
-      left:5px;
-    }
+.SlimHotDeal .SlimHotDealTop,
+.HotDeal .HotDealTop .HotDealTopFloatin {
+  position: relative;
+}
+.SlimHotDealTop .NewProduct,
+.HotDealTopFloatin .NewProduct {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
 
 .ListItemProduct li,
 .ListItemProduct ol,
@@ -4892,19 +4718,18 @@ div.ProductListFoot .RealLink:hover {
 }
 
 .StockLevel {
-  vertical-align:middle;
+  vertical-align: middle;
 }
 
 .ListItemProductTopFloatArea {
-  display:table;
+  display: table;
 }
 
 .ListItemProductTopFloatArea h3.Headline {
-  display:table-cell;
-  width:100%;
-  vertical-align:top;
+  display: table-cell;
+  width: 100%;
+  vertical-align: top;
 }
-
 
 .ArticleImage {
   display: inline;
@@ -4919,30 +4744,24 @@ div.ArticleImage img {
 .ArticleAttachment {
   clear: both;
   text-align: right;
-  overflow:hidden;
+  overflow: hidden;
 }
-
-
 
 .TableLayoutRow {
   display: table-row;
   width: 100%;
-  
+
   margin: 0;
   padding: 0;
 }
 
-
-
-
 .ImageAreaPropertyContainer a {
-  position:relative;
-  z-index:1;
+  position: relative;
+  z-index: 1;
 }
 
-
-div.ImageLeft .ImageContainer{
-  display:table-cell;
+div.ImageLeft .ImageContainer {
+  display: table-cell;
   vertical-align: top;
 }
 
@@ -4951,7 +4770,7 @@ div.ImageLeft .ImageContainer{
   min-width: 200px;
   min-height: 200px;
   text-align: center;
-  background: #D9DCDF;
+  background: #d9dcdf;
   padding: 3px 2px 3px 2px;
   margin: 0 12px 0 0;
   overflow: visible;
@@ -4965,13 +4784,13 @@ div.ImageLeft .ImageContainer{
   width: 100%;
   margin: 0;
   padding: 3px 0 3px 0;
-  background: #D9DCDF;
+  background: #d9dcdf;
   overflow: visible;
-  vertical-align:top;
+  vertical-align: top;
 }
 
 .ImageBroad div.ImageArea div.ImageAreaPropertyContainer {
-  vertical-align:top;
+  vertical-align: top;
   text-align: center;
   margin: 0 2px 0 2px;
 }
@@ -4984,11 +4803,10 @@ div.ImageLeft .ImageContainer{
 
 .ImageBroad div.ImageArea #PreviewArea {
   width: 100%;
-  text-align:left;
+  text-align: left;
 }
 
-
-.ImageRight .ImageContainer{
+.ImageRight .ImageContainer {
   float: right;
   vertical-align: top;
   width: 212px;
@@ -4998,27 +4816,26 @@ div.ImageLeft .ImageContainer{
   min-width: 200px;
   min-height: 200px;
   text-align: center;
-  background: #D9DCDF;
+  background: #d9dcdf;
   padding: 3px 2px 3px 2px;
   margin: 0 0 0 8px;
   overflow: visible;
 }
 
-
-
-.ProductDetails, .ProductDetails td {
-  border:0;
-  border-spacing:0;
-  border-collapse:collapse;
-  vertical-align:top;
+.ProductDetails,
+.ProductDetails td {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  vertical-align: top;
 }
 
 .ProductDetails table tr.TableLayoutRow > td:first-child {
-  min-width:200px;
+  min-width: 200px;
 }
 
 .ProductDetails {
-  width:100%;
+  width: 100%;
 }
 
 .ProductDetails .ImageArea .Action,
@@ -5033,7 +4850,7 @@ div.ImageLeft .ImageContainer{
   color: #000000;
   font-weight: bold;
   font-style: normal;
-  clear:both;
+  clear: both;
 }
 
 .Price {
@@ -5042,7 +4859,7 @@ div.ImageLeft .ImageContainer{
 }
 
 .HotPrice {
-  color: #DE0000 !important;
+  color: #de0000 !important;
 }
 
 .ReferencePrice {
@@ -5060,21 +4877,18 @@ div.ImageLeft .ImageContainer{
 html .ContentArea td .AdditionalInfo,
 .AdditionalInfo,
 .ProductNo {
-  opacity:0.5;
-  filter:alpha(opacity=50);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
   font-size: smaller;
   clear: left;
 }
 
-
-
-
 table.SelectVariation tr {
- height: 30px;
- }
+  height: 30px;
+}
 
 table.SelectVariation select.LongText {
-margin-top: 5px;
+  margin-top: 5px;
 }
 
 table.SelectVariation,
@@ -5085,29 +4899,29 @@ table.VariationsTable {
   margin: 6px 0 0 0;
   border-spacing: 1px;
   border-collapse: collapse;
-  
-    border: 1px solid #D9DCDF;
-  
-  display:table;
+
+  border: 1px solid #d9dcdf;
+
+  display: table;
   border-width: 0 1px 1px 1px;
 }
-  table.SelectVariation {
-    border-spacing:0;
-    border-collapse:separate;
-  }
+table.SelectVariation {
+  border-spacing: 0;
+  border-collapse: separate;
+}
 
 table.SelectVariation tbody,
 table.ContentTable tbody,
 table.SpecialPricesTable tbody,
 table.VariationsTable tbody {
-  width:100%;
+  width: 100%;
 }
 
 table.ContentTable tr th,
 table.SpecialPricesTable tr th,
 table.VariationsTable tr th {
   padding: 2px 4px 2px 4px;
-  background: #D9DCDF;
+  background: #d9dcdf;
   color: #000000;
   font-weight: bold;
   font-style: normal;
@@ -5120,14 +4934,12 @@ table.SelectVariation tr td,
 table.ContentTable tr td,
 table.SpecialPricesTable tr td,
 table.VariationsTable tr td {
-  border-right:0;
-  border-bottom:0;
-  background: #EFF1F2;
-  
-    border: 1px solid #D9DCDF;
-    padding: 1px 3px;
-  
+  border-right: 0;
+  border-bottom: 0;
+  background: #eff1f2;
 
+  border: 1px solid #d9dcdf;
+  padding: 1px 3px;
 }
 
 html[class*="WebKit"] table.SelectVariation tr th,
@@ -5135,20 +4947,17 @@ html[class*="WebKit"] table.SelectVariation tr td,
 html[class*="WebKit"] table.ContentTable tr td,
 html[class*="WebKit"] table.SpecialPricesTable tr td,
 html[class*="WebKit"] table.VariationsTable tr td {
-  
-    border-right: 1px solid #D9DCDF;
-  
-  border-left:0;
+  border-right: 1px solid #d9dcdf;
+
+  border-left: 0;
 }
-
-
 
 table.VariationsTable td div.Wrapper {
   padding: 2px 4px 2px 4px;
 }
 
 table.VariationsTable td.SelectedItem {
-  background:#FFFFFF;
+  background: #ffffff;
 }
 
 table.VariationsTable tr th h3,
@@ -5164,88 +4973,88 @@ table.VariationsTable tr th div {
 
 .ImageBroad table.SelectVariation {
   width: 300px;
-  margin-left:auto;
+  margin-left: auto;
 }
 
-.VariationsTable input.Action{
+.VariationsTable input.Action {
   width: auto;
   cursor: pointer;
   border: 0px;
   padding: 0 0 0 14px;
   text-align: left;
-  color: #4E728E;
+  color: #4e728e;
   font-size: 11px;
   line-height: 140%;
-  background: transparent url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png") no-repeat 0px 2px;
+  background: transparent
+    url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_actionlink.png")
+    no-repeat 0px 2px;
 }
 
 .ProductDetails .NewProduct {
   font-size: 11px;
   position: static;
-  float:left;
+  float: left;
   min-width: 28px;
   width: auto;
   min-height: 26px;
   height: auto;
   padding: 5px 0 0 0;
   margin: 0 4px 0 0;
-  color: #DE0000;
-  font-weight:bold;
+  color: #de0000;
+  font-weight: bold;
   text-align: center;
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_newproduct.png") center top no-repeat;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_newproduct.png")
+    center top no-repeat;
 }
 
 div.ComparisonTableContainer {
-  overflow:hidden;
-  overflow-x:auto;
-  width:100%;
-  position:relative;
+  overflow: hidden;
+  overflow-x: auto;
+  width: 100%;
+  position: relative;
 }
 
 table.ComparisonTable {
   max-width: 100%;
   text-align: center;
-  border-collapse:collapse;
+  border-collapse: collapse;
   overflow: auto;
 }
 
 table.ComparisonTable tbody {
-  display:table;
-  width:100%;
-  height:100%;
+  display: table;
+  width: 100%;
+  height: 100%;
 }
 
 table.ComparisonTable tr td {
-  width:200px;
+  width: 200px;
 }
 
 table.ComparisonTable tr td,
 table.ComparisonTable tr th {
-  background: #EFF1F2;
+  background: #eff1f2;
   padding: 2px 4px;
 }
 
-.ComparisonTable .NewProduct{
+.ComparisonTable .NewProduct {
   font-size: 11px;
   position: absolute;
-  left:10px;
-  top:-5px;
-  float:left;
+  left: 10px;
+  top: -5px;
+  float: left;
   min-width: 28px;
   width: auto;
   min-height: 28px;
   height: auto;
   padding: 5px 0 0 0;
   margin: 0 4px 0 0;
-  color: #DE0000;
-  font-weight:bold;
+  color: #de0000;
+  font-weight: bold;
   text-align: center;
-  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_newproduct.png") center top no-repeat;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/img_newproduct.png")
+    center top no-repeat;
 }
-
-
-
-
 
 table.OrderStatus,
 table.UserAttributes {
@@ -5253,23 +5062,23 @@ table.UserAttributes {
   margin: 6px 0 0 0;
   border-spacing: 1px;
   border-collapse: collapse;
-  overflow:auto;
+  overflow: auto;
 }
 
 table.OrderStatus {
   width: 50%;
 }
 
-table.OrderStatus  tr td ,
+table.OrderStatus tr td,
 table.UserAttributes tr td {
   text-align: left;
 }
 
-table.OrderStatus  tr td ,
+table.OrderStatus tr td,
 table.UserAttributes tr td {
-  border: 1px solid #D9DCDF;
+  border: 1px solid #d9dcdf;
   padding: 2px 4px 2px 4px;
-  background: #FFFFFF;
+  background: #ffffff;
   vertical-align: top;
 }
 
@@ -5277,11 +5086,9 @@ td.AttributeLabel {
   width: 30%;
 }
 
-td.AttributeLabel.VerticalAlignMiddle{
+td.AttributeLabel.VerticalAlignMiddle {
   vertical-align: middle !important;
 }
-
-
 
 table.Imprint {
   border-collapse: collapse;
@@ -5291,16 +5098,14 @@ table.Imprint {
   clear: both;
 }
 
-table.Imprint td{
+table.Imprint td {
   padding: 2px 6px 2px 0;
   vertical-align: top;
 }
 
-table.Imprint td.Label{
+table.Imprint td.Label {
   font-weight: bold;
 }
-
-
 
 .ShopClosed {
   margin: 100px auto 0 auto;
@@ -5313,9 +5118,14 @@ table.Imprint td.Label{
   text-align: center;
 }
 
-.ShopClosed h1, h2, h3, h4 ,h5, h6 {
+.ShopClosed h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: 14px;
-  margin:0;
+  margin: 0;
   padding: 0;
   color: #000000;
 }
@@ -5325,29 +5135,26 @@ table.Imprint td.Label{
   height: auto;
 }
 
-
-
-
 table.OrderList,
 table.ShoppingList,
 table.CustomerList {
   width: 100%;
   border-spacing: 1px;
   border-collapse: collapse;
-  border-right: 1px solid #D9DCDF;
-  border-left: 1px solid #D9DCDF;
-  border-bottom: 1px solid #D9DCDF;
+  border-right: 1px solid #d9dcdf;
+  border-left: 1px solid #d9dcdf;
+  border-bottom: 1px solid #d9dcdf;
   padding: 0;
   margin: 0;
-  background: #EFF1F2;
+  background: #eff1f2;
 }
 
 table.OrderList th,
 table.ShoppingList th,
 table.CustomerList th {
-  border-bottom: 1px solid #EFF1F2;
+  border-bottom: 1px solid #eff1f2;
   padding: 2px 4px 2px 4px;
-  background: #D9DCDF;
+  background: #d9dcdf;
   color: #000000;
   font-weight: bold;
   font-style: normal;
@@ -5358,7 +5165,7 @@ table.ShoppingList td,
 table.CustomerList td {
   vertical-align: top;
   padding: 1px 4px 2px 4px;
-  background: #EFF1F2;
+  background: #eff1f2;
 }
 
 table.OrderList p,
@@ -5383,39 +5190,35 @@ table.ShoppingList th {
   border: 0px;
   padding: 0 0 0 20px !important;
   text-align: left;
-  color: #4E728E;
+  color: #4e728e;
   font-size: 11px;
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
   line-height: 140%;
-  background: transparent url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_basket.png") no-repeat 0px 2px;
+  background: transparent
+    url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_basket.png")
+    no-repeat 0px 2px;
 }
 
-
-
-
-
-
-
-.ShippingOptionCount{
+.ShippingOptionCount {
   width: 100%;
   clear: both;
   border-collapse: collapse;
   margin-top: 5px;
 }
 
-.ShippingOptionCount tr td{
+.ShippingOptionCount tr td {
   padding: 5px;
   padding-top: 10px;
   text-align: center;
   vertical-align: top;
-  background: #EFF1F2;
-  border-right: 5px solid #FFFFFF;
+  background: #eff1f2;
+  border-right: 5px solid #ffffff;
   width: 33%;
 }
 
-.ShippingOption .ImageArea{
+.ShippingOption .ImageArea {
   height: 105px;
   vertical-align: middle;
   text-align: center;
@@ -5423,25 +5226,25 @@ table.ShoppingList th {
   margin: 0 0 5px 0;
 }
 
-.ShippingOptionCount tr td img{
+.ShippingOptionCount tr td img {
   margin: auto;
 }
 
 .ShippingOptionCount .InfoArea {
   text-align: left;
   padding: 4px 0 4px 0;
-  background: #EFF1F2;
+  background: #eff1f2;
 }
 
-.ShippingOptionsPriceArea{
+.ShippingOptionsPriceArea {
   float: right;
   padding-left: 10px;
   font-weight: bold;
 }
 
-.NoShippingOption{
+.NoShippingOption {
   padding: 5px;
-  }
+}
 
 div.ShippingComment {
   padding: 6px 5px 0 0;
@@ -5449,13 +5252,10 @@ div.ShippingComment {
 }
 
 textarea.ShippingComment {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   width: 397px;
 }
-
-
-
 
 input.CouponCode {
   width: 210px;
@@ -5463,25 +5263,23 @@ input.CouponCode {
 }
 
 .CheckoutButtons .IEButtonFix {
-padding: 0px;
+  padding: 0px;
 }
 
-
-
-.TestShopAlert{
-  text-align:center;
-  vertical-align:bottom;
-  position:absolute;
-  z-index:99;
-  font-weight:bold;
+.TestShopAlert {
+  text-align: center;
+  vertical-align: bottom;
+  position: absolute;
+  z-index: 99;
+  font-weight: bold;
   color: #f00;
   padding: 5px;
-  background: #FFFFFF;
-  opacity:0.6;
-  filter:alpha(opacity=60);
+  background: #ffffff;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
   font-family: Verdana, Arial, Helvetica;
   font-size: 13px;
-  color:red;
+  color: red;
 }
 
 .TopLeft {
@@ -5504,350 +5302,388 @@ padding: 0px;
   bottom: 10px;
 }
 
-
-
-
-
 .CustomButton {
-  display:block;
-  display:inline-block;
-  border:1px solid #aaa;
-  padding:1px 10px 2px;
-  margin:1px 0 1em;
-  overflow:visible;
-  text-decoration:none !important;
-  font-family:Verdana, Arial, Helvetica;
-  
-  
-  font-size:11px;
-  color: #000!important;
-  height:15px;
-  background:#e2e2e2 url("/WebRoot/StoreTypes/7.51.0/Store/lib/ep/images/sf_uiinput_button.png") repeat-x 50%;
-  position:relative;
-  cursor:pointer;
-  vertical-align:top;
-  white-space:nowrap;
-  outline:none;
+  display: block;
+  display: inline-block;
+  border: 1px solid #aaa;
+  padding: 1px 10px 2px;
+  margin: 1px 0 1em;
+  overflow: visible;
+  text-decoration: none !important;
+  font-family: Verdana, Arial, Helvetica;
+
+  font-size: 11px;
+  color: #000 !important;
+  height: 15px;
+  background: #e2e2e2
+    url("/WebRoot/StoreTypes/7.51.0/Store/lib/ep/images/sf_uiinput_button.png")
+    repeat-x 50%;
+  position: relative;
+  cursor: pointer;
+  vertical-align: top;
+  white-space: nowrap;
+  outline: none;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 
 .CustomButton + .CustomButton {
-  margin-left:4px;
+  margin-left: 4px;
 }
 
 .CustomButton.Disabled,
 .CustomButton.Disabled:hover {
-  background-color:#f9f9f9;
-  border-color:#ddd;
+  background-color: #f9f9f9;
+  border-color: #ddd;
   color: #666;
-  cursor:default;
+  cursor: default;
 }
 
 .CustomButton:hover {
-  border-color:#666;
-  background-color:#CFCFCF;
+  border-color: #666;
+  background-color: #cfcfcf;
 }
 
 .CustomButton:active {
-  border-color: #394F27;
+  border-color: #394f27;
 }
 
 .CustomButton ins img {
-  margin:0;
+  margin: 0;
 }
 
 .CustomButton * i.Icon {
-  top:-1px;
+  top: -1px;
 }
 
 .CustomButton * i.Icon[class*="Small"] {
-  top:-2px;
+  top: -2px;
 }
 
 .CustomButton input {
   color: #000;
 }
 
-
 .CustomButton.AddToBasketButton {
-  vertical-align:middle;
+  vertical-align: middle;
   display: -moz-inline-box;
-  background-position:50% 0;
-  min-height:19px;
+  background-position: 50% 0;
+  min-height: 19px;
 }
 
 .CustomButton.AddToBasketButton span {
-  line-height:18px !important;
-  font-weight:bold;
-  background:transparent url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_basket.png) no-repeat 0 0;
-  padding-left:20px;
-  min-height:16px;
-  display:inline-block;
+  line-height: 18px !important;
+  font-weight: bold;
+  background: transparent
+    url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_basket.png)
+    no-repeat 0 0;
+  padding-left: 20px;
+  min-height: 16px;
+  display: inline-block;
 }
 
 .AddToBasketForm {
-  white-space: normal\9; ;
+  white-space: normal\9;
 }
 
 .AddToBasketForm {
-  white-space: normal\9; ;
+  white-space: normal\9;
 }
 
-
-
-.BusinessHoursContainer, .BusinessHoursContainer td {
-  border:0;
-  border-collapse:collapse;
-  padding:0;
+.BusinessHoursContainer,
+.BusinessHoursContainer td {
+  border: 0;
+  border-collapse: collapse;
+  padding: 0;
 }
 .BusinessHoursRow {
-  height:26px;
+  height: 26px;
 }
 
 .BusinessHoursSpacer {
-  width:200px;
-  height:0;
-  line-height:0 !important;
-  font-size:0;
+  width: 200px;
+  height: 0;
+  line-height: 0 !important;
+  font-size: 0;
 }
 
 .BusinessHoursLabel {
-  width:5%;
-  text-align:center;
+  width: 5%;
+  text-align: center;
 }
 .BusinessHours {
-  background:url(/WebRoot/StoreTypes/7.51.0/Store/BO/icons/content_img_statusbar.png) left top no-repeat;
-  padding-left:10px;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/BO/icons/content_img_statusbar.png)
+    left top no-repeat;
+  padding-left: 10px;
 }
 .BusinessHoursFloatin {
-  background:url(/WebRoot/StoreTypes/7.51.0/Store/BO/icons/content_img_statusbar_floatin.png) right top no-repeat;
-  padding-top:2px;
-  width:100%;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/BO/icons/content_img_statusbar_floatin.png)
+    right top no-repeat;
+  padding-top: 2px;
+  width: 100%;
 }
 .BusinessHoursStatusClosed {
-  position:relative;
-  margin-left:-6px;
-  margin-right:4px;
-  background:url(/WebRoot/StoreTypes/7.51.0/Store/BO/icons/content_img_percentage_middle.png) left top repeat-x;
+  position: relative;
+  margin-left: -6px;
+  margin-right: 4px;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/BO/icons/content_img_percentage_middle.png)
+    left top repeat-x;
 }
-.BusinessHoursStatusOpened, .BusinessHoursStatusOpenedOverlay, .BusinessHoursStatusOpenedOverlayBg {
-  display:block;
-  position:absolute;
-  top:0;
-  height:10px;
-  background:url(/WebRoot/StoreTypes/7.51.0/Store/BO/icons/content_img_percentage_normal.png) left top repeat-x;
+.BusinessHoursStatusOpened,
+.BusinessHoursStatusOpenedOverlay,
+.BusinessHoursStatusOpenedOverlayBg {
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 10px;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/BO/icons/content_img_percentage_normal.png)
+    left top repeat-x;
 }
 
 .BusinessHoursStatusOpenedOverlay {
-  z-index:2;
-  text-decoration:none !important;
-  background:none;
+  z-index: 2;
+  text-decoration: none !important;
+  background: none;
 }
 
 .BusinessHoursStatusOpenedOverlayBg {
-  width:100%;
-  font-size:0;
-  line-height:0 !important;
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/BO/icons/content_img_percentage_deactivated.png) left top repeat-x;
-  filter:alpha(opacity=80);
-  opacity:0.8;
+  width: 100%;
+  font-size: 0;
+  line-height: 0 !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/BO/icons/content_img_percentage_deactivated.png)
+    left top repeat-x;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
 }
 
 .BusinessHoursStatusOpenedOverlay .BusinessHoursStatusOpenedOverlayText {
-  position:absolute;
-  width:100%;
-  background:#000000;
-  top:10px;
-  color:#FFFFFF;
-  min-width:7em;
+  position: absolute;
+  width: 100%;
+  background: #000000;
+  top: 10px;
+  color: #ffffff;
+  min-width: 7em;
 }
 
 .BusinessHoursStatusOpenedOverlayText {
-  min-width:100px;
+  min-width: 100px;
 }
 
 .BusinessHoursStatusOpenedOverlaySpacer {
-  position:absolute;
-  height:10px;
-  top:-1px;
-  left:48%;
-  width:10px;
+  position: absolute;
+  height: 10px;
+  top: -1px;
+  left: 48%;
+  width: 10px;
 }
 
 .BusinessHoursGrid {
-  position:absolute;
-  z-index:1;
-  width:100%;
-  height:10px;
-  top:0px;
-  background:#4E728E;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 10px;
+  top: 0px;
+  background: #4e728e;
 }
 
 .BusinessHoursGrid b {
-  position:absolute;
-  display:block;
-  width:4.17%;
-  font-size:10px !important;
-  line-height:10px !important;
-  height:10px;
-  text-align:center;
-  color:black !important;
-  text-decoration:none !important;
-  border-right:1px dotted #fff;
-  margin-left:-1px;
+  position: absolute;
+  display: block;
+  width: 4.17%;
+  font-size: 10px !important;
+  line-height: 10px !important;
+  height: 10px;
+  text-align: center;
+  color: black !important;
+  text-decoration: none !important;
+  border-right: 1px dotted #fff;
+  margin-left: -1px;
 }
 
 .BusinessHoursGrid .Cell2 {
-  left:4.17%;
+  left: 4.17%;
 }
 .BusinessHoursGrid .Cell3 {
-  left:8.34%;
+  left: 8.34%;
 }
 .BusinessHoursGrid .Cell4 {
-  left:12.51%;
+  left: 12.51%;
 }
 .BusinessHoursGrid .Cell5 {
-  left:16.68%;
+  left: 16.68%;
 }
 .BusinessHoursGrid .Cell6 {
-  left:20.85%;
+  left: 20.85%;
 }
 .BusinessHoursGrid .Cell7 {
-  left:25.02%;
+  left: 25.02%;
 }
 .BusinessHoursGrid .Cell8 {
-  left:29.19%;
+  left: 29.19%;
 }
 .BusinessHoursGrid .Cell9 {
-  left:33.36%;
+  left: 33.36%;
 }
 .BusinessHoursGrid .Cell10 {
-  left:37.53%;
+  left: 37.53%;
 }
 .BusinessHoursGrid .Cell11 {
-  left:41.7%;
+  left: 41.7%;
 }
 .BusinessHoursGrid .Cell12 {
-  left:45.87%;
+  left: 45.87%;
 }
 .BusinessHoursGrid .Cell13 {
-  left:50.02%;
+  left: 50.02%;
 }
 .BusinessHoursGrid .Cell14 {
-  left:54.21%;
+  left: 54.21%;
 }
 .BusinessHoursGrid .Cell15 {
-  left:58.38%;
+  left: 58.38%;
 }
 .BusinessHoursGrid .Cell16 {
-  left:62.55%;
+  left: 62.55%;
 }
 .BusinessHoursGrid .Cell17 {
-  left:66.72%;
+  left: 66.72%;
 }
 .BusinessHoursGrid .Cell18 {
-  left:70.89%;
+  left: 70.89%;
 }
 .BusinessHoursGrid .Cell19 {
-  left:75.06%;
+  left: 75.06%;
 }
 .BusinessHoursGrid .Cell20 {
-  left:79.23%;
+  left: 79.23%;
 }
 .BusinessHoursGrid .Cell21 {
-  left:83.4%;
+  left: 83.4%;
 }
 .BusinessHoursGrid .Cell22 {
-  left:87.57%;
+  left: 87.57%;
 }
 .BusinessHoursGrid .Cell23 {
-  left:91.74%;
+  left: 91.74%;
 }
 
 .BusinessHoursGrid b.BusinessHoursLastGridCell {
-  right:0;
-  border:0;
-  margin:0;
+  right: 0;
+  border: 0;
+  margin: 0;
 }
 
 .BusineHoursTable {
   width: 300px;
-  margin:auto;
+  margin: auto;
 }
 
 .AppointmentAddressDialog td {
-  padding:2px 6px;
-  vertical-align:top;
+  padding: 2px 6px;
+  vertical-align: top;
 }
 .AppointmentAddressDialog td.AlignTop {
-  width:20px;
+  width: 20px;
 }
 
 .AppointmentAddressDialog input.Text {
-  width:201px;
+  width: 201px;
 }
 
-
-
-html[class*=Gecko] .ContentArea table.UserAttributes {
-  border-left: 1px solid #D9DCDF;
-  border-bottom: 1px solid #D9DCDF;
+html[class*="Gecko"] .ContentArea table.UserAttributes {
+  border-left: 1px solid #d9dcdf;
+  border-bottom: 1px solid #d9dcdf;
 }
 
-html[class*=Gecko] .ContentArea table.ProductListImageBox,
-html[class*=Gecko] .ContentArea table.CrossellingCount,
-html[class*=Gecko] .ContentArea table.BundledProductsTable {
-  border-left: 1px solid  #FFFFFF ;
-  border-bottom: 1px solid  #FFFFFF ;
+html[class*="Gecko"] .ContentArea table.ProductListImageBox,
+html[class*="Gecko"] .ContentArea table.CrossellingCount,
+html[class*="Gecko"] .ContentArea table.BundledProductsTable {
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 
-html[class*=Gecko] .ContentArea table.VariationsTable,
-html[class*=Gecko] .ContentArea table.ProductListImageBox,
-html[class*=Gecko] .ContentArea table.CrossellingCount,
-html[class*=Gecko] .ContentArea table.BundledProductsTable,
-html[class*=Gecko] .ContentArea table.Basket,
-html[class*=Gecko] .ContentArea table.OrderList,
-html[class*=Gecko] .ContentArea table.ShoppingList,
-html[class*=Gecko] .ContentArea table.CustomerList,
-html[class*=Gecko] .ContentArea table.Dialog,
-html[class*=Gecko] .ContentArea table.UserAttributes,
-html[class*=Gecko] .ContentArea table.OrderStatus {          /* fx border layout fix */
+html[class*="Gecko"] .ContentArea table.VariationsTable,
+html[class*="Gecko"] .ContentArea table.ProductListImageBox,
+html[class*="Gecko"] .ContentArea table.CrossellingCount,
+html[class*="Gecko"] .ContentArea table.BundledProductsTable,
+html[class*="Gecko"] .ContentArea table.Basket,
+html[class*="Gecko"] .ContentArea table.OrderList,
+html[class*="Gecko"] .ContentArea table.ShoppingList,
+html[class*="Gecko"] .ContentArea table.CustomerList,
+html[class*="Gecko"] .ContentArea table.Dialog,
+html[class*="Gecko"] .ContentArea table.UserAttributes,
+html[class*="Gecko"] .ContentArea table.OrderStatus {
+  /* fx border layout fix */
   border-top-width: 0px;
   border-collapse: separate;
-  border-spacing:0;
+  border-spacing: 0;
 }
 
-html[class*=Gecko] .ContentArea table.VariationsTable tr td,
-html[class*=Gecko] .ContentArea table.ProductListImageBox tr td,
-html[class*=Gecko] .ContentArea table.CrossellingCount tr td,
-html[class*=Gecko] .ContentArea table.BundledProductsTable tr td,
-html[class*=Gecko] .ContentArea table.Basket tr td,
-html[class*=Gecko] .ContentArea table.OrderList tr td,
-html[class*=Gecko] .ContentArea table.ShoppingList tr td,
-html[class*=Gecko] .ContentArea table.CustomerList tr td,
-html[class*=Gecko] .ContentArea table.Dialog td,
-html[class*=Gecko] .ContentArea table.UserAttributes tr td,
-html[class*=Gecko] .ContentArea table.OrderStatus tr td {    /* fx border layout fix */
+html[class*="Gecko"] .ContentArea table.VariationsTable tr td,
+html[class*="Gecko"] .ContentArea table.ProductListImageBox tr td,
+html[class*="Gecko"] .ContentArea table.CrossellingCount tr td,
+html[class*="Gecko"] .ContentArea table.BundledProductsTable tr td,
+html[class*="Gecko"] .ContentArea table.Basket tr td,
+html[class*="Gecko"] .ContentArea table.OrderList tr td,
+html[class*="Gecko"] .ContentArea table.ShoppingList tr td,
+html[class*="Gecko"] .ContentArea table.CustomerList tr td,
+html[class*="Gecko"] .ContentArea table.Dialog td,
+html[class*="Gecko"] .ContentArea table.UserAttributes tr td,
+html[class*="Gecko"] .ContentArea table.OrderStatus tr td {
+  /* fx border layout fix */
   border-left-width: 0px;
   border-bottom-width: 0px;
 }
 
-html[class*=Gecko] .ContentArea table.VariationsTable tr td,
-html[class*=Gecko] .ContentArea table.VariationsTable tr .SeparateColumn:last-child
-html[class*=Gecko] .ContentArea table.Basket tr td,
-html[class*=Gecko] .ContentArea table.Basket tr .SeparateColumn:last-child
-html[class*=Gecko] .ContentArea table.OrderList tr td,
-html[class*=Gecko] .ContentArea table.OrderList tr .SeparateColumn:last-child
-html[class*=Gecko] .ContentArea table.ShoppingList tr td,
-html[class*=Gecko] .ContentArea table.ShoppingList tr .SeparateColumn:last-child
-html[class*=Gecko] .ContentArea table.CustomerList  tr td,
-html[class*=Gecko] .ContentArea table.CustomerList tr .SeparateColumn:last-child{
+html[class*="Gecko"] .ContentArea table.VariationsTable tr td,
+html[class*="Gecko"]
+  .ContentArea
+  table.VariationsTable
+  tr
+  .SeparateColumn:last-child
+  html[class*="Gecko"]
+  .ContentArea
+  table.Basket
+  tr
+  td,
+html[class*="Gecko"]
+  .ContentArea
+  table.Basket
+  tr
+  .SeparateColumn:last-child
+  html[class*="Gecko"]
+  .ContentArea
+  table.OrderList
+  tr
+  td,
+html[class*="Gecko"]
+  .ContentArea
+  table.OrderList
+  tr
+  .SeparateColumn:last-child
+  html[class*="Gecko"]
+  .ContentArea
+  table.ShoppingList
+  tr
+  td,
+html[class*="Gecko"]
+  .ContentArea
+  table.ShoppingList
+  tr
+  .SeparateColumn:last-child
+  html[class*="Gecko"]
+  .ContentArea
+  table.CustomerList
+  tr
+  td,
+html[class*="Gecko"]
+  .ContentArea
+  table.CustomerList
+  tr
+  .SeparateColumn:last-child {
   border-right-width: 0px;
 }
-
-
 
 .dijitPopup {
   font-family: Verdana, Arial, Helvetica;
@@ -5855,13 +5691,11 @@ html[class*=Gecko] .ContentArea table.CustomerList tr .SeparateColumn:last-child
   color: #000;
 }
 
-
-
 html .Message.Size80 .MessageDetails,
 html .Message .Headline {
-  font-family: Arial,Verdana,Helvetica, sans-serif;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 12px;
-  line-height:140%;
+  line-height: 140%;
   color: #3d3d3e;
 }
 
@@ -5872,10 +5706,8 @@ html .Message .Headline {
 html .Message.Large .Headline,
 html .Message.Size80 .Headline {
   font-size: 18px;
-  font-weight:normal;
+  font-weight: normal;
 }
-
-
 
 .GadgetBoerse td {
   padding: 0px;
@@ -5885,37 +5717,36 @@ html .Message.Size80 .Headline {
   display: none;
 }
 
-
-
 /* - '--> Message - */
 
 html .MessageMediumBasketDiscount,
 .Message.Medium.BasketDiscount {
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_specialprices.png) 8px 8px no-repeat !important;
-  padding-left:40px;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_specialprices.png)
+    8px 8px no-repeat !important;
+  padding-left: 40px;
 }
 
 .ProductItem td label.ep-uiInput-wrap,
 .ProductItem td .Quantity {
-  display:inline;
+  display: inline;
 }
 
 html .FreeShipping {
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_freeshipping.png) 8px 8px no-repeat !important;
-  padding-left:40px;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_freeshipping.png)
+    8px 8px no-repeat !important;
+  padding-left: 40px;
 }
 
 .Message.Size80.BasketDiscount {
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_80_specialprices.png) no-repeat !important;
-  padding-left:80px;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_80_specialprices.png)
+    no-repeat !important;
+  padding-left: 80px;
 }
 
-
-
 .ProductLastViewedBox ul {
-  list-style-type:none;
-  margin:0;
-  padding:0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .ProductLastViewedBox li {
   clear: both;
@@ -5932,191 +5763,176 @@ html .FreeShipping {
   width: 35px;
 }
 
-
-
-.DownloadPreview  {
-  list-style-type:none;
-  list-style-position:inside;
-  padding:10px 0 0;
+.DownloadPreview {
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 10px 0 0;
 }
 .DownloadPreview li {
-  padding:0 0 6px 0;
+  padding: 0 0 6px 0;
 }
 .DownloadPreview li:nth-child(even) {
-  background: #EFF1F2;
+  background: #eff1f2;
 }
 .DownloadPreview li a {
-  border:0!important;
-  text-decoration:none!important;
-  display:block;
+  border: 0 !important;
+  text-decoration: none !important;
+  display: block;
 }
 .DownloadPreview span {
-  background: #f0f0f0 url("/WebRoot/StoreTypes/7.51.0/Store/lib/ep/images/base_sprite_s.png") no-repeat -15px 1px;
-  border:1px solid #aaa;
-  height:16px;
-  width:16px;
-  display:inline-block;
-  -moz-border-radius:10px;
-  -webkit-border-radius:10px;
-  border-radius:10px;
-  margin:0 6px -6px 0;
-  padding:1px;
+  background: #f0f0f0
+    url("/WebRoot/StoreTypes/7.51.0/Store/lib/ep/images/base_sprite_s.png")
+    no-repeat -15px 1px;
+  border: 1px solid #aaa;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0 6px -6px 0;
+  padding: 1px;
 }
 .DownloadPreview a:hover span {
-  border-color:#666;
-  background-color:#ddd;
+  border-color: #666;
+  background-color: #ddd;
 }
 .ProductDetails.ImageRight .DownloadPreview {
-  margin-right:210px;
+  margin-right: 210px;
 }
 
-
-.Div .Header, .Div .Footer, .Div .NavBarTop, .Div .NavBarBottom,
+.Div .Header,
+.Div .Footer,
+.Div .NavBarTop,
+.Div .NavBarBottom,
 .Div .ContentAreaInner,
 .Div .NavBarLeft .PropertyContainer,
 .Div .NavBarRight .PropertyContainer {
-  position:relative; 
+  position: relative;
 }
 
-
-
-#NavBarLeftFix, .Div .NavBarLeft:before {
-  content:"";
+#NavBarLeftFix,
+.Div .NavBarLeft:before {
+  content: "";
   width: 190px;
-  position:absolute;
-  top:0;
-  height:20000px;
-  left:0;
-  display:block;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_left.png") no-repeat left top #D9DCDF;
-  
+  position: absolute;
+  top: 0;
+  height: 20000px;
+  left: 0;
+  display: block;
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_left.png")
+    no-repeat left top #d9dcdf;
 }
 
-
-
-#NavBarRightFix, .Div .NavBarRight:before {
-  content:"";
+#NavBarRightFix,
+.Div .NavBarRight:before {
+  content: "";
   width: 190px;
-  position:absolute;
-  top:0;
-  height:20000px;
-  right:0;
-  display:block;
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_right.png") no-repeat right top #D9DCDF;
-  
+  position: absolute;
+  top: 0;
+  height: 20000px;
+  right: 0;
+  display: block;
+
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_right.png")
+    no-repeat right top #d9dcdf;
 }
 
+#ContentAreaFix,
+.Div .ContentArea:before {
+  position: absolute;
+  top: 0;
+  height: 20000px;
+  left: 190px;
+  right: 190px;
+  width: auto;
+  display: block;
+  content: "";
 
-#ContentAreaFix, .Div .ContentArea:before {
-  position:absolute;
-  top:0;
-  height:20000px;
-  left: 190px ;
-  right: 190px ;
-  width:auto;
-  display:block;
-  content:"";
-  
-    background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_content.png")  no-repeat left top #FFFFFF;
-  
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/ImageSet/BasicGrey/bgr_content.png")
+    no-repeat left top #ffffff;
 }
 .Div .Middle {
-  
   max-width: 960px;
-  
-  zoom:1;
-  position:relative;
+
+  zoom: 1;
+  position: relative;
 }
 
 .Div .Middle:after {
-  content:".";
-  display:block;
-  height:0;
-  clear:both;
-  visibility:hidden;
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 .Div .Middle {
-  display:inline-block;
- }
+  display: inline-block;
+}
 
- /* Hide from IE Mac \*/
+/* Hide from IE Mac \*/
 .Div .Middle {
-  display:block;
- }
+  display: block;
+}
 /* End hide from IE Mac */
 
 .Div .NavBarLeft {
-  clear:none;
-  float:left;
+  clear: none;
+  float: left;
 }
-.Div .NavBarRight{
-  clear:none;
-  float:right;
-}
- .Div .ContentArea  {
-  margin-left: 190px ;
-  margin-right: 190px ;
+.Div .NavBarRight {
+  clear: none;
+  float: right;
 }
 .Div .ContentArea {
-  clear:none;
-  width:auto;
+  margin-left: 190px;
+  margin-right: 190px;
+}
+.Div .ContentArea {
+  clear: none;
+  width: auto;
 }
 .Div .Middle,
 .Div .ContentArea {
-  zoom:1;
+  zoom: 1;
 }
 .Div .ContentAreaInner,
 .Div .ContentAreaWrapper {
-  clear:none;
-  float:none;
-  width:auto;
+  clear: none;
+  float: none;
+  width: auto;
 }
-
-
-
-
-
 
 .Div .NavBarRoof .SizeContainer,
 .Div .Header .SizeContainer,
 .Div .NavBarTop .SizeContainer,
 .Div .NavBarBottom .SizeContainer,
 .Div .Footer .SizeContainer {
-  font-size:0; /* word-spacing is rendered on floated elements within this box - read http://bit.ly/9OAn for details */
+  font-size: 0; /* word-spacing is rendered on floated elements within this box - read http://bit.ly/9OAn for details */
 }
 
 .Div .NavBarRoof .SizeContainer {
-  
 }
 
 .Div .Header .SizeContainer {
-  
-  float:left;
-  
+  float: left;
 }
 
 .Div .NavBarTop .SizeContainer {
-  
-  float:right;
-  
+  float: right;
 }
 
 .Div .Footer .SizeContainer {
-  
-  float:left;
-  
+  float: left;
 }
 
 .Div .Header .ShopLogo,
 .Div .Header .ShopNameSlogan {
-  display:inline-block;
-  vertical-align:top;
+  display: inline-block;
+  vertical-align: top;
 }
-
-
 
 .LocaleFlags.NavBarElement2 {
   position: relative;
@@ -6134,17 +5950,17 @@ html .FreeShipping {
 .Div .Header .SizeContainer .NavigationElement,
 .Div .Footer .SizeContainer .NavigationElement {
   display: inline-block;
-  zoom:1;
-  float:none;
-  width:auto;
+  zoom: 1;
+  float: none;
+  width: auto;
 }
 
-.Div .NavBarRoof .SizeContainer  .Active,
-.Div .Header .SizeContainer  .Active,
-.Div .Footer .SizeContainer  .Active,
-.Div .NavBarTop .SizeContainer  .Active,
-.Div .NavBarBottom .SizeContainer  .Active {
-  float:none;
+.Div .NavBarRoof .SizeContainer .Active,
+.Div .Header .SizeContainer .Active,
+.Div .Footer .SizeContainer .Active,
+.Div .NavBarTop .SizeContainer .Active,
+.Div .NavBarBottom .SizeContainer .Active {
+  float: none;
 }
 
 .Div ul.VerticalDisplay,
@@ -6153,102 +5969,105 @@ html .FreeShipping {
 .Div .Footer .SizeContainer ul,
 .Div .NavBarTop .SizeContainer ul,
 .Div .NavBarBottom .SizeContainer ul {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
 }
 
 /* Drop Down Menu Styles */
 /* z-index stack for drop-down menus to work */
-.NavBarTop, .NavBarLeft, .NavBarRight,
+.NavBarTop,
+.NavBarLeft,
+.NavBarRight,
 .NavBarTop .PropertyContainer,
 .NavBarLeft .PropertyContainer,
 .NavBarRight .PropertyContainer,
 ul.DropDownList {
-  position:relative;
-  font-size:0;
-  z-index:100;
+  position: relative;
+  font-size: 0;
+  z-index: 100;
 }
 .NavBarTop {
-  z-index:200;
+  z-index: 200;
 }
 .Header {
-  z-index:300;
-  position:relative;
+  z-index: 300;
+  position: relative;
 }
 .NavBarRoof {
-  z-index:400;
-  position:relative;
+  z-index: 400;
+  position: relative;
 }
 ul.DropDownList li,
 ul.ep-megamenu > li {
-  display:inline-block;
-  margin:0;
+  display: inline-block;
+  margin: 0;
 }
 ul.DropDownList li {
-  position:relative;
+  position: relative;
 }
 .NavBarLeft ul.VerticalDisplay,
 .NavBarRight ul.VerticalDisplay,
 .GeneralLayout ul.DropDownList,
 .GeneralLayout ul.DropDownList ul *,
-ul.ep-megamenu, ul.ep-megamenu ul {
-  text-align:left;
-  list-style-type:none;
-  margin:0;
-  padding:0;
+ul.ep-megamenu,
+ul.ep-megamenu ul {
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 ul.DropDownList li ul {
-  z-index:9999;
-  display:none;
-  position:absolute!important;
-  left:0;
-  padding:0;
+  z-index: 9999;
+  display: none;
+  position: absolute !important;
+  left: 0;
+  padding: 0;
   -webkit-border-bottom-right-radius: 5px;
   -webkit-border-bottom-left-radius: 5px;
   -moz-border-radius-bottomright: 5px;
   -moz-border-radius-bottomleft: 5px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  -webkit-box-shadow:0 3px 5px #bbb;
-  -moz-box-shadow:0 3px 5px #bbb;
-  box-shadow:0 3px 5px rgba(0,0,0,.25);
-  white-space:normal;
-  background: #FFFFFF ;
-  border:1px solid #4E728E;
-  border-top:0;
+  -webkit-box-shadow: 0 3px 5px #bbb;
+  -moz-box-shadow: 0 3px 5px #bbb;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+  white-space: normal;
+  background: #ffffff;
+  border: 1px solid #4e728e;
+  border-top: 0;
 }
 ul.DropDownList ul li ul,
 ul.DropDownList ul ul li ul,
 ul.DropDownList ul ul ul li ul {
-  position:absolute;
-  top:0;
-  left:100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
 }
 ul.DropDownList ul li ul.to-left,
 ul.DropDownList ul ul li ul.to-left,
 ul.DropDownList ul ul ul li ul.to-left {
-  position:absolute;
-  top:0;
-  left:-100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
 }
 .GeneralLayout ul.DropDownList li ul li {
-  padding:2px 20px 2px 7px;
-  width:160px;
-  display:block;
-  border-top:1px solid #4E728E;
+  padding: 2px 20px 2px 7px;
+  width: 160px;
+  display: block;
+  border-top: 1px solid #4e728e;
 }
 ul.DropDownList .NavigationElement ul a,
 ul.DropDownList li ul li span,
 ul.DropDownList li.Active ul li a {
-  background-image:none;
-  height:auto;
-  color:#4E728E;
-  font-size:11px;
+  background-image: none;
+  height: auto;
+  color: #4e728e;
+  font-size: 11px;
 }
 ul.DropDownList span {
-  position:absolute!important; /* IE7 needs the important */
-  right:8px;
-  font-weight:bold;
+  position: absolute !important; /* IE7 needs the important */
+  right: 8px;
+  font-weight: bold;
 }
 
 /* NavBarLeft & Right DropDown Styles */
@@ -6256,21 +6075,21 @@ ul.DropDownList span {
 .NavBarRight ul.VerticalDisplay,
 .NavBarLeft ul.DropDownList,
 .NavBarRight ul.DropDownList {
-  margin-top:10px;
+  margin-top: 10px;
 }
 .NavBarLeft ul.DropDownList a,
 .NavBarRight ul.DropDownList a {
-  display:block;
+  display: block;
 }
 .NavBarLeft ul.DropDownList li,
 .NavBarRight ul.DropDownList li {
-  display:block;
+  display: block;
 }
 .NavBarLeft ul.DropDownList ul,
 .NavBarRight ul.DropDownList ul {
-  z-index:10;
-  top:0;
-  left:140px;
+  z-index: 10;
+  top: 0;
+  left: 140px;
   -webkit-border-bottom-right-radius: 3px;
   -webkit-border-bottom-left-radius: 3px;
   -moz-border-radius-bottomright: 3px;
@@ -6285,26 +6104,27 @@ ul.DropDownList span {
 }
 .NavBarLeft ul.DropDownList ul ul,
 .NavBarLeft ul.DropDownList ul ul ul {
-  left:100%;
+  left: 100%;
 }
 .NavBarRight ul.DropDownList ul {
-  left:-187px;
+  left: -187px;
 }
 .NavBarRight ul.DropDownList ul li:hover ul,
 .NavBarRight ul.DropDownList ul ul li:hover ul {
-  left:-100%;
+  left: -100%;
 }
 
 html body table.productBasketImage tr td {
-  border:0;
-  vertical-align:middle;
+  border: 0;
+  vertical-align: middle;
 }
 
 html body .VariationsTable .productBasketImage tr td {
   line-height: 32px;
 }
 
-img.productBasketImage, .productBasketImage .ThumbnailsInBasket{
+img.productBasketImage,
+.productBasketImage .ThumbnailsInBasket {
   max-width: 64px;
   max-height: 64px;
   height: auto;
@@ -6313,7 +6133,7 @@ img.productBasketImage, .productBasketImage .ThumbnailsInBasket{
 
 select.basketShippingSelect,
 select.basketPaymentSelect {
-  width:auto !important;
+  width: auto !important;
 }
 img.basketMethodSelection {
   border: 1px solid #555555;
@@ -6322,43 +6142,42 @@ img.basketMethodSelection {
   opacity: 0.5;
 }
 .basketTableMethods table tr td {
-  padding-left:0px;
-  padding-right:0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
-  html body .PaddingBottom5 {
-    padding-bottom:5px;
-  }
+html body .PaddingBottom5 {
+  padding-bottom: 5px;
+}
 a.productRatingStars,
 a.productRatingStars:hover {
-  text-decoration:none;
+  text-decoration: none;
 }
-  a.productRatingStars:hover small {
-    text-decoration:underline;
-  }
-
+a.productRatingStars:hover small {
+  text-decoration: underline;
+}
 
 .NewsletterForm {
-  margin-left:150px;
+  margin-left: 150px;
 }
 .ToggleContent {
-  overflow:hidden;
+  overflow: hidden;
 }
 #BasketAddressFormContainer .AddressDialog {
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 #BasketAddressFormContainer h3 a {
-  font-size:120%;
+  font-size: 120%;
 }
 #BasketAddressFormContainer h3 span {
-  font-family:sans-serif;
-  padding-right:5px;
-  font-size:14px;
+  font-family: sans-serif;
+  padding-right: 5px;
+  font-size: 14px;
 }
 #BasketAddressForm .DoOrder.FloatRight,
 #BasketAddressRegisterForm .DoOrder.FloatRight,
 #BasketAddressLoginForm .DoOrder.FloatRight {
-  float:left;
-  margin:0 0 25px 138px;
+  float: left;
+  margin: 0 0 25px 138px;
 }
 .continueShoppingIcon {
   font-family: Arial, Helvetica, Sans-Serif !important;
@@ -6367,17 +6186,17 @@ a.productRatingStars:hover {
 
 /* add to basket fix */
 .ShowInlineElement .NoWrap > span {
- display: inline-block;
- overflow: hidden;
+  display: inline-block;
+  overflow: hidden;
 }
 
 /* changes Sign-in page */
 #RegisterNowForm h3 {
-  float:left;
+  float: left;
 }
 
 .RegisterNowLink {
-  float:left;
+  float: left;
   margin: 0 0 0 10px;
 }
 
@@ -6385,15 +6204,16 @@ a.productRatingStars:hover {
 #customizerDialog,
 #customizerDialog form {
   font-family: Verdana, Arial, Helvetica;
-  font-size:11px;
+  font-size: 11px;
 }
-  #customizerDialog form select,
-  #customizerDialog form select option {
-    font-family:inherit;
-  }
+#customizerDialog form select,
+#customizerDialog form select option {
+  font-family: inherit;
+}
 #EmailNotificationDialog div[data-notification="confirm"] span {
- background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_test_ok.png") no-repeat 0 3px;
- padding: 3px 40px;
+  background: url("/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_test_ok.png")
+    no-repeat 0 3px;
+  padding: 3px 40px;
 }
 
 .de_epages-remotesearchUiSuggest-box li {
@@ -6401,65 +6221,66 @@ a.productRatingStars:hover {
 }
 
 /* NavElement Bsket Icon  */
-.NavElementIcon img  {
-  margin:5px;
+.NavElementIcon img {
+  margin: 5px;
 }
 
 html body .GeneralLayout .NavBarTop .NavElementIcon span,
 html body .GeneralLayout .NavBarRight .NavElementIcon span,
 html body .GeneralLayout .NavBarLeft .NavElementIcon span,
 html body .GeneralLayout .NavBarBottom .NavElementIcon span,
-html body .GeneralLayout .HorizontalNavBar .NavElementIcon span  {
+html body .GeneralLayout .HorizontalNavBar .NavElementIcon span {
   vertical-align: middle;
-  display:table-cell;
+  display: table-cell;
 }
 
 .HorizontalNavBar .SizeContainer > * {
   vertical-align: middle;
 }
 
- /* Highlighting of selected elements */
- .ep-uiCustomizer-inputSelected input,
- .ep-uiCustomizer-inputSelected .ep-uiInput-button,
- .ep-uiCustomizer-inputSelected textarea,
- .ep-uiCustomizer-canvasHover,
- .ep-uiCustomizer-fontColor li.selectedColor,
- canvas.ep-uiCustomizer-canvasSelected,
- .ep-uiThumbbox ul li.active {
-    border:1px solid #f90 !important;
-    -webkit-box-shadow: 0 0 3px 0 #f90;
-    -moz-box-shadow: 0 0 3px 0 #f90;
-    -op-box-shadow: 0 0 3px 0 #f90;
-    -ms-box-shadow: 0 0 3px 0 #f90;
-    box-shadow: 0 0 3px 0 #f90;
- }
+/* Highlighting of selected elements */
+.ep-uiCustomizer-inputSelected input,
+.ep-uiCustomizer-inputSelected .ep-uiInput-button,
+.ep-uiCustomizer-inputSelected textarea,
+.ep-uiCustomizer-canvasHover,
+.ep-uiCustomizer-fontColor li.selectedColor,
+canvas.ep-uiCustomizer-canvasSelected,
+.ep-uiThumbbox ul li.active {
+  border: 1px solid #f90 !important;
+  -webkit-box-shadow: 0 0 3px 0 #f90;
+  -moz-box-shadow: 0 0 3px 0 #f90;
+  -op-box-shadow: 0 0 3px 0 #f90;
+  -ms-box-shadow: 0 0 3px 0 #f90;
+  box-shadow: 0 0 3px 0 #f90;
+}
 
 .TaxAndShippingInfo > *,
-.HotDealFootFloatin span div  {
-  display:inline;
+.HotDealFootFloatin span div {
+  display: inline;
 }
 
 /* Checkout */
 #BasketTable .ProductInBasket {
-  list-style-type:none;
+  list-style-type: none;
   max-width: 21em;
 }
 
 /* Tooltip*/
 .arrow-box {
   position: relative;
-  background: #FFFBCD;
+  background: #fffbcd;
   border: 1px solid #ccc;
   padding: 10px;
   box-shadow: 0 0 3px #999;
 }
 
-html[class*=webkit] .arrow-box,
-html[class*=MSIE] .arrow-box {
+html[class*="webkit"] .arrow-box,
+html[class*="MSIE"] .arrow-box {
   box-shadow: 0 0 8px #999;
 }
 
-.arrow-box:after, .arrow-box:before {
+.arrow-box:after,
+.arrow-box:before {
   left: 100%;
   border: solid transparent;
   content: " ";
@@ -6470,7 +6291,7 @@ html[class*=MSIE] .arrow-box {
 
 .arrow-box:after {
   border-color: rgba(204, 204, 204, 0);
-  border-left-color: #FFFBCD;
+  border-left-color: #fffbcd;
   border-width: 10px;
   top: 50%;
   margin-top: -11px;
@@ -6494,8 +6315,8 @@ html[class*=MSIE] .arrow-box {
 .InputField.SearchForm {
   position: relative;
   font-size: 0;
-  padding:0 2px 0 0;
-  margin:0;
+  padding: 0 2px 0 0;
+  margin: 0;
   text-align: left;
 }
 .InputField.SearchForm > input {
@@ -6503,9 +6324,9 @@ html[class*=MSIE] .arrow-box {
 }
 .InputField.SearchForm > button {
   background: transparent;
-  padding:3px 16px 3px 10px;
-  margin:0 0 0 -1px;
-  opacity: .7;
+  padding: 3px 16px 3px 10px;
+  margin: 0 0 0 -1px;
+  opacity: 0.7;
   border-left: 0;
   background: transparent;
   margin-left: -30px;
@@ -6513,7 +6334,7 @@ html[class*=MSIE] .arrow-box {
 .InputField.SearchForm > input,
 .InputField.SearchForm > button {
   line-height: normal;
-  border:none;
+  border: none;
 }
 .SearchForm.vertical-search > input {
   -moz-box-sizing: border-box;
@@ -6538,19 +6359,19 @@ html[class*=MSIE] .arrow-box {
 }
 
 .ep-megamenu-container {
-  z-index:100;
-  position:absolute;
-  max-height:450px;
-  padding:10px 0px 10px 10px;
-  overflow:hidden;
+  z-index: 100;
+  position: absolute;
+  max-height: 450px;
+  padding: 10px 0px 10px 10px;
+  overflow: hidden;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-  margin:9px 0 0 0;
-  background:  #FFFFFF ;
+  margin: 9px 0 0 0;
+  background: #ffffff;
 }
 .ep-megamenu .masonry li {
-  list-style-type:none;
-  margin-bottom:.25em;
-  text-align:left;
+  list-style-type: none;
+  margin-bottom: 0.25em;
+  text-align: left;
 }
 .ep-megamenu .masonry > li {
   display: inline;
@@ -6558,295 +6379,80 @@ html[class*=MSIE] .arrow-box {
   margin: 0 20px 5px 0;
 }
 .ep-megamenu .masonry a {
-  overflow:hidden;
-  height:auto;
-  line-height:1.5;
+  overflow: hidden;
+  height: auto;
+  line-height: 1.5;
   overflow: hidden;
   text-overflow: ellipsis;
   -o-text-overflow: ellipsis;
-  white-space:nowrap;
-  display:block;
-  padding:0;
+  white-space: nowrap;
+  display: block;
+  padding: 0;
 }
 .ep-megamenu .active-item > a {
-  position:relative;
+  position: relative;
 }
 .ep-megamenu .active-item .active-marker {
-  display:block;
-  position:relative;
+  display: block;
+  position: relative;
 }
 .ep-megamenu .active-item .active-marker:before,
 .ep-megamenu .active-item .active-marker:after {
-  content:'';
-  display:inline-block;
-  position:absolute;
-  border-style:solid;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border-style: solid;
   border-width: 0px 10px 10px 10px;
-  height:0;
-  width:0;
-  bottom:-36px;
-  z-index:110;
-  border-color:rgba(255,255,255,0);
+  height: 0;
+  width: 0;
+  bottom: -36px;
+  z-index: 110;
+  border-color: rgba(255, 255, 255, 0);
 }
 .ep-megamenu .active-item .active-marker:before {
-  border-color:rgba(255,255,255,0) rgba(255,255,255,0) rgba(0, 0, 0, 0.2);
-  bottom:-35px;
+  border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(0, 0, 0, 0.2);
+  bottom: -35px;
 }
 .ep-megamenu-second-level-element a,
 .ep-megamenu-second-level-element a:hover,
 .ep-megamenu-second-level-font-check {
-  font-weight:bold;
+  font-weight: bold;
 }
 .ep-megamenu-third-level-element:first-child {
-  margin-top:5px;
+  margin-top: 5px;
 }
 .ep-megamenu .active-item .active-marker:after {
-  border-color:rgba(255,255,255,0) rgba(255,255,255,0)  #FFFFFF ;
+  border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #ffffff;
 }
 .ep-megamenu-second-level-element a:hover,
 .ep-megamenu-third-level-element a:hover {
-  color:#6B9CC1;
+  color: #6b9cc1;
 }
 .ep-megamenu-third-level-element a,
 .ep-megamenu-third-level-element a:hover {
-  color:#4E728E;
-  font-size:12px;
-  font-weight:normal;
+  color: #4e728e;
+  font-size: 12px;
+  font-weight: normal;
 }
-
-
-  
-    
-
-
-
-
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-
-
 
 /* - === Custom NavbarElements Positioning === - */
 
-
-  
-    
-    
-    
-    
-      
-        
-          
-          
-        
-          
-          
-        
-      
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-      
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-      
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-      
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-      
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-      
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-      
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-      
-        
-          
-          
-        
-      
-    
-    
-    
-  
-
-
 /* - === END Custom NavbarElements Positioning === - */
-
-
-
-
-
-  
-  
 
 /* - Blog - */
 html .BlogListItem h1 a:hover,
 html .BlogListItem h1 a:active,
 html .BlogListItem h1 a:visited,
 html .BlogListItem h1 a {
-  color: #6B9CC1;
+  color: #6b9cc1;
   font-size: 18px;
   font-family: inherit;
   font-weight: inherit;
 }
 
 .BlogListItem .PublishInfo {
-  opacity:0.6;
-  filter:alpha(opacity=60);
+  opacity: 0.6;
+  filter: alpha(opacity=60);
 }
 
 .BlogListItem .Message {
@@ -6862,75 +6468,86 @@ h2.BlogComments {
 }
 
 .MessageBlock {
-  overflow:hidden;
-  width:auto;
-  height:11.2em;
-  margin-bottom:6px;
-  padding-top:2px;
+  overflow: hidden;
+  width: auto;
+  height: 11.2em;
+  margin-bottom: 6px;
+  padding-top: 2px;
 }
 
 .Teaser p {
   font-weight: bold !important;
 }
-  
-  /* new Form Element Styles */
-.webkit hr.ClearLeft {float:left; clear:both;}
-.ep-uiInput-wrap.ep-uiSpinner + .ep-uiInput-wrap {margin-left:0;}
 
-#CheckOut button[type=submit],
-#CheckOutTop button[type=submit],
-.DoOrder button[type=submit],
-.AddToBasketButton[type=submit],
+/* new Form Element Styles */
+.webkit hr.ClearLeft {
+  float: left;
+  clear: both;
+}
+.ep-uiInput-wrap.ep-uiSpinner + .ep-uiInput-wrap {
+  margin-left: 0;
+}
+
+#CheckOut button[type="submit"],
+#CheckOutTop button[type="submit"],
+.DoOrder button[type="submit"],
+.AddToBasketButton[type="submit"],
 .Customizable button {
-  font-weight:bold!important;
+  font-weight: bold !important;
 }
 .ContentArea a.ep-uiSpinner-stepUp,
 .ContentArea a.ep-uiSpinner-stepDown {
-  font-family:Tahoma !important;
-  font-weight:bold;
-  font-size:11px;
-  line-height:11px!important;
-  color:#000;
+  font-family: Tahoma !important;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 11px !important;
+  color: #000;
 }
 .ContentArea a.ep-uiSpinner-stepDown {
-  line-height:9px!important;
+  line-height: 9px !important;
 }
 .ContentArea a.ep-uiSpinner-stepUp:hover,
 .ContentArea a.ep-uiSpinner-stepDown:hover {
-  text-decoration:none;
-  color:#000;
+  text-decoration: none;
+  color: #000;
 }
 #SubscribeNewsletterBoxForm0 .ep-uiInput-wrap + .ep-uiInput-wrap {
-  margin-left:0;
+  margin-left: 0;
 }
 
 .SearchMask .ep-uiInput-wrap + .ep-uiInput-wrap,
-.SearchForm  .ep-uiInput-wrap + .ep-uiInput-wrap {
-  border:0;
-  background:transparent;
-  margin-left:0;
+.SearchForm .ep-uiInput-wrap + .ep-uiInput-wrap {
+  border: 0;
+  background: transparent;
+  margin-left: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
-  filter:none;
+  filter: none;
 }
 .ForumPostInputContainer .ep-uiInput-wrap,
 .ForumPostMessageContainer .ep-uiInput-wrap {
-  width:100%;
+  width: 100%;
 }
 
 /* Customizable Buttons */
 button,
 .LoginButton,
 .ep-uiInput-button {
-  padding:1px 10px;
-  border-color:#AAA;
-  border-radius:3px;
-  background:#F9F9F9;
-  background: -moz-linear-gradient(top,  #F9F9F9 10%, #E2E2E2 90%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,#F9F9F9), color-stop(90%,#E2E2E2));
-  background: -webkit-linear-gradient(top,  #F9F9F9 10%,#E2E2E2 90%);
-  background: -o-linear-gradient(top,  #F9F9F9 10%,#E2E2E2 90%);
-  background: -ms-linear-gradient(top,  #F9F9F9 10%,#E2E2E2 90%);
-  background: linear-gradient(to bottom,  #F9F9F9 10%,#E2E2E2 90%);
+  padding: 1px 10px;
+  border-color: #aaa;
+  border-radius: 3px;
+  background: #f9f9f9;
+  background: -moz-linear-gradient(top, #f9f9f9 10%, #e2e2e2 90%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(10%, #f9f9f9),
+    color-stop(90%, #e2e2e2)
+  );
+  background: -webkit-linear-gradient(top, #f9f9f9 10%, #e2e2e2 90%);
+  background: -o-linear-gradient(top, #f9f9f9 10%, #e2e2e2 90%);
+  background: -ms-linear-gradient(top, #f9f9f9 10%, #e2e2e2 90%);
+  background: linear-gradient(to bottom, #f9f9f9 10%, #e2e2e2 90%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F9F9F9', endColorstr='#E2E2E2',GradientType=0 );
 }
 .Header button,
@@ -6957,29 +6574,33 @@ button,
 .ContentArea button,
 .ContentArea .LoginButton,
 .ContentArea .ep-uiInput-button {
-  font-size:11px;
-  color:#000;
+  font-size: 11px;
+  color: #000;
 }
 .msie button,
 .msie .LoginButton,
 .msie .ep-uiInput-button {
-  border-radius:0;
+  border-radius: 0;
 }
-
-
 
 .AddToBasketButton[type="submit"],
 .Customizable button {
   padding: ;
-  border-color:;
-  border-radius:;
-  background:;
-  background: -moz-linear-gradient(top,   10%,  90%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,), color-stop(90%,));
-  background: -webkit-linear-gradient(top,   10%, 90%);
-  background: -o-linear-gradient(top,   10%, 90%);
-  background: -ms-linear-gradient(top,   10%, 90%);
-  background: linear-gradient(to bottom,   10%, 90%);
+  border-color: ;
+  border-radius: ;
+  background: ;
+  background: -moz-linear-gradient(top, 10%, 90%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(10%),
+    color-stop(90%)
+  );
+  background: -webkit-linear-gradient(top, 10%, 90%);
+  background: -o-linear-gradient(top, 10%, 90%);
+  background: -ms-linear-gradient(top, 10%, 90%);
+  background: linear-gradient(to bottom, 10%, 90%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='', endColorstr='',GradientType=0 );
 }
 .Header .AddToBasketButton[type="submit"],
@@ -6991,209 +6612,191 @@ button,
 .Footer .AddToBasketButton[type="submit"],
 .ContentArea .AddToBasketButton[type="submit"],
 .Customizable button.AddToBasketButton {
-  font-size:;
-  color:;
+  font-size: ;
+  color: ;
 }
 .msie .AddToBasketButton[type="submit"] {
-  border-radius:0;
+  border-radius: 0;
 }
-
-
-
-
 
 .ep-uiInput-big.ep-uiInput-button {
-  padding-top:3px;
-  padding-bottom:3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
-
-
 
 .SearchForm .ep-uiInput-button,
 .ep-uiInput-button.ep-uiSpinner-stepper {
-  padding:1px 10px 2px;
-  border-radius:3px;
+  padding: 1px 10px 2px;
+  border-radius: 3px;
 }
 button.ButtonBasket {
-  padding:1px;
+  padding: 1px;
 }
 button.ButtonBasket .ep-sprite-s.ep-uiInput-buttonSpriteOnly {
-  margin:0;
+  margin: 0;
 }
 /* plain buttons */
 .icon-only,
 .icon-only:hover,
 .icon-only:focus {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
 }
 .icon-only-plain,
 .icon-only-plain:hover,
 .icon-only-plain:focus {
-  background:transparent;
-  border-color:transparent;
-  box-shadow:none;
-  line-height:1;
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  line-height: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
-  filter:none;
+  filter: none;
 }
-  
-  
-  
-  
-  
-  
+
 .ImageSearchImage {
-	display:block;
-	position:relative;
-	cursor:default;
+  display: block;
+  position: relative;
+  cursor: default;
 }
-.ImageSearchImage ins *, html body .Alternate ins * {
-	background:none !important;
+.ImageSearchImage ins *,
+html body .Alternate ins * {
+  background: none !important;
 }
 .ImageSearchImage:hover {
-	background:transparent;
-	cursor:default;
+  background: transparent;
+  cursor: default;
 }
 .ImageSearchImage:hover ins {
-	display:block;
-	position:absolute;
-	right:0;
-	bottom:0;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .ImageSearchImage:hover img {
-	opacity:0.5;
-	filter:alpha(opacity=50);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 .ImageSearchImage:hover .BigImage img {
-	opacity:1;
-	filter:none;
+  opacity: 1;
+  filter: none;
 }
 .ImageSearchList {
-	margin-top:-24px;
-	position:relative;
+  margin-top: -24px;
+  position: relative;
 }
 .ImageSearchList thead td {
-	padding-bottom:5px;
+  padding-bottom: 5px;
 }
 
-  
-  
 /* - '--> SocialWebButtons - */
 .SocialWeb {
-	margin:0 10px 10px 0;
-	vertical-align: top;
+  margin: 0 10px 10px 0;
+  vertical-align: top;
 }
 .SocialWeb a {
-	display:inline-block;
-	margin:0 2px;
+  display: inline-block;
+  margin: 0 2px;
 }
 
-  
-  .epCustomFormWrapper{
+.epCustomFormWrapper {
 }
-.epCustomFormWrapper dl{
-	clear: both;
+.epCustomFormWrapper dl {
+  clear: both;
 }
-.epCustomFormWrapper dl dt{
-	float: left;
-	width: 180px;
-	text-align: right;
+.epCustomFormWrapper dl dt {
+  float: left;
+  width: 180px;
+  text-align: right;
 }
-.epCustomFormWrapper dl dd{
-	margin-left: 200px;
+.epCustomFormWrapper dl dd {
+  margin-left: 200px;
 }
 
-.epCustomFormWrapper dl.customFormCaption dt{
-	/* display: none; */
+.epCustomFormWrapper dl.customFormCaption dt {
+  /* display: none; */
 }
-.epCustomFormWrapper dl.customFormCaption dd{
-	margin-left: auto;
+.epCustomFormWrapper dl.customFormCaption dd {
+  margin-left: auto;
 }
-  
-  /* New Product Detail Classes */
+
+/* New Product Detail Classes */
 .AdditionalLinks,
 .AdditionalLinks li {
-  display:block;
+  display: block;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 .AdditionalLinks li {
-  text-align:right;
+  text-align: right;
 }
 .AdditionalLinks.New li a,
 .AdditionalLinks.New li input {
-  white-space:pre-wrap;
-  text-align:left;
-  display:inline-block;
+  white-space: pre-wrap;
+  text-align: left;
+  display: inline-block;
 }
 .ProductDetails {
   position: relative;
 }
 .PriceContainer .ClearBoth,
 .PriceContainer .MozSpacer {
-  display:none;
+  display: none;
 }
 .PriceContainer #SelectVariationForm,
 .AdditionalLinks.New {
-  margin-bottom:1.5em;
+  margin-bottom: 1.5em;
 }
 .AdditionalLinks.New {
-  width:100%;
+  width: 100%;
   overflow: hidden;
 }
 .AdditionalLinks.New li {
-  text-align:left;
-  float:left;
-  width:48%;
-  padding-right:2%;
-  margin-bottom:1em;
+  text-align: left;
+  float: left;
+  width: 48%;
+  padding-right: 2%;
+  margin-bottom: 1em;
 }
 .AdditionalLinks.New li:nth-of-type(odd) {
-  clear:left;
+  clear: left;
 }
-.ImgLeft + div ,
-.ImgRight + div ,
-.ImgLandscape + div ,
-.ImgCover1 + div ,
-.ImgCover2 + div  {
+.ImgLeft + div,
+.ImgRight + div,
+.ImgLandscape + div,
+.ImgCover1 + div,
+.ImgCover2 + div {
   clear: both;
 }
 .ImgLeft .ProductImage {
-  
-  margin:0 300px 20px 0;
-  
+  margin: 0 300px 20px 0;
 }
 .ImgRight .ProductImage {
-  
-  margin:0 0 20px 300px;
-  
+  margin: 0 0 20px 300px;
 }
 .ImgLeft .InfoArea,
 .ImgRight .InfoArea {
-  float:right;
-  
+  float: right;
+
   width: 280px;
-  
 }
 .ImgRight .InfoArea {
-  float:left;
+  float: left;
 }
 .ImgRight #ProductImages,
 .ImgRight #ProductSlideshow,
 .ImgRight .SocialWeb,
 .ImgRight .ep-uiThumbbox.ep-uiThumbbox-list ul {
-  float:right;
+  float: right;
 }
 #ProductSlideshow {
   margin-bottom: 10px;
 }
 .ProductDetails #ProductThumbs {
-  clear:both;
+  clear: both;
 }
 .ImgLandscape .ProductImage {
-  clear:both;
+  clear: both;
   position: relative;
   margin: 10px 0;
   width: 100%;
@@ -7202,22 +6805,20 @@ button.ButtonBasket .ep-sprite-s.ep-uiInput-buttonSpriteOnly {
   position: relative;
   float: right;
   width: 400px;
-  max-width:65%;
+  max-width: 65%;
 }
 .ImgLandscape .SocialMedia {
   float: left;
-  
-  max-width:35%;
-  
+
+  max-width: 35%;
 }
 .InfoArea.New p,
-.ProductDetails.ImgLandscape p
- {
-  margin:5px 0 0;
+.ProductDetails.ImgLandscape p {
+  margin: 5px 0 0;
 }
 
 .ImgRight .InfoArea.New > div {
-  float:none;
+  float: none;
 }
 
 /* .ImgCustomSize = large image layouts */
@@ -7258,219 +6859,220 @@ button.ButtonBasket .ep-sprite-s.ep-uiInput-buttonSpriteOnly {
 
 /* Landscape only Styles */
 .ImgLandscape h1 {
-  display:inline;
+  display: inline;
 }
 .ImgLandscape .ProductRating {
   clear: both;
 }
 
 #ProductInfoTabs {
-  clear:both;
-  background:transparent;
-  margin-bottom:20px;
+  clear: both;
+  background: transparent;
+  margin-bottom: 20px;
 }
 
 #ProductInfoTabs .ui-tabs-nav {
-  background:transparent;
-
+  background: transparent;
 }
 #ProductInfoTabs .ui-tabs-nav li {
-  
-    background: #EFF1F2 ;
-    color: #ContentListColor[color];
-  
+  background: #eff1f2;
+  color: #ContentListColor[color];
 }
 
 #ProductInfoTabs .ui-tabs-nav .ui-tabs-active,
 #ProductInfoTabs .ui-tabs-nav .ui-tabs-active a {
-  
-    background: #6B9CC1;
-    color:  #FFFFFF ;
-  
+  background: #6b9cc1;
+  color: #ffffff;
 }
 
-
-
-
-
-
-
 #ProductInfoTabs .ui-tabs-nav .ui-tabs-active a:after {
-  
-    border-top-color: #6B9CC1;
-  
+  border-top-color: #6b9cc1;
 }
 
 .ui-state-default a,
 .ui-state-default a:link,
 .ui-state-default a:visited {
-  
-    color: #555555;
-  
+  color: #555555;
 }
 
 .ui-state-hover a,
 .ui-state-hover a:hover,
 .ui-state-hover a:link,
 .ui-state-hover a:visited {
-  
-    color: #212121;
-  
+  color: #212121;
 }
 
 .ui-tabs .ui-tabs-panel {
-  
-    padding: 1em 1.4em;
-  
+  padding: 1em 1.4em;
 }
-
 
 #ProductInfoTabs .ui-tabs-panel {
   overflow: hidden;
-  
-    border: 1px solid  #D9DCDF ;
-  
+
+  border: 1px solid #d9dcdf;
 }
 
 .PriceContainer {
-  
-    border: 1px solid  #D9DCDF ;
-  
+  border: 1px solid #d9dcdf;
+
   padding: 10px;
-  margin:1.5em 0;
+  margin: 1.5em 0;
 }
 .ProductDetails .PriceContainer .Price {
-  text-align:left;
-  clear:none;
+  text-align: left;
+  clear: none;
 }
 .ProductDetails .PriceContainer .price-value {
-  font-size:21.6px;
+  font-size: 21.6px;
 }
 .PriceContainer .SelectVariation,
 .PriceContainer .SelectVariation td,
 .PriceContainer .SelectVariation th,
 .PriceContainer .SelectVariation tr {
-  border:0;
-  background:0;
-  padding:0;
+  border: 0;
+  background: 0;
+  padding: 0;
 }
 .SocialMedia {
-  clear:both;
+  clear: both;
   padding-top: 20px;
 }
 
 .ContentArea .ContentAreaWrapper > a.LinkPrintView {
   background-position: left top !important;
   padding: 0 0 3px 20px !important;
-  float:right;
+  float: right;
 }
 
 .InfoArea .AlignLeft .AdditionalLinks li {
-  text-align:left;
+  text-align: left;
 }
 
 .ProductRating {
-  margin:10px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .epProductInfoTabs div.ui-corner-bottom {
-  -webkit-border-radius:0px;
-  -moz-border-radius:0px;
-  -ms-border-radius:0px;
-  -o-border-radius:0px;
-  border-radius:0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
 }
 
 .TaxAndShippingInfo span.EcoTotalAmount {
-  margin:0 0 6px 7px;
-  display:block;
-}
-  
-  
-
-
-.ProductRatingSwitchContainer, .ProductRatingSwitchContainer * {
-  display:block;
-  float:left;
-  position:relative;
-  cursor:pointer;
-  overflow:visible;
-  line-height:16px;
-  height:16px;
-  top:0;
-  left:0;
-  text-decoration:none !important;
+  margin: 0 0 6px 7px;
+  display: block;
 }
 
+.ProductRatingSwitchContainer,
+.ProductRatingSwitchContainer * {
+  display: block;
+  float: left;
+  position: relative;
+  cursor: pointer;
+  overflow: visible;
+  line-height: 16px;
+  height: 16px;
+  top: 0;
+  left: 0;
+  text-decoration: none !important;
+}
 
 .ProductRatingSwitchContainer {
-  float:none;
-  cursor:default;
+  float: none;
+  cursor: default;
 }
 
 .ProductRatingSwitch {
-  position:absolute;
-  width:80px;
-  font-size:0;
-  line-height:0;
-  opacity:0;
-  filter:alpha(opacity=0);
+  position: absolute;
+  width: 80px;
+  font-size: 0;
+  line-height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
 }
 
-.ProductRatingSwitch#Rating_1_Container {z-index:5;width:16px;}
-.ProductRatingSwitch#Rating_2_Container {z-index:4;width:32px;}
-.ProductRatingSwitch#Rating_3_Container {z-index:3;width:48px;}
-.ProductRatingSwitch#Rating_4_Container {z-index:2;width:64px;}
-.ProductRatingSwitch#Rating_5_Container {z-index:1;}
+.ProductRatingSwitch#Rating_1_Container {
+  z-index: 5;
+  width: 16px;
+}
+.ProductRatingSwitch#Rating_2_Container {
+  z-index: 4;
+  width: 32px;
+}
+.ProductRatingSwitch#Rating_3_Container {
+  z-index: 3;
+  width: 48px;
+}
+.ProductRatingSwitch#Rating_4_Container {
+  z-index: 2;
+  width: 64px;
+}
+.ProductRatingSwitch#Rating_5_Container {
+  z-index: 1;
+}
 
-span.ProductRatingSwitch, .ProductRatingSwitch:hover, .ProductRatingSwitch.Active {
-  visibility:visible;
-  opacity:1;
-  filter:none;
+span.ProductRatingSwitch,
+.ProductRatingSwitch:hover,
+.ProductRatingSwitch.Active {
+  visibility: visible;
+  opacity: 1;
+  filter: none;
 }
 
 .ProductRatingSwitch input {
-  position:absolute;
-  z-index:1;
-  margin:0;
-  padding:0;
-  background:magenta;
-  opacity:0.00001;
-  filter:alpha(opacity=0);
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  background: magenta;
+  opacity: 0.00001;
+  filter: alpha(opacity=0);
 }
 
-.ProductRatingSwitch#Rating_2_Container input {left:16px;}
-.ProductRatingSwitch#Rating_3_Container input {left:32px;}
-.ProductRatingSwitch#Rating_4_Container input {left:48px;}
-.ProductRatingSwitch#Rating_5_Container input {left:64px;}
+.ProductRatingSwitch#Rating_2_Container input {
+  left: 16px;
+}
+.ProductRatingSwitch#Rating_3_Container input {
+  left: 32px;
+}
+.ProductRatingSwitch#Rating_4_Container input {
+  left: 48px;
+}
+.ProductRatingSwitch#Rating_5_Container input {
+  left: 64px;
+}
 
 .RatingStarImage {
-  width:16px;
-  background:url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productcompare_rating.png);
+  width: 16px;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productcompare_rating.png);
 }
 
 .RatingStarImage.Grey {
-  background:url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productcompare_rating_disabled.png);
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productcompare_rating_disabled.png);
 }
 
 .ProductRatingDefaultText {
-  margin-left:85px;
-  margin-top:1px;
+  margin-left: 85px;
+  margin-top: 1px;
   cursor: default;
 }
 
 .ProductRatingComment {
-  padding-left:118px;
-  overflow:visible;
+  padding-left: 118px;
+  overflow: visible;
 }
 
 .WriteProductRating {
   padding: 1px 0 3px 20px !important;
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productcompare_rating_edit.png) no-repeat !important;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productcompare_rating_edit.png)
+    no-repeat !important;
 }
 
-.LinkProductRating  {
-  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productcompare_rating.png) no-repeat 0 0 !important;
+.LinkProductRating {
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_s_productcompare_rating.png)
+    no-repeat 0 0 !important;
 }
 
 html body .LinkProductRating.PaddingLeft20 {
@@ -7478,99 +7080,89 @@ html body .LinkProductRating.PaddingLeft20 {
 }
 
 .ProductRatingIEMarginBugFix {
-  height:6px !important;
-  font-size:6px !important;
-  line-height:6px !important;
+  height: 6px !important;
+  font-size: 6px !important;
+  line-height: 6px !important;
 }
 #mainCommentImgNew {
-  float:right;
-  border:1px solid #fff;
-  font-size:1px !important;
-  position:relative;
-  width:99px;
-  height:12px;
-  background:#fff url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_productrating_comment_short.png);
+  float: right;
+  border: 1px solid #fff;
+  font-size: 1px !important;
+  position: relative;
+  width: 99px;
+  height: 12px;
+  background: #fff
+    url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_productrating_comment_short.png);
 }
 #fairCommentImgNew {
-  font-size:1px !important;
-  position:absolute;
-  height:12px;
-  background:url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_productrating_comment_medium.png);
+  font-size: 1px !important;
+  position: absolute;
+  height: 12px;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_productrating_comment_medium.png);
 }
 #perfectCommentImgNew {
-  font-size:1px !important;
-  position:absolute;
-  height:12px;
-  background:#0f0;
-  background:url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_productrating_comment_long.png);
+  font-size: 1px !important;
+  position: absolute;
+  height: 12px;
+  background: #0f0;
+  background: url(/WebRoot/StoreTypes/7.51.0/Store/SF/Icon/BusinessSymbols/ico_m_productrating_comment_long.png);
 }
 
 .ProductRatingLink ins img {
-  margin-top:-4px !important;
+  margin-top: -4px !important;
 }
 
 #NewRatingTable .SizeContainer {
-  min-width:481px;
+  min-width: 481px;
 }
-
-  
-  
-
 
 .SiteMapContainer {
-  margin:auto;
-  width:90%;
+  margin: auto;
+  width: 90%;
 }
 .SiteMapBackground {
-  background:#FFFFFF;
-  width:100%;
-  margin-top:1px;
+  background: #ffffff;
+  width: 100%;
+  margin-top: 1px;
 }
 .SiteMapLeft {
-  width:49%;
+  width: 49%;
 }
 .SiteMapLeftInner {
-  padding:10px;
+  padding: 10px;
 }
 .SiteMapRight {
-  width:50%;
+  width: 50%;
 }
 .SiteMapRightInner {
-  padding-right:5px;
-  padding-bottom:5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
 }
 .SiteMapRightContent {
-  background:#EFF1F2;
-  padding:5px;
+  background: #eff1f2;
+  padding: 5px;
 }
 .SiteMapLink {
-  display:block;
-  padding-top:5px;
-  margin-left:-5px;
+  display: block;
+  padding-top: 5px;
+  margin-left: -5px;
 }
 
-  
-  
-
-  
-
-    .ContentArea .RemoteSearchFacets .ContextBoxBody {
-      border: 0px;
-    }
-    .no-sidebars #RemoteSearchFacets {
-      box-shadow: 8px 0px 5px -10px #000;
-    }
-   .no-sidebars .RemoteSearchFacet a {
-		font-size: 8.8px;
-	}
-  
-
-  
-  .ep-uiMagnifier-zoom {
-  background-color: #FFFFFF; 
+.ContentArea .RemoteSearchFacets .ContextBoxBody {
+  border: 0px;
 }
-  
-  .message-bar {
+.no-sidebars #RemoteSearchFacets {
+  box-shadow: 8px 0px 5px -10px #000;
+}
+.no-sidebars .RemoteSearchFacet a {
+  font-size: 8.8px;
+}
+
+.ep-uiMagnifier-zoom {
+  background-color: #ffffff;
+}
+
+.message-bar {
   position: fixed;
   z-index: 100;
   bottom: 0;
@@ -7583,7 +7175,7 @@ html body .LinkProductRating.PaddingLeft20 {
 }
 
 .message-bar-inner {
-  padding: .75em 0;
+  padding: 0.75em 0;
   position: relative;
   min-height: 34px;
   text-align: center;
@@ -7595,41 +7187,81 @@ html body .LinkProductRating.PaddingLeft20 {
 }
 
 .message-bar-parent {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 @media (max-width: 740px) {
   .message-bar-parent {
-      margin-bottom: 100px;
+    margin-bottom: 100px;
   }
 }
 
 .message-cookies {
-  background-color: #FFF1A8;
+  background-color: #fff1a8;
   color: #111;
 }
 
-  
-  
-
-  
-  
-  
- .ContextBoxHead span,
+.ContextBoxHead span,
 .ContextBoxHead h1,
-.TableHead div{
+.TableHead div {
   padding-left: 2px !important;
-} 
+}
 
-
-  
-  @media print {
-  html, body, div, span, applet, object, iframe,
-  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-  a, address, big, code, del, dfn, em, font, img, 
-  ins, kbd, q, s, samp, small, strike, strong, tt, var,
-  dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-  table, caption, tbody, tfoot, thead, tr, th, td, .Div .ContentArea {
+@media print {
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  address,
+  big,
+  code,
+  del,
+  dfn,
+  em,
+  font,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  tt,
+  var,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  .Div .ContentArea {
     margin: 0;
     padding: 0;
     border: 0;
@@ -7639,39 +7271,82 @@ html body .LinkProductRating.PaddingLeft20 {
     font-family: inherit;
     vertical-align: baseline;
     background: none;
-    color:#000;
+    color: #000;
   }
 
-  body { line-height: 1; color: #000; background: white; font-size:12pt; }
-  table { border-collapse: separate; border-spacing: 0; max-width:99%; }
-  h1, h2, h3, h4, h5, h6, p, td, span, div, a, .Address h3 { color:#000!important;  font-size:11pt!important; }
-  a { font-weight:normal; }
-  h1 {font-size:16pt!important;}
-  h2 {font-size:15pt!important;}
-  h3 {font-size:14pt!important;}
-  h4 {font-size:13pt!important;}
-  h5, h6 {font-size:12pt!important;}
+  body {
+    line-height: 1;
+    color: #000;
+    background: white;
+    font-size: 12pt;
+  }
+  table {
+    border-collapse: separate;
+    border-spacing: 0;
+    max-width: 99%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  td,
+  span,
+  div,
+  a,
+  .Address h3 {
+    color: #000 !important;
+    font-size: 11pt !important;
+  }
+  a {
+    font-weight: normal;
+  }
+  h1 {
+    font-size: 16pt !important;
+  }
+  h2 {
+    font-size: 15pt !important;
+  }
+  h3 {
+    font-size: 14pt !important;
+  }
+  h4 {
+    font-size: 13pt !important;
+  }
+  h5,
+  h6 {
+    font-size: 12pt !important;
+  }
 
-  td.ContentCell, table.ContentCell, 
-  .Div .ContentCell, 
-  .Div .InnerArea.ContentCell:before , 
+  td.ContentCell,
+  table.ContentCell,
+  .Div .ContentCell,
+  .Div .InnerArea.ContentCell:before,
   #ContentCellFix,
-  .Div .ContentArea, 
-  .Div .InnerArea.ContentCell, 
+  .Div .ContentArea,
+  .Div .InnerArea.ContentCell,
   .Div .ContentCell.FullSize,
   table.Basket tr.AlternateRow td,
   table.ContentTable tr.Alternate td,
   .AlternateRow td,
-  .AlternateRow, div.AlternateRow,
-  .Alternate td, .Alternate div, .Alternate,
-  html .ContentArea table.Basket tr td.SeparateColumn, td.SeparateColumn,
-  table.Basket td, table.MiniBasket td, table.MiniStatusBasket td,
+  .AlternateRow,
+  div.AlternateRow,
+  .Alternate td,
+  .Alternate div,
+  .Alternate,
+  html .ContentArea table.Basket tr td.SeparateColumn,
+  td.SeparateColumn,
+  table.Basket td,
+  table.MiniBasket td,
+  table.MiniStatusBasket td,
   table.Basket,
   table.Basket th {
-    margin-left:0!important;
-    margin-right:0!important;
-    background:none!important;
-    border-color:#000;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background: none !important;
+    border-color: #000;
   }
 
   .NavBarRoof,
@@ -7687,62 +7362,68 @@ html body .LinkProductRating.PaddingLeft20 {
   .ListItemArticle .InfoArea h3,
   .AlsoBrowseThisCat,
   .ProductListHead,
-  #NavBarLeftFix, .Div .NavBarLeft:before,
-  #NavBarRightFix, .Div .NavBarRight:before,
-  #ContentAreaFix, .Div .ContentArea:before,
-  #ContentCellFix, .Div .ContentCell.FullSize:before,
+  #NavBarLeftFix,
+  .Div .NavBarLeft:before,
+  #NavBarRightFix,
+  .Div .NavBarRight:before,
+  #ContentAreaFix,
+  .Div .ContentArea:before,
+  #ContentCellFix,
+  .Div .ContentCell.FullSize:before,
   .SSLSwitch,
   .LinkAddShoppingList,
   .BreadcrumbItem,
   .BreadcrumbLastItem,
-  input, div.Links, .InPrintViewNotVisible,
-  .Separator, .Action
-  {
-    display:none!important;
+  input,
+  div.Links,
+  .InPrintViewNotVisible,
+  .Separator,
+  .Action {
+    display: none !important;
   }
-  
+
   .OnlyInPrintViewVisible {
-    display:block!important;
+    display: block !important;
   }
-   table th,
+  table th,
   .ContentList td,
   .OrderStatus td,
   .OrderDetails td,
   table.OrderStatus tr td,
   table.UserAttributes tr td {
-    font-size:10pt!important;
-    border:1px solid #000;
-    white-space:nowrap;
-    padding:0 2pt;
+    font-size: 10pt !important;
+    border: 1px solid #000;
+    white-space: nowrap;
+    padding: 0 2pt;
   }
-  
-  th,.TextCaps {
-    font-weight:bold;
+
+  th,
+  .TextCaps {
+    font-weight: bold;
     text-align: left;
   }
   .TextCaps {
-    display:block;
+    display: block;
   }
   .ContentList {
-    width:100%;
+    width: 100%;
   }
   .Customer .Address,
   .Customer .ShippingAddress {
-    width:49%;
-    float:left;
+    width: 49%;
+    float: left;
   }
   html .ContentArea table.Basket tr th.SeparateColumn,
   html .ContentArea table.Basket tr td.SeparateColumn,
   th.SeparateColumn,
   td.SeparateColumn,
-  .Basket table th, 
-  .Basket table td 
-   {
-    border:1px solid #000;
+  .Basket table th,
+  .Basket table td {
+    border: 1px solid #000;
   }
   .Basket td,
   .Basket td * {
-    font-size:10pt!important;
+    font-size: 10pt !important;
   }
   .ComparisonTable,
   .ComparisonTable * {
@@ -7755,9 +7436,6 @@ html body .LinkProductRating.PaddingLeft20 {
   }
 
   .GeneralLayout {
-    width: 1000px!important;
+    width: 1000px !important;
   }
-
 }
-  
-
